@@ -1,0 +1,350 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head id="Head1"><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="icon" href="Images/uic_new_logo.PNG" /><meta http-equiv="X-UA-Compatible" content="IE=10" /><title>
+	Maps
+</title><link rel="stylesheet" href="Styles/Site.css" /><link rel="stylesheet" href="Styles/main.css" /><link rel="stylesheet" href="Styles/page.css" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" /><link rel="stylesheet" href="Styles/jquery.smartmenus.bootstrap.css" /><link href="Styles/jquery-ui.css" rel="stylesheet" type="text/css" /><link rel="stylesheet" href="Styles/FIMResponsive.css" />
+    <!--HS:4/17:IMPORTANT!!!! DO NOT OVERWRITE or change the references to /SCRIPTS/jquery-ui.min.js and /Scripts/jquery.js. Crucial for space survey
+          autocomplete functionality in grants and occupants!!!!!-->
+    <script src="/Scripts/jquery.js"></script>
+    <script src="/Scripts/jquery-ui.min.js"></script>
+     <!--MV:4/26/17 Modified bootstrap.js to disable function which checks the version number. Do not overwrite/modify this file or reference newer version
+        of bootstrap-->
+    <script src="/Scripts/bootstrap.js"></script>
+    <script src="/Scripts/popover.js" lang="javascript" type="text/javascript"></script>
+
+    
+</head>
+<body>
+    <form method="post" action="./Maps.aspx" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJNDMyNDU0NjAzD2QWAmYPZBYCAgEPZBYCAgIPDxYCHgRUZXh0BSY8aW1nIHNyYz0iL2ltYWdlcy9sb2dpbl9idXR0b24ucG5nIiAvPmRkZFzBJ0QVrXqgunuMRNBLRBv8Uywocvp7VQGcex+CIXlU" />
+
+
+<script src="/ScriptResource.axd?d=E7v7ZL_4hlO7opg_Ajl-Lq-MSvLJptPWRCx0NFAcyOaXBt2XfzZe7pcD7IRvKg-MiazCD6wXOQDw7hX718IvjGt9V_EkFm1ShUEPzxbyeXx1MH8p1vcNy1OsyU61TwUNAMWdJgc4L7xZg3WTJ3uz-Q2&amp;t=7c776dc1" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="56B4BF62" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAIh3JMPBYHzHi2FfKr/b4LfLSt6KEsQN4icsT6MODDIjzxQhJZefbUWATwklEgTQ/5yt2RIoMxfWLYLze1n8i5N" />
+        
+
+        <header>
+            
+
+            <div class="header-logo">
+                <div class="col-md-7">
+                    <a href="https://cppm.uic.edu/" style="padding-left: 0">
+                        <img src="/images/header_logo.png" id="headerImage" class="img-responsive" /></a>
+                </div>
+                <div class="hidden-xs hidden-sm col-md-5 header-links pull-right" style="padding-right: 2em; padding-top: 0.8em;">
+                    <a href="https://www.uic.edu" target="_blank">UIC</a>
+                    <a href="http://maps.uic.edu" target="_blank">Map</a>
+                    <a href="http://vcas.uic.edu" target="_blank">Vice Chancellor for Administrative Services</a>
+                </div>
+            </div>
+
+            
+            <!-- Navbar -->
+            <div class="container-fluid" style="padding-bottom: 1px;">
+                <div class="col-xs-12 col-md-11 col-md-offset-1">
+                    <div class="navbar navbar-default" role="navigation">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="navbar-collapse collapse">
+                            <!-- Left nav -->
+                            <ul class="nav navbar-nav navigation">
+                                <li class="active">
+                                    <a href="https://cppm.uic.edu/CampusSpace">CAMPUS&nbsp;&nbsp;SPACE<span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a href="/Home.aspx">FIMWEB<span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="/secure/FloorPlans.aspx">Floor Plans
+                                            <img src="/images/lock_white.png" class="menu-icon" /></a></li>
+                                                <li><a href="/SpaceInventory.aspx">Space Inventory</a></li>
+                                                <li><a href="/secure/Survey.aspx">Space Survey
+                                            <img src="/images/lock_white.png" class="menu-icon" /></a></li>
+                                                <li><a href="/secure/FIMIntranet.aspx">Intranet</a></li>
+                                                <li><a href="/defn/FAQ.aspx">FAQs</a></li>
+                                                <li><a href="/defn/Definitions.aspx">Definitions</a></li>
+                                            </ul>
+                                        </li>
+                                        
+                                        <li><a href="/Maps.aspx">Maps</a></li>
+                                        <li><a href="https://cppm.uic.edu/Content/PDFs/Space_request_Form.docx" target="_blank">Space Request Form</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="https://cppm.uic.edu/Archives">FACILITY&nbsp;&nbsp;ARCHIVES<span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="https://fimweb.fim.uic.edu/secure/ConstructionDrawings.aspx">Record Drawings
+                                            <img src="/images/lock_white.png" class="menu-icon" /></a></li>
+                                        <li><a href="#">Space Libraries <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="https://intranet.uillinois.edu/sites/fsp/space_libraries/Space%20Requests/Forms/AllItems.aspx " target="_blank">Space Requests
+                                                    <img src="/images/lock_white.png" class="menu-icon" /></a></li>
+                                                <li><a href="https://intranet.uillinois.edu/sites/fsp/space_libraries/MOU%20Library/Forms/AllItems.aspx" target="_blank">MOU Requests
+                                                    <img src="/images/lock_white.png" class="menu-icon" /></a></li>
+                                                <li><a href="https://intranet.uillinois.edu/sites/fsp/space_libraries/Lists/Exhibits%20List1/Default%20View.aspx" target="_blank">Campus Project Approvals
+                                                    <img src="/images/lock_white.png" class="menu-icon" /></a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Property Records <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="https://intranet.uillinois.edu/sites/fsp/fsparchives/South%20Campus%20Archives/Forms/New%20Default.aspx" target="_blank">South Campus Expansion
+                                                    <img src="/images/lock_white.png" class="menu-icon" /></a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Facility Documents <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="https://intranet.uillinois.edu/sites/fsp/space_libraries/Roof%20Warranties/Forms/AllItems.aspx" target="_blank">Roof Warranties
+                                                    <img src="/images/lock_white.png" class="menu-icon" /></a></li>
+                                                <li><a href="https://intranet.uillinois.edu/sites/fsp/fsparchives/Asbestos%20Reports/Forms/AllItems.aspx" target="_blank">Asbestos Reports
+                                                    <img src="/images/lock_white.png" class="menu-icon" /></a></li>
+                                                <li><a href="https://intranet.uillinois.edu/sites/fsp/fsparchives/Reports/Forms/Building%20Studies.aspx" target="_blank">Building Studies
+                                                    <img src="/images/lock_white.png" class="menu-icon" /></a></li>
+                                                <li><a href="https://intranet.uillinois.edu/sites/fsp/fsparchives/Reports/Forms/Facade%20Studies.aspx" target="_blank">Façade Studies
+                                                    <img src="/images/lock_white.png" class="menu-icon" /></a></li>
+                                                <li><a href="https://intranet.uillinois.edu/sites/fsp/fsparchives/Reports/Forms/Environmental%20Studies.aspx" target="_blank">Environmental Studies
+                                                    <img src="/images/lock_white.png" class="menu-icon" /></a></li>
+                                                <li><a href="https://intranet.uillinois.edu/sites/fsp/fsparchives/Reports/Forms/Geotechnical%20Reports.aspx" target="_blank">Geotechnical Reports
+                                                    <img src="/images/lock_white.png" class="menu-icon" /></a></li>
+                                                <li><a href="https://intranet.uillinois.edu/sites/fsp/fsparchives/Specification%20Manuals/Forms/AllItems.aspx" target="_blank">Project Specifications
+                                                    <img src="/images/lock_white.png" class="menu-icon" /></a></li>
+                                                <li><a href="https://intranet.uillinois.edu/sites/fsp/space_libraries/ADA%20Building%20Standards/Forms/AllItems.aspx" target="_blank">1990 ADA Building Standards<img src="/images/lock_white.png" class="menu-icon" /></a></li>
+                                                <li><a href="https://intranet.uillinois.edu/sites/fsp/fsppharm/COP%20archives/Forms/AllItems.aspx" target="_blank">COP Historical Archives
+                                                    <img src="/images/lock_white.png" class="menu-icon" /></a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="https://cppm.uic.edu/Planning">PLANNING<span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="https://cppm.uic.edu/CapitalPlan" target="_blank">Capital Plan</a></li>
+                                        <li><a href="http://masterplan.uic.edu/" target="_blank">Campus Master Plan</a></li>
+                                    </ul>
+
+                                </li>
+                                <li>
+                                    <a href="https://cppm.uic.edu/Project">PROJECT&nbsp;&nbsp;MANAGEMENT<span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="https://cppm.uic.edu/CapitalPlan" target="_blank">Capital Plan</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="https://cppm.uic.edu/Construction">CONSTRUCTION<span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="https://cppm.uic.edu/CapitalPlan" target="_blank">Capital Plan</a></li>
+                                        <li><a href="https://cppm.uic.edu/Construction/BuildingStandards">Building Standards</a></li>
+                                        <li><a href="https://cppm.uic.edu/Construction/CampusConstructionCodes">Construction Codes & Standards</a></li>
+                                        <li><a href="https://cppm.uic.edu/Construction/CADStandards">CAD Standards</a></li>
+                                        <li><a href="https://cppm.uic.edu/Construction/UICSustainabilityStandards">Sustainability Standards</a></li>
+                                        <li><a href="https://cppm.uic.edu/Construction/EnergyEfficiencyIncentives">Energy Efficiency Incentives</a></li>
+                                        <li><a href="http://ocle.uic.edu/uic-learning-space-design-guidelines-january-2009/" target="_blank">Learning Space Guidelines</a></li>
+                                        <li>
+                                            <a href="https://architect.uic.edu/design-standards/">Campus Architect Design Standards<span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="https://architect.uic.edu/files/2017/02/170111_finish_standards_v2.pdf" target="_blank">Interior Finish Standards for Public Spaces</a></li>
+                                                <li><a href="https://architect.uic.edu/files/2017/02/UIC-Signage-Guidelines-20170201-Final-Reduced-1.pdf" target="_blank">Interior Signage Standards</a></li>
+                                                <li><a href="https://architect.uic.edu/files/2016/03/160322-Grounds-Design-Standards_v1.pdf" target="_blank">Campus Grounds Design Standards</a></li>
+                                                <li><a href="https://architect.uic.edu/files/2016/12/161129_Exterior-Design-Standards-for-Existing-Buildings-v1.pdf" target="_blank">Exterior Design Standards for Existing Buildings</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="https://cppm.uic.edu/AboutUs">ABOUT<span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="https://cppm.uic.edu/AboutUs#Vision">Vision</a></li>
+                                        <li><a href="https://cppm.uic.edu/AboutUs#Mission">Mission</a></li>
+                                        <li><a href="https://cppm.uic.edu/AboutUs/OrgChart">Org Chart</a></li>
+                                        <li><a href="https://cppm.uic.edu/AboutUs/Contact">Contact</a></li>
+                                        <li>
+                                            <a href="https://cppm.uic.edu/AboutUs/Team">Team <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="https://cppm.uic.edu/AboutUs/Team#Business Section">Business Section</a></li>
+                                                <li><a href="https://cppm.uic.edu/AboutUs/Team#Project Management">Project Management</a></li>
+                                                <li><a href="https://cppm.uic.edu/AboutUs/Team#Planning">Planning</a></li>
+                                                <li><a href="https://cppm.uic.edu/AboutUs/Team#Facility Archives">Facility Archives</a></li>
+                                                <li><a href="https://cppm.uic.edu/AboutUs/Team#Facility Information Management">Facility Information Management</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--/.nav-collapse -->
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        
+        <!-- Banner -->
+        <div class="container-fluid main_header">
+            <div>
+                <div class="col-sm-11 padding-0">
+                    <h3 id="headerText">FIMWEB:
+                        
+    Maps
+
+                    </h3>
+                </div>
+                <div class="col-sm-1">
+                    <a id="lnkLogin" class="pull-right logout-button" href="javascript:__doPostBack(&#39;ctl00$lnkLogin&#39;,&#39;&#39;)"><img src="/images/login_button.png" /></a>
+
+                </div>
+            </div>
+        </div>
+        
+        <div class="container-fluid" style="border: none">
+            <div class="container-fluid main_body">
+                
+    <br/>
+    <div class="mainPadding">
+        <div class="mainHeading mapInnerHeading">
+            VISITOR MAPS
+        </div><br/>
+        <div class="mainPadding">
+            <table width="100%">
+                <tbody>
+                    <tr >
+	                    <td width="25%">
+                            <div class="wp-caption alignnone" style="width: 234px" ><a href="Images/Maps/Visitor East Side.pdf"><img  alt="East Side Visitor Map (8.5&quot; X 11&quot;)" src="Images/Maps/Visitor_E_sm.jpg"/></a><p class="wp-caption-text">East Side Visitor Map (8.5" X 11")</p></div></td>
+	                    <td width="25%">
+                            <div class="wp-caption alignnone" style="width: 234px" ><a href="Images/Maps/Visitor West Side.pdf"><img  alt="West Side Visitor Map (8.5&quot; X 11&quot;)" src="Images/Maps/Visitor_W_sm.jpg"/></a><p class="wp-caption-text">West Side Visitor Map (8.5" X 11")</p></div></td>
+                        <td width="50%">
+                                    <div class="wp-caption alignnone" style="width: 467px" ><a href="Images/Maps/Visitor Campus Map.pdf"><img   alt="Visitor Campus Map (17&quot; X 11&quot;)" src="Images/Maps/Visitor_C_sm.jpg" style="height:302px"/></a><p class="wp-caption-text">Visitor Campus Map (17" X 11")</p></div></td>
+                         </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="mainHeading mapInnerHeading">
+            FACILITIES MAPS
+        </div><br/>
+        <div class="mainPadding">
+            <table width="100%" >
+                <tbody>
+                    <tr >
+	                <td width="33%">
+                            <div class="wp-caption alignnone" style="width: 234px; height:302px" ><a href="Images/Maps/UICFacilitiesMap_E.pdf"><img   alt="East Side Facilities Map (8.5&quot; X 11&quot;)" src="Images/Maps/UICFacilitiesMap_E.jpg"/></a><p class="wp-caption-text">East Side Facilities Map (8.5&quot; X 11&quot;)</p></div></td>
+                        <td width="33%">
+                            <div class="wp-caption alignnone" style="width: 234px; height:302px"><a href="Images/Maps/UICFacilitiesMap_W.pdf"><img   alt="West Side Facilities Map (8.5&quot; X 11&quot;)" src="Images/Maps/UICFacilitiesMap_W.jpg"/></a><p class="wp-caption-text">West Side Facilities Map (8.5&quot; X 11&quot;)</p></div></td>
+	                    <td width="33%">
+                            <div class="wp-caption alignnone" style="width: 467px; height:302px" ><a href="Images/Maps/UICFacilitiesMap_C.pdf"><img   alt=" Campus Facilities Map (17&quot; X 11&quot;)" src="Images/Maps/UICFacilitiesMap_C.jpg" style="height:302px" /></a><p class="wp-caption-text">Campus Facilities Map (17&quot; X 11&quot;)</p></div></td>
+</tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="mainHeading mapInnerHeading">
+            ACCESSIBILITY MAPS
+        </div><br/>
+        <div class="mainPadding">
+            <table width="100%" >
+                <tbody>
+                    <tr >
+	                    <td width="33%">
+                            <div class="wp-caption alignnone" style="width: 234px; height:302px" ><a href="Images/Maps/Accessibility East Side.pdf"><img   alt="East Side Accessibility Map (8.5&quot; X 11&quot;)" src="Images/Maps/UICAccessiblityMap_E.jpg"/></a><p class="wp-caption-text">East Side Accessibility Map (8.5&quot; X 11&quot;)</p></div></td>
+                        <td width="33%">
+                            <div class="wp-caption alignnone" style="width: 234px; height:302px"><a href="Images/Maps/Accessibility West Side.pdf"><img   alt="West Side Accessibility Map (8.5&quot; X 11&quot;)" src="Images/Maps/UICAccessiblityMap_W.jpg"/></a><p class="wp-caption-text">West Side Accessibility Map (8.5&quot; X 11&quot;)</p></div></td>
+	                    <td width="33%">
+                            <div class="wp-caption alignnone" style="width: 467px; height:302px" ><a href="Images/Maps/Accessibility Campus Map.pdf"><img   alt=" Accessibility Campus Map (17&quot; X 11&quot;)" src="Images/Maps/UICAccessiblityMap_C.jpg" style="height:302px" /></a><p class="wp-caption-text">Accessibility Campus Map (17&quot; X 11&quot;)</p></div></td>
+</tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="mainHeading mapInnerHeading">
+            CHICAGO CAMPUS BOUNDARY MAP
+        </div><br/>
+        <div class="mainPadding">
+            <table width="100%" >
+                <tbody>
+                    <tr >
+	                    <td width="100%">
+                            <div class="wp-caption alignnone" style="width: 464px; height:302px" ><a href="Images/Maps/Chicago Campus Boundary Map.pdf"><img   alt="Chicago Campus Boundary Map (17&quot; X 11&quot;)" src="Images/Maps/ChicagoCampusBoundaryMap.jpg" style="height:302px"/></a><p class="wp-caption-text">Chicago Campus Boundary Map (17&quot; X 11&quot;)</p></div></td>
+                        <td width="50%">&nbsp;
+</td>
+</tr>
+                </tbody>
+            </table>
+        </div>         
+        <!--<div class="mainHeading mapInnerHeading">
+            OTHER MAPS
+        </div><br/>
+        <div class="mainPadding">
+            <table width="100%" >
+                <tbody>
+                    <tr >
+	                    <td width="33%">
+                            <div class="wp-caption alignnone" style="width: 260px" id="Div13"><a href="Images/Maps/UICCampusMap.pdf"><img alt="UIC Campus Map" src="Images/Maps/UICCampusMap.jpg"/></a><p class="wp-caption-text">UIC Campus Map (36" X 60")</p></div></td>
+                        <td  width="33%">
+                                <div class="wp-caption alignnone" style="width: 260px" id="Div14"><a href="Images/Maps/UIC_COM_Peoria_Campus_Map.pdf"><img   alt="UIC COM Peoria Campus Map" src="Images/Maps/UIC_COM_Peoria_Campus_Map.jpg"/></a><p class="wp-caption-text">UIC COM Peoria Campus Map(8.5" X 11")</p></div></td>
+                        <td width="33%" >
+                            <div class="wp-caption alignnone" style="width: 260px" id="Div16"><a href="Images/Maps/UIC_COM_Rockford_Campus_Map.pdf"><img  alt="UIC COM Rockford Campus Map" src="Images/Maps/UIC_COM_Rockford_Campus_Map.jpg"/></a><p class="wp-caption-text">UIC COM Peoria Campus Map(8.5" X 11")</p></div></td>
+                    </tr>
+                    <tr >
+	                    <td width="33%" >
+                            <div class="wp-caption alignnone" style="width: 260px" id="Div1"><a href="Images/Maps/uic_district_map.pdf"><img  alt="UIC District Map" src="Images/Maps/uic_district_map.jpg"/></a><p class="wp-caption-text">UIC District Map(8.5" X 11")</p></div></td>
+                        <td width="33%" >
+                                <div class="wp-caption alignnone" style="width: 260px" id="Div2"><a href="Images/Maps/acresmap.pdf"><img   alt="UIC Acreage Map" src="Images/Maps/acresmap.jpg"/></a><p class="wp-caption-text">UIC Acreage Map<br/>(8.5" X 11")</p></div></td>
+                        <td  width="33%">
+                            <div class="wp-caption alignnone" style="width: 260px" id="Div3"><a href="Images/Maps/State_Campus_Sites_Map.pdf"><img   alt="State Campus Sites Map" src="Images/Maps/State_Campus_Sites_Map.jpg"/></a><p class="wp-caption-text">State Campus Sites Map(8.5" X 11")</p></div></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>-->
+    </div>
+
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 hidden-xs hidden-sm">
+                        <div class="col-md-7">
+                            <span>&copy; &nbsp;2020 The Board of Trustees of the University of Illinois | <a href="http://www.vpaa.uillinois.edu/policies/web_privacy.cfm" id="footerLink">Privacy Statement</a></span>
+                        </div>
+                        <div class="col-xs-12 col-md-5 text-right">
+                            <span>
+                                <a href="https://www.uillinois.edu/" target="_blank" id="footerLink">University of Illinois</a> |
+                                <a href="https://www.uiuc.edu/" target="_blank" id="footerLink">Urbana-Champaign</a> |
+                                <a href="https://www.uis.edu/" target="_blank" id="footerLink">Springfield</a>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 hidden-md hidden-lg">
+                        <span>&copy; &nbsp;2020 The Board of Trustees of the University of Illinois | <a href="http://www.vpaa.uillinois.edu/policies/web_privacy.cfm" id="footerLink">Privacy Statement</a><br />
+                            <br />
+                            <a href="https://www.uillinois.edu//" target="_blank" id="footerLink">University of Illinois</a>&nbsp; |&nbsp;
+                            <a href="https://www.uiuc.edu/" target="_blank" id="footerLink">Urbana-Champaign</a>&nbsp; |&nbsp;
+                            <a href="https://www.uis.edu/" target="_blank" id="footerLink">Springfield</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </form>
+
+    <script src="/Scripts/jquery.smartmenus.min.js" lang="javascript" type="text/javascript"></script>
+    <script src="/Scripts/jquery.smartmenus.bootstrap.min.js" lang="javascript" type="text/javascript"></script>
+    <script type="text/javascript">    
+        if ($('#headerText').text().trim().length == 7) {
+            $('#headerText').text("FIMWEB");
+        }
+    </script>
+</body>
+</html>

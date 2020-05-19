@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<!--[if lt IE 9 ]>    <html class="lt-ie9 no-js"  lang="en" dir="ltr"> <![endif]-->
+<!--[if gte IE 9]><!--> <html class="no-js"  lang="en" dir="ltr"  prefix="content: http://purl.org/rss/1.0/modules/content/
+ dc: http://purl.org/dc/terms/
+ foaf: http://xmlns.com/foaf/0.1/
+ og: http://ogp.me/ns#
+ rdfs: http://www.w3.org/2000/01/rdf-schema#
+ sioc: http://rdfs.org/sioc/ns#
+ sioct: http://rdfs.org/sioc/types#
+ skos: http://www.w3.org/2004/02/skos/core#
+ xsd: http://www.w3.org/2001/XMLSchema#
+"> <!--<![endif]-->
+  <head>
+
+
+<!-- The following code is to stop search engines from indexing the old profile module -->
+            <!-- Old profile module code block end -->
+
+
+
+    <meta charset="utf-8" />
+<meta name="msvalidate.01" content="EA1A6264E838AAEF465235300E9FDCF0" />
+<link rel="shortcut icon" href="https://artandarthistory.uic.edu/sites/all/themes/uic_aah/favicon.ico" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="description" content="The School of Art and Art History at the University of Illinois at Chicago offers both undergraduate and graduate programs of study. Visit us today!" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://artandarthistory.uic.edu/" />
+<link rel="shortlink" href="https://artandarthistory.uic.edu/" />
+    <title>artandarthistory.uic.edu |</title>
+<!-- Favicons from realfavicongenerator -->
+    <link rel="apple-touch-icon" sizes="57x57" href="sites/all/themes/uic_aah/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="sites/all/themes/uic_aah/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="sites/all/themes/uic_aah/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="sites/all/themes/uic_aah/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="sites/all/themes/uic_aah/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="sites/all/themes/uic_aah/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="sites/all/themes/uic_aah/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="sites/all/themes/uic_aah/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="sites/all/themes/uic_aah/favicons/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="sites/all/themes/uic_aah/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="sites/all/themes/uic_aah/favicons/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="sites/all/themes/uic_aah/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="sites/all/themes/uic_aah/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="sites/all/themes/uic_aah/favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage" content="sites/all/themes/uic_aah/favicons//mstile-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="https://artandarthistory.uic.edu/sites/default/files/css/css_kShW4RPmRstZ3SpIC-ZvVGNFVAi0WEMuCnI0ZkYIaFw.css" />
+<link rel="stylesheet" href="https://artandarthistory.uic.edu/sites/default/files/css/css_8I8tOCPjIVP6mfeMJ_e9IPVH1CnLb6wMloNuja55pnc.css" />
+<link rel="stylesheet" href="https://artandarthistory.uic.edu/sites/default/files/css/css_lHQ-zfnpyHxbS-NubDJQbUJEnsAYsxjTYUj4rf0GO64.css" />
+<style>body{background-image:url(https://artandarthistory.uic.edu/sites/default/files/frontpage/AAH_Inner_State.jpg);background-size:cover;}
+</style>
+<link rel="stylesheet" href="https://artandarthistory.uic.edu/sites/default/files/css/css_NB3MTzn7itWSKUnCduNThM_Ms0n5AZ7G6qX5ZGtxZGI.css" />
+<link rel="stylesheet" href="https://artandarthistory.uic.edu/sites/default/files/css/css_HFXNJnoaZxmU3mFoTsZdmIMZInnfk_901W5y-DcS_nA.css" media="print" />
+    <script src="https://artandarthistory.uic.edu/sites/all/libraries/modernizr/modernizr.min.js?q460jj"></script>
+<script src="https://artandarthistory.uic.edu/sites/default/files/js/js_EebRuRXFlkaf356V0T2K_8cnUVfCKesNTxdvvPSEhCM.js"></script>
+<script src="https://artandarthistory.uic.edu/sites/default/files/js/js_gPqjYq7fqdMzw8-29XWQIVoDSWTmZCGy9OqaHppNxuQ.js"></script>
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-55456113-1", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga("send", "pageview");</script>
+<script>(function(){var e={kitId:"; Information added by Drupal.org packaging script on 2015-02-11",scriptTimeout:3e3},t=document.getElementsByTagName("html")[0];t.className+=" wf-loading";var n=setTimeout(function(){t.className=t.className.replace(/(\s|^)wf-loading(\s|$)/g," "),t.className+=" wf-inactive"},e.scriptTimeout),r=document.createElement("script"),i=!1;r.src="//use.typekit.net/"+e.kitId+".js",r.type="text/javascript",r.async="true",r.onload=r.onreadystatechange=function(){var t=this.readyState;if(i||t&&t!="complete"&&t!="loaded")return;i=!0,clearTimeout(n);try{Typekit.load(e)}catch(r){}};var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(r,s)})()</script>
+<script src="https://artandarthistory.uic.edu/sites/default/files/js/js_LK9aiBodWOdoIBJb6fPrF3wI3Gw0G64UAfXJ4oeqrQ0.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"uic_aah","theme_token":"577qzAl1aez93wSAIWYub5_HgoeFbqW0vde0qMw3wcw","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/eventwork\/css\/custom.css":1,"sites\/all\/modules\/eventwork\/portfolio\/css\/portfolio.css":1,"0":1,"sites\/all\/themes\/uic_aah\/css\/style.css":1,"sites\/all\/themes\/uic_aah\/css\/print.css":1},"js":{"sites\/all\/libraries\/modernizr\/modernizr.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"0":1,"1":1,"sites\/all\/themes\/uic_aah\/js\/scripts.js":1,"sites\/all\/themes\/uic_aah\/js\/bootstrap.js":1}},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"urlIsAjaxTrusted":{"\/search\/node":true}});</script>
+  </head>
+  <body class="html front not-logged-in no-sidebars page-node page-node- page-node-117 node-type-front-page" >
+    <div id="skip-link">
+      <a href="#main" class="element-invisible element-focusable" role="link">Skip to main content</a>
+    </div>
+        <div id="l-wrapper" class="l-wrapper">
+    <div class="background-image background-image--cover"></div>
+    <div id="l-page" class="l-page">
+        <div class="l-header-wrapper background-image">
+            <header id="l-header" class="l-header" role="banner">
+                <div class="l-inner">
+                    <div class="l-mobile-header-row">
+                    <!--    Color logo for front page, B/W for others     -->
+
+                        <div class="logo" id="logo">
+                                                            <a href="/" title="Home" rel="home" >
+                                    <img src="sites/all/themes/uic_aah/img/homepagelogo2.png" alt="Home" />
+                                </a>
+                                                    </div>
+                    <!--  END Color logo for front page, B/W for others     -->
+
+                        <div id="l-icons" class="l-icons">
+                            <div class="i-inner">
+                            <a class="icon-menu mobile-menu-toggle js-mobile-menu-toggle" ></a>
+                            <a class="icon-search search-form-toggle js-search-form-toggle" ></a>
+                                &nbsp;
+
+                            </div>
+
+                        </div>
+
+                        <div id="l-empty" class="l-empty">
+                            <div class="i-inner">
+                            &nbsp;
+                                </div>
+                        </div>
+
+                        <div id="l-tagline-mobile" class="l-tagline-mobile">
+                                                            Global perspectives on visual culture, art and architecture
+                                                            
+
+                        </div>
+
+                        <div id="l-navigation" class="l-navigation" role="navigation">
+                            <nav>
+                                  <div id="block-menu-block-1" class="block block-menu-block">
+
+    
+  <div class="content">
+    <div class="menu-block-wrapper menu-block-1 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="first leaf has-children menu-mlid-339 top-border collapsed menu-1-collapse"><a href="/information_about_uic_art_art_history">About</a></li>
+<li class="leaf menu-mlid-387 top-border collapsed menu-1-collapse"><a href="/g400">Gallery 400</a></li>
+<li class="leaf menu-mlid-1002 top-border collapsed menu-1-collapse"><a href="/custom/event/search" title="">Calendar</a></li>
+<li class="leaf has-children menu-mlid-395 top-border collapsed menu-1-collapse"><a href="/admissions">Admissions</a></li>
+<li class="leaf has-children menu-mlid-414 collapsed menu-1-collapse"><a href="/support_our_school">Support the School</a></li>
+<li class="leaf menu-mlid-1193 collapsed menu-1-collapse"><a href="/fifth-floor-gallery">5th Floor Gallery</a></li>
+<li class="leaf menu-mlid-394 collapsed menu-1-collapse"><a href="/profile/people?field_specific_school_value=All&amp;field_category_of_type_value=All" title="Old path: cada/profiles/profilesearch">People</a></li>
+<li class="leaf menu-mlid-393 collapsed menu-1-collapse"><a href="/cada/news/newssearch" title="">News</a></li>
+<li class="last leaf has-children menu-mlid-1044 collapsed menu-1-collapse"><a href="/information-for" title="">Information</a></li>
+<form class="search-form collapsed" action="/search/node" method="post" id="search-form" accept-charset="UTF-8"><div><div class="container-inline form-wrapper" id="edit-basic"><div class="form-item form-type-searchfield form-item-keys">
+  <label for="edit-keys" id="search-label">Search </label>
+ <input type="search" id="edit-keys" name="keys" value="" size="40" maxlength="255" class="form-text form-search" />
+</div>
+<input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-MzLpomdY997MQf8ib38MgAr5OWQyVKXvzkHs3RyqMyA" />
+<input type="hidden" name="form_id" value="search_form" />
+</div></form></ul></div>
+  </div>
+</div>
+<div id="block-menu-block-2" class="block block-menu-block">
+
+    
+  <div class="content">
+    <div class="menu-block-wrapper menu-block-2 menu-name-menu-secondary-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><span class="menu_drop_down"><li class="first expanded menu-mlid-927 collapsed menu-1-collapse"><a href="/art_and_art_education">Art &amp; Art Education</a><ul class="menu"><li class="first leaf menu-mlid-956 collapsed menu-1-collapse"><a href="/art-welcome">Director&#039;s message</a></li>
+<li class="leaf has-children menu-mlid-955 collapsed menu-1-collapse"><a href="/content/school-art-art-history-uic-chicago-bfa">BFA Art</a></li>
+<li class="leaf menu-mlid-952 collapsed menu-1-collapse"><a href="/bfa-art-minor">BFA Art minor</a></li>
+<li class="leaf menu-mlid-1151 collapsed menu-1-collapse"><a href="/art_ed_bfa">BFA in Art Education</a></li>
+<li class="leaf has-children menu-mlid-933 collapsed menu-1-collapse"><a href="/mfa-art">MFA Art</a></li>
+<li class="leaf menu-mlid-950 collapsed menu-1-collapse"><a href="/content/school-art-art-history-uic-chicago-art-faculty">Faculty</a></li>
+<li class="last leaf menu-mlid-1045 collapsed menu-1-collapse"><a href="/art-course-descriptions" title="">Courses</a></li>
+</ul></li>
+</span><span class="menu_drop_down"><li class="expanded menu-mlid-928 collapsed menu-1-collapse"><a href="/department-art-history">Art History</a><ul class="menu"><li class="first last leaf menu-mlid-1186 collapsed menu-1-collapse"><a href="/content/art-history-website">Art History website</a></li>
+</ul></li>
+</span><span class="menu_drop_down"><li class="expanded menu-mlid-929 collapsed menu-1-collapse"><a href="/uic_muse">Museum &amp; Exhibition Studies</a><ul class="menu"><li class="first leaf menu-mlid-948 collapsed menu-1-collapse"><a href="/muse-welcome">Director&#039;s Message</a></li>
+<li class="leaf menu-mlid-936 collapsed menu-1-collapse"><a href="/uic_masters_muse">Museum &amp; Exhibition Studies Graduate Program Overview</a></li>
+<li class="leaf menu-mlid-1195 collapsed menu-1-collapse"><a href="/content/graduate-concentration-museum-and-exhibition-studies">Graduate Concentration in Museum and Exhibition Studies</a></li>
+<li class="leaf menu-mlid-937 collapsed menu-1-collapse"><a href="/jane_addams_hull_house">Program Partners</a></li>
+<li class="leaf menu-mlid-1135 collapsed menu-1-collapse"><a href="/Student_Alumni_Museum_Exhibition">Students and Alumni</a></li>
+<li class="leaf menu-mlid-944 collapsed menu-1-collapse"><a href="/muse-faculty">Faculty</a></li>
+<li class="last leaf menu-mlid-1184 collapsed menu-1-collapse"><a href="/muse/courses">Courses</a></li>
+</ul></li>
+</span><span class="menu_drop_down"><li class="last expanded menu-mlid-1175 collapsed menu-1-collapse"><a href="/ideas">Interdisciplinary Studies in the Arts</a><ul class="menu"><li class="first leaf menu-mlid-1176 collapsed menu-1-collapse"><a href="/ideas/directors_message">Director&#039;s Message</a></li>
+<li class="leaf menu-mlid-1177 collapsed menu-1-collapse"><a href="/ideas/why_study_ideas">Why study IDEAS?</a></li>
+<li class="leaf menu-mlid-1178 collapsed menu-1-collapse"><a href="/ideas/program_overview">Program Overview</a></li>
+<li class="last leaf menu-mlid-1179 collapsed menu-1-collapse"><a href="/ideas/faculty">Faculty</a></li>
+</ul></li>
+</span></ul></div>
+  </div>
+</div>
+
+                            </nav>
+                        </div>
+
+
+
+                    </div>
+
+
+
+                </div>
+            </header>
+        </div>
+
+        <div class="l-tagline-wrapper">
+            <div id="l-tagline" class="l-tagline">
+                <div class="l-tagline-text">
+                                            Global perspectives on visual culture, art and architecture                    
+                                                                                </div>
+            </div>
+        </div>
+
+        <div class="l-breadcrumb-wrapper">
+            <div id="l-breadcrumb" class="l-breadcrumb">
+                <div class="l-breadcrumb-text">
+                    
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="l-main-wrapper">
+
+
+            <main id="main" class="main" role="main">
+
+                <a id="main-content"></a>
+
+                                                                                                    
+
+                
+                                    <div class="main_content">
+                          <div id="block-news-news-latest-1" class="block block-news">
+
+    <h2>News & Accomplishments</h2>
+  
+  <div class="content">
+    <a href='/newsdetails/789/776'>UIC graduates first BFA in art education students</a>  </div>
+</div>
+<div id="block-views-blog-posts-block" class="block block-views">
+
+    <h2>Blog Posts</h2>
+  
+  <div class="content">
+    <div class="view view-blog-posts view-id-blog_posts view-display-id-block view-dom-id-831e8baefc78cb6daac66be99782d338">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/content/all-have-same-breath-artshumanities-collaboration-political-ecology">All Have the Same Breath: An Arts/Humanities Collaboration on Political Ecology</a></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>
+<div id="block-event-events-latest-1" class="block block-event">
+
+    <h2>Events</h2>
+  
+  <div class="content">
+    <a href='/eventdetails/1189/1170'>Crisis Happy Hour: Zoom Discussion of Ansgar Allen on Cynicism Then and Now</a>  </div>
+</div>
+<article id="node-117" class="node node-front-page node-promoted clearfix" about="/frontpage" typeof="sioc:Item foaf:Document" role="article">
+  <div class="node-content content">
+<h1 id="front-page-title">School Of Art & Art History</h1>
+
+      </div>
+
+    
+</article>
+                    </div>
+                
+                            </main>
+
+        </div>
+
+        <div class="l-footer-wrapper">
+            <footer id="l-footer" class="l-footer" role="contentinfo">
+                <div class="l-inner">
+                    <div class="footer-tab-level-1">
+                        <div class="footer-level">
+                            <div id="l-footer1" class="l-footer1 footer-subsection">
+                                <div class="uiclogo"><a href="http://uic.edu/"><span class="icon-uicinverse"></span></a>
+                                </div>
+                                <div class="footer-logo-text">University of Illinois at Chicago
+                                </div>
+                            </div>
+                            <div id="l-footer2" class="l-footer2 footer-subsection ">
+                                <a href="http://cada.uic.edu/">College of Architecture,<br> Design, and the Arts</a>
+                            <br>
+                                <a href="https://www.vpaa.uillinois.edu/resources/web_privacy">Privacy policy</a>
+				</div>
+
+
+                            <div id="l-footer3" class="l-footer3">
+                                                                      <div id="block-menu-block-3" class="block block-menu-block">
+
+    
+  <div class="content">
+    <div class="menu-block-wrapper menu-block-3 menu-name-menu-footer-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="first leaf menu-mlid-925"><a href="/careers" title="">Careers</a></li>
+<li class="leaf menu-mlid-926"><a href="/contact" title="">Contact</a></li>
+<li class="leaf menu-mlid-924"><a href="/credits" title="">Credits</a></li>
+<li class="last leaf menu-mlid-931"><a href="/content/school-art-art-history-uic-chicago-newsletter" title="">Enews</a></li>
+</ul></div>
+  </div>
+</div>
+                                                            </div>
+                        </div>
+                        <div class="footer-level">
+                            <div class="l-footer-3-1 footer-subsection">
+                                <ul class="links"><li class="menu-925 first last"><a href="/careers" title="">Careers</a></li>
+</ul>
+                            </div>
+
+                            <div class="l-footer-3-2 footer-subsection">
+                                <ul class="links"><li class="menu-926 first last"><a href="/contact" title="">Contact</a></li>
+</ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="footer-tab-level-2">
+                        <div class="footer-level">
+                            <div class="l-footer-3-3 footer-subsection">
+                                <ul class="links"><li class="menu-924 first last"><a href="/credits" title="">Credits</a></li>
+</ul>
+                            </div>
+
+                            <div class="l-footer-3-4 footer-subsection">
+                                <ul class="links"><li class="menu-931 first last"><a href="/content/school-art-art-history-uic-chicago-newsletter" title="">Enews</a></li>
+</ul>
+                            </div>
+                        </diV>
+                        <div class="footer-level">
+                            <div id="l-footer4" class="l-footer4 footer-subsection">
+                                                                     Erik L. Peterson (MFA, 2010), <i>Inner State</i>, 2010. Photo: Erik L. Peterson.                                                                                            </div>
+
+                            <div id="l-footer5" class="l-footer5 footer-subsection">
+                                <!--a href="http://artandarthistory.uic.edu/engagement#"><span class="icon-share"></span></a-->
+				<a href="https://www.instagram.com/uicsaah/">
+                                    <img src="https://artandarthistory.uic.edu/sites/default/files/Insta_Logo.png" alt="UIC Art History Instagram" style="width:19px;height:19px;">
+                                </a>
+                                <a href="https://www.facebook.com/uicschoolofartandarthistory"><span class="icon-facebook"></span></a>
+                                <a href="http://www.flickr.com/photos/gallery400/"><span class="icon-flickr"></span></a>
+                                <span class="symbol-down-right-arrow"></span>
+                                                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+    </div>
+</div>
+      </body>
+</html>

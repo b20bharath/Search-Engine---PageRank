@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="csrf-token" content="hTxTOlRA5IyOXYIZCTcnKEIzCaCVK1ezrNF5MfHa">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FERPA | UIC Office of the Registrar</title>
+
+    <!-- Fonts -->
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/app.css">
+<!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<header class="">
+    <div class="header-navigation">
+        <div class="header-menu-bar homepage-header-navigation">
+    <div class="header-navigation-logo header-logo">
+        <a href="http://uic.edu" class="uic-logo-icon header-navigation-logo__uic-logo">
+            <svg aria-label="UIC.edu home" viewBox="0 0 55 55" xmlns="http://www.w3.org/2000/svg">
+                <title>UIC Logo</title>
+                <circle class="_circle" cx="27" cy="27" r="25" fill="none"></circle>
+                <path class="_mark" d="M49.73 23.917l-4.583 2.2c-.44-1.71-1.397-2.718-3.056-2.718-2.25 0-3.39 1.862-3.39 4.918 0 3.03 1.14 4.844 3.39 4.844 1.555 0 2.462-.83 2.954-2.203l4.79 1.707c-1.242 2.824-3.754 4.767-7.768 4.767-5.57 0-8.754-3.728-8.754-9.116 0-5.41 3.368-9.114 8.857-9.114 4.194 0 6.68 2.407 7.56 4.713zm-24.264-4.403h5.282v17.61h-5.282v-17.61zm-3.21 10.41c0 2.46-.258 3.65-.96 4.844-1.164 1.94-4.27 2.692-6.99 2.692-2.72 0-5.828-.753-6.993-2.692-.698-1.194-.96-2.384-.96-4.844v-10.41h5.284v10.513c0 1.192.157 1.968.596 2.486.416.492 1.09.726 2.073.726.983 0 1.657-.235 2.07-.727.44-.518.597-1.294.597-2.486V19.514h5.282v10.41zM54.5 27.5c0-14.912-12.09-27-27-27-14.913 0-27 12.088-27 27s12.087 27 27 27c14.91 0 27-12.088 27-27z" fill="#FFF" fill-rule="evenodd"></path>
+            </svg>
+        </a>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 d-flex align-items-center">
+                                    <div class="site-title-main -large align-middle">
+                        <a href="/" title="Home Page">FERPA Tutorial</a>
+                    </div>
+                            </div>
+            <div class="col-md-9">
+                <nav class="navigation-eyebrow" role="navigation" aria-label="Eyebrow navigation">
+    <div class="navigation-eyebrow-inner">
+        <ul class="eyebrow-list">
+            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="http://maps.uic.edu/">Map</a></li>
+            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="http://www.uic.edu/apps/departments-az/search">Directory</a></li>
+        </ul>
+    </div>
+</nav>
+                <nav class="navigation-primary" role="navigation" aria-label="Primary navigation">
+    <div class="navigation-primary-inner">
+        <div class="circle-logo-container">
+            <a href="/">
+                <svg class="circle-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><path d="M36.5 17.3L33.1 19c-.3-1.3-1-2-2.3-2-1.7 0-2.5 1.4-2.5 3.6s.8 3.6 2.5 3.6c1.2 0 1.8-.6 2.2-1.6l3.5 1.3c-.9 2.1-2.8 3.5-5.8 3.5-4.1 0-6.5-2.8-6.5-6.8s2.5-6.8 6.6-6.8c3.2.1 5 1.8 5.7 3.5m-14.1 9.8h-3.9v-13h3.9v13zm-6.3-5.3c0 1.8-.2 2.7-.7 3.6-.9 1.4-3.2 2-5.2 2s-4.3-.6-5.2-2c-.5-.9-.7-1.8-.7-3.6v-7.7h3.9v7.8c0 .9.1 1.5.4 1.8.3.4.8.5 1.5.5s1.2-.2 1.5-.5c.3-.4.4-1 .4-1.8v-7.8h3.9v7.7zM40 20C40 9 31 0 20 0S0 9 0 20s9 20 20 20 20-9 20-20"></path></svg>
+                <span>University of Illinois at Chicago</span>            </a>
+        </div>
+        <ul class="primary-nav-list">
+            <li><button class="menu-toggle" type="button" role="button" tabindex="-1">
+                    <span class="menu-toggle-icon"></span>
+                    <span>Expand menu</span>
+                </button></li>
+            <li class="menu-label-item"><span class="menu-label">Menu</span></li>
+            <li class="primary-list-item">
+                <a class="primary-list-anchor" href="https://ferpa.uic.edu/tutorial" title="Tutorial Home">FERPA Tutorial</a>
+                <div class="expander" role="button" tabindex="0" aria-label="expand Admissions &amp; Aid"></div></li>
+            <li class="primary-list-item">
+                <a class="primary-list-anchor" href="https://ferpa.uic.edu/about" title="About Page">About</a>
+                <div class="expander" role="button" tabindex="0" aria-label="expand About"></div>
+            </li>
+            <li class="primary-list-item">
+                <a class="primary-list-anchor" href="https://ferpa.uic.edu/app/user" title="User Account Page">Account</a>
+                <div class="expander" role="button" tabindex="0" aria-label="expand User Account"></div>
+            </li>
+        </ul>
+    </div>
+</nav>            </div>
+        </div>
+    </div>
+</div>            </div>
+</header><main class="l-content-wrapper ">
+    <div class="l-full">
+        <div class="l-content ">
+            <article class="post-type-" id="article">
+                                <nav class="breadcrumbs content-wrapper" role="navigation">
+        <a class="red-circle-link" href="/"><span class="invisible">Home</span><div class="red-circle" aria-hidden="true"></div></a>
+        <img class="first-breadcrumb-arrow" src="https://ferpa.uic.edu/images/breadcrumb-arrow.svg" aria-hidden="true">
+        <ul class="crumb-list">
+                <li class="crumb-item"><a class="crumb-anchor" href="https://ferpa.uic.edu/tutorial">Tutorial</a></li>
+    <img class="first-breadcrumb-arrow" src="https://ferpa.uic.edu/images/breadcrumb-arrow.svg" aria-hidden="true">
+    <li class="crumb-item"><a class="crumb-anchor active" href="/tutorial/page/1">Page 1</a></li>
+        </ul>
+    </nav>
+                        <div class="intro-text">
+        <h1>What is FERPA?</h1>
+        <p>The Family Educational Rights and Privacy Act of 1974, commonly known as FERPA, is a federal law governing the privacy of educational records. It grants specific rights to students and sets restrictions on how schools may handle educational records. FERPA requires that schools obtain written permission from students before releasing educational records. In certain well-defined circumstances, some information may be released without written permission from the student.</p>
+    </div>
+    <div class="components">
+        <div class="component">
+            <div class="component-aside">
+                <aside>
+                    <p><strong>Note:</strong> For employees with access to the Data Warehouse, a student who has requested that Directory Information be suppressed will be noted with a Y in the field named "FERPA Indicator or the Person Confidentiality Indicator." Be certain to pull the "FERPA Indicator or the Person Confidentiality Indicator" field with queries of student data taken from the Data Warehouse.</p>
+                </aside>
+            </div>
+        </div>
+        <div class="component">
+            <div class="component-text-block">
+                <p>FERPA gives each student the following rights:</p>
+                <ol>
+                    <li>The right to see educational records the school is keeping on the student.</li>
+                    <li>The right to seek amendment to those records.</li>
+                    <li>The right to file a complaint with the FERPA office in Washington, DC.</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <div class="components">
+        <div class="component">
+            <div class="component-pagination">
+                                                    <a class="button" href="/tutorial/page/2" target="_self" title="Page 2 of UIC FERPA Tutorial">
+                        <span class="_text">Next</span>
+                    </a>
+                            </div>
+        </div>
+    </div>
+            </article>
+        </div>
+    </div>
+</main>
+<footer id="footer" class="footer u-dark-region" role="contentinfo">
+    <div class="footer-contact">
+        <div class="l-full">
+
+            <div class="footer-contact__simple _grid-container">
+                <div class="_wordmark">
+                    <div class="uic-type-treatment -large uic-wordmark--footer">
+                        <div class="_mark">
+                            <a href="http://uic.edu" class="uic-logo-icon ">
+                                <svg aria-label="UIC.edu home" viewBox="0 0 55 55" xmlns="http://www.w3.org/2000/svg">
+                                    <title>UIC Logo</title>
+                                    <circle class="_circle" cx="27" cy="27" r="25" fill="none"></circle>
+                                    <path class="_mark" d="M49.73 23.917l-4.583 2.2c-.44-1.71-1.397-2.718-3.056-2.718-2.25 0-3.39 1.862-3.39 4.918 0 3.03 1.14 4.844 3.39 4.844 1.555 0 2.462-.83 2.954-2.203l4.79 1.707c-1.242 2.824-3.754 4.767-7.768 4.767-5.57 0-8.754-3.728-8.754-9.116 0-5.41 3.368-9.114 8.857-9.114 4.194 0 6.68 2.407 7.56 4.713zm-24.264-4.403h5.282v17.61h-5.282v-17.61zm-3.21 10.41c0 2.46-.258 3.65-.96 4.844-1.164 1.94-4.27 2.692-6.99 2.692-2.72 0-5.828-.753-6.993-2.692-.698-1.194-.96-2.384-.96-4.844v-10.41h5.284v10.513c0 1.192.157 1.968.596 2.486.416.492 1.09.726 2.073.726.983 0 1.657-.235 2.07-.727.44-.518.597-1.294.597-2.486V19.514h5.282v10.41zM54.5 27.5c0-14.912-12.09-27-27-27-14.913 0-27 12.088-27 27s12.087 27 27 27c14.91 0 27-12.088 27-27z" fill="#FFF" fill-rule="evenodd"></path>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="_text">
+                            <a href="https://ferpa.uic.edu">
+                                FERPA Tutorial
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="_contact">
+                    <h2>Contact</h2>
+                    <div class="site-email"><a href="mailto:aes_webmaster@uic.edu">aes_webmaster@uic.edu</a></div>
+                </div>
+                <div aria-label="Social Media Accounts" class="_social">
+                    <h2 class="assistive-text">Social Media Accounts</h2>
+                    <ul class="site-social-links">
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="footer-legal">
+        <div class="l-full">
+            <div class="site-copyright">
+                © 2020 The Board of Trustees of the University of Illinois <span class="pipe-separator">|</span>
+                <a href="http://www.vpaa.uillinois.edu/policies/web_privacy.cfm">Privacy Statement</a>
+            </div>
+
+            <div class="campuses" aria-label="Campuses">
+                <h2 class="assistive-text">Campuses</h2>
+                <ul class="campuses-list">
+                    <li><a href="http://www.uillinois.edu/">University of Illinois System</a></li>
+                    <li><a href="http://www.illinois.edu/">Urbana-Champaign</a></li>
+                    <li><a href="http://www.uis.edu/">Springfield</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</footer></body>
+</html>

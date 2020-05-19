@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<!--[if lt IE 9 ]>    <html class="lt-ie9 no-js"  lang="en" dir="ltr"> <![endif]-->
+<!--[if gte IE 9]><!--> <html class="no-js"  lang="en" dir="ltr"  prefix="content: http://purl.org/rss/1.0/modules/content/
+ dc: http://purl.org/dc/terms/
+ foaf: http://xmlns.com/foaf/0.1/
+ og: http://ogp.me/ns#
+ rdfs: http://www.w3.org/2000/01/rdf-schema#
+ sioc: http://rdfs.org/sioc/ns#
+ sioct: http://rdfs.org/sioc/types#
+ skos: http://www.w3.org/2004/02/skos/core#
+ xsd: http://www.w3.org/2001/XMLSchema#
+"> <!--<![endif]-->
+<head>
+
+<!-- The following code is to stop search engines from indexing the old profile module -->
+            <!-- Old profile module code block end -->
+
+
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="generator" content="Drupal 7 (https://www.drupal.org)" />
+<link rel="canonical" href="https://theatreandmusic.uic.edu/gallery" />
+<link rel="shortlink" href="https://theatreandmusic.uic.edu/gallery" />
+<link rel="shortcut icon" href="https://theatreandmusic.uic.edu/misc/favicon.ico" />
+  <title>Gallery | School of Theatre and Music</title>
+  <!-- Favicons from realfavicongenerator -->
+  <link rel="apple-touch-icon" sizes="57x57" href="sites/all/themes/tamweb/favicons/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="sites/all/themes/tamweb/favicons/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="sites/all/themes/tamweb/favicons/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="sites/all/themes/tamweb/favicons/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="sites/all/themes/tamweb/favicons/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="sites/all/themes/tamweb/favicons/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="sites/all/themes/tamweb/favicons/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="sites/all/themes/tamweb/favicons/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="sites/all/themes/tamweb/favicons/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" href="sites/all/themes/tamweb/favicons/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="sites/all/themes/tamweb/favicons/favicon-194x194.png" sizes="194x194">
+  <link rel="icon" type="image/png" href="sites/all/themes/tamweb/favicons/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="sites/all/themes/tamweb/favicons/android-chrome-192x192.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="sites/all/themes/tamweb/favicons/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="sites/all/themes/tamweb/favicons/manifest.json">
+  <link rel="shortcut icon" href="sites/all/themes/tamweb/favicons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-TileImage" content="sites/all/themes/tamweb/favicons/mstile-144x144.png">
+  <meta name="msapplication-config" content="sites/all/themes/tamweb/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="stylesheet" href="https://theatreandmusic.uic.edu/sites/default/files/css/css_kShW4RPmRstZ3SpIC-ZvVGNFVAi0WEMuCnI0ZkYIaFw.css" />
+<link rel="stylesheet" href="https://theatreandmusic.uic.edu/sites/default/files/css/css_8I8tOCPjIVP6mfeMJ_e9IPVH1CnLb6wMloNuja55pnc.css" />
+<link rel="stylesheet" href="https://theatreandmusic.uic.edu/sites/default/files/css/css_MNTdNXMhJtWhc-CDmTrj4Qw3MvV-JtOo5YELza2wNSU.css" />
+<link rel="stylesheet" href="https://theatreandmusic.uic.edu/sites/default/files/css/css_djR6J_HBQ_W2a4TlXPHyyF-3xKySq9o-WKk7Sunxprc.css" />
+<link rel="stylesheet" href="https://theatreandmusic.uic.edu/sites/default/files/css/css_KZaCX_M68Fd7kTvrrs2KP4upQ-yOuv9XHkshtgFLFLQ.css" media="print" />
+  <script src="https://theatreandmusic.uic.edu/sites/all/libraries/modernizr/modernizr.custom.81643.js?q7hzlv"></script>
+<script src="https://theatreandmusic.uic.edu/sites/default/files/js/js_EebRuRXFlkaf356V0T2K_8cnUVfCKesNTxdvvPSEhCM.js"></script>
+<script src="https://theatreandmusic.uic.edu/sites/default/files/js/js_ib5Df2cR70dEWJbDdCdhlwH4IkUW1c9oXACz9s-sg2E.js"></script>
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-55456113-3", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga("send", "pageview");</script>
+<script>(function(){var e={kitId:"; Information added by Drupal.org packaging script on 2015-02-11",scriptTimeout:3e3},t=document.getElementsByTagName("html")[0];t.className+=" wf-loading";var n=setTimeout(function(){t.className=t.className.replace(/(\s|^)wf-loading(\s|$)/g," "),t.className+=" wf-inactive"},e.scriptTimeout),r=document.createElement("script"),i=!1;r.src="//use.typekit.net/"+e.kitId+".js",r.type="text/javascript",r.async="true",r.onload=r.onreadystatechange=function(){var t=this.readyState;if(i||t&&t!="complete"&&t!="loaded")return;i=!0,clearTimeout(n);try{Typekit.load(e)}catch(r){}};var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(r,s)})()</script>
+<script src="https://theatreandmusic.uic.edu/sites/default/files/js/js_HF5gasAkcJDWDoNU53HpcBRMSoiOjFRhBOavSvT3F8k.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"tamweb","theme_token":"gyYOxwyASprwjp9u8VJtf2qmXv9Xgvkfh6sCgBkgxyM","js":{"sites\/all\/libraries\/modernizr\/modernizr.custom.81643.js":1,"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/better_exposed_filters\/better_exposed_filters.js":1,"sites\/all\/modules\/ctools\/js\/auto-submit.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"0":1,"1":1,"sites\/all\/themes\/tamweb\/js\/jquery.matchHeight.js":1,"sites\/all\/themes\/tamweb\/js\/bootstrap.js":1,"sites\/all\/themes\/tamweb\/js\/scripts.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/eventwork\/css\/custom.css":1,"sites\/all\/themes\/tamweb\/css\/style.css":1,"sites\/all\/themes\/tamweb\/css\/print.css":1}},"better_exposed_filters":{"datepicker":false,"slider":false,"settings":[],"autosubmit":false,"views":{"gallery":{"displays":{"page_1":{"filters":{"field_gallery_tag_tid":{"required":false}}}}}}},"urlIsAjaxTrusted":{"\/gallery":true},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"}});</script>
+  
+</head>
+<body class="html not-front not-logged-in no-sidebars page-gallery" >
+<div id="skip-link">
+  <a href="#main" class="element-invisible element-focusable" role="link">Skip to main content</a>
+</div>
+
+<div id="l-wrapper" class="l-wrapper">
+  <div class="background-image background-image--cover"></div>
+  <div id="l-page" class="l-page">
+    <div class="l-header-wrapper">
+      <header id="l-header" class="l-header" role="banner">
+        <div class="l-inner">
+            <!--    Color logo for front page, B/W for others     -->
+
+            <div class="logo" id="logo">
+                              <a href="/" title="Home" rel="home" >
+                  <img src="https://theatreandmusic.uic.edu/sites/all/themes/tamweb/logo.png" alt="Home" />
+                </a>
+                          </div>
+            <!--  END Color logo for front page, B/W for others     -->
+
+            <div id="l-icons" class="l-icons">
+              <div class="i-inner">
+                <span class="icon-ion-navicon-round mobile-menu-toggle js-mobile-menu-toggle" ></span>
+                &nbsp;
+
+              </div>
+
+            </div>
+
+
+            <div id="l-navigation" class="l-navigation" role="navigation">
+              <nav>
+                  <div id="block-menu-block-1" class="block block-menu-block">
+    
+  <div class="content">
+    <div class="menu-block-wrapper menu-block-1 menu-name-main-menu parent-mlid-0 menu-level-1 menu-block-1 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="first leaf menu-mlid-299 collapsed menu-1-collapse"><a href="/about">About</a></li>
+<li class="leaf menu-mlid-303 collapsed menu-1-collapse"><a href="/cada/news/newssearch" title="">News</a></li>
+<li class="leaf menu-mlid-304 collapsed menu-1-collapse"><a href="/custom/event/search" title="If offline -&gt; node/223">Calendar</a></li>
+<li class="leaf menu-mlid-306 fourth collapsed menu-1-collapse"><a href="/admissions">Admissions</a></li>
+<li class="leaf menu-mlid-307 collapsed menu-1-collapse"><a href="/directory/profile?field_school_value=All&amp;field_category_value=All" title="Old Directory -&gt; cada/q/profilesearch ">People</a></li>
+<li class="leaf menu-mlid-308 collapsed menu-1-collapse"><a href="/donate-now">Donate Now</a></li>
+<li class="leaf menu-mlid-518 collapsed menu-1-collapse"><a href="/contact">Contact</a></li>
+<li class="last leaf active-trail active menu-mlid-721 fourth collapsed menu-1-collapse"><a href="/gallery" title="" class="active-trail active">Gallery</a></li>
+</ul></div>
+  </div>
+</div>
+<div id="block-menu-block-2" class="block block-menu-block">
+    
+  <div class="content">
+    <div class="menu-block-wrapper menu-block-2 menu-name-menu-secondary-menu parent-mlid-0 menu-level-1 menu-block-2 menu-name-menu-secondary-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><span class="menu_drop_down"><li class="first expanded menu-mlid-718 collapsed menu-1-collapse"><a href="/about-0" title="">Dept of Theatre</a><ul class="menu"><li class="first leaf menu-mlid-743 collapsed menu-1-collapse"><a href="/about-0">About</a></li>
+<li class="leaf menu-mlid-723 collapsed menu-1-collapse"><a href="/degrees">Degrees</a></li>
+<li class="leaf menu-mlid-745 collapsed menu-1-collapse"><a href="/theatre-courses">Theatre Courses</a></li>
+<li class="leaf menu-mlid-726 collapsed menu-1-collapse"><a href="/degree-auditions-0">Degree Auditions</a></li>
+<li class="leaf menu-mlid-735 collapsed menu-1-collapse"><a href="/partner-internships">Partner / Internships</a></li>
+<li class="last leaf has-children menu-mlid-736 collapsed menu-1-collapse"><a href="/theatre-season">Mainstage Production</a></li>
+</ul></li>
+</span><span class="menu_drop_down"><li class="expanded menu-mlid-717 collapsed menu-1-collapse"><a href="/about-1" title="">Dept of Music</a><ul class="menu"><li class="first leaf menu-mlid-744 collapsed menu-1-collapse"><a href="/about-1">About</a></li>
+<li class="leaf menu-mlid-742 collapsed menu-1-collapse"><a href="/music-season">Music Season</a></li>
+<li class="leaf menu-mlid-734 collapsed menu-1-collapse"><a href="/degrees-0">Degrees</a></li>
+<li class="leaf menu-mlid-737 collapsed menu-1-collapse"><a href="/music-courses-0" title="https://catalog.uic.edu/ucat/course-descriptions/mus/">Music Courses</a></li>
+<li class="leaf menu-mlid-741 collapsed menu-1-collapse"><a href="/music-ensembles">Music Ensembles</a></li>
+<li class="leaf menu-mlid-722 collapsed menu-1-collapse"><a href="/degree-auditions">Degree Auditions</a></li>
+<li class="leaf menu-mlid-740 collapsed menu-1-collapse"><a href="/ensemble-auditions">Ensemble Auditions</a></li>
+<li class="last leaf menu-mlid-746 collapsed menu-1-collapse"><a href="/partnerinternships">Partner/Internships</a></li>
+</ul></li>
+</span><span class="menu_drop_down"><li class="expanded menu-mlid-719 collapsed menu-1-collapse"><a href="/youth-programs">Youth Programs</a><ul class="menu"><li class="first leaf menu-mlid-730 collapsed menu-1-collapse"><a href="/summer-camps-high-school-students">Summer Camps</a></li>
+<li class="leaf menu-mlid-733 collapsed menu-1-collapse"><a href="/uic-jazz-festival">High School Jazz</a></li>
+<li class="leaf menu-mlid-731 collapsed menu-1-collapse"><a href="/uic-8th-annual-honors-band-festival">Honors Band</a></li>
+<li class="leaf menu-mlid-754 collapsed menu-1-collapse"><a href="/band-orchestra-festival">Band &amp; Orchestra Festival</a></li>
+<li class="leaf menu-mlid-728 collapsed menu-1-collapse"><a href="/august-wilson-monologue-competition">AWMC</a></li>
+<li class="last leaf menu-mlid-729 collapsed menu-1-collapse"><a href="/theatre-group-visits">Theatre Group Visits</a></li>
+</ul></li>
+</span><span class="menu_drop_down fourth"><li class="last expanded menu-mlid-720 collapsed menu-1-collapse"><a href="/current-students" title="">Information For</a><ul class="menu"><li class="first leaf menu-mlid-724 collapsed menu-1-collapse"><a href="/current-students">Current Students</a></li>
+<li class="leaf menu-mlid-732 collapsed menu-1-collapse"><a href="/info-faculty-staff">Faculty/Staff</a></li>
+<li class="leaf menu-mlid-747 collapsed menu-1-collapse"><a href="/alumni">Alumni</a></li>
+<li class="leaf menu-mlid-827 collapsed menu-1-collapse"><a href="/theatre-moscow-southwest-celebrating-30th-anniversary-theatre-exchange">Theatre Alumni Russian Exchange</a></li>
+<li class="leaf menu-mlid-738 collapsed menu-1-collapse"><a href="/job-opportunities">Job Opportunities</a></li>
+<li class="last leaf menu-mlid-727 collapsed menu-1-collapse"><a href="/financial-aid">Financial Aid</a></li>
+</ul></li>
+</span></ul></div>
+  </div>
+</div>
+
+              </nav>
+            </div>
+
+
+
+
+
+
+        </div>
+      </header>
+    </div>
+
+
+
+
+
+    <div class="l-main-wrapper">
+
+
+      <main id="main" class="main" role="main">
+
+        <a id="main-content"></a>
+
+
+                                                  
+
+                  <div class="main_prefix">
+              <div id="block-views-exp-gallery-page-1" class="block block-views">
+    
+  <div class="content">
+    <form class="ctools-auto-submit-full-form" action="/gallery" method="get" id="views-exposed-form-gallery-page-1" accept-charset="UTF-8"><div><div class="views-exposed-form">
+  <div class="views-exposed-widgets clearfix">
+          <div id="edit-field-gallery-tag-tid-wrapper" class="views-exposed-widget views-widget-filter-field_gallery_tag_tid">
+                        <div class="views-widget">
+          <div id="edit-field-gallery-tag-tid" class="form-radios bef-select-as-radios"><div class="form-item form-type-radio form-item-field-gallery-tag-tid">
+ <input class="bef-select-as-radios form-radio" type="radio" id="edit-field-gallery-tag-tid-all" name="field_gallery_tag_tid" value="All" checked="checked" />  <label class="option" for="edit-field-gallery-tag-tid-all">All Galleries </label>
+
+</div>
+<div class="form-item form-type-radio form-item-field-gallery-tag-tid">
+ <input class="bef-select-as-radios form-radio" type="radio" id="edit-field-gallery-tag-tid-4" name="field_gallery_tag_tid" value="4" />  <label class="option" for="edit-field-gallery-tag-tid-4">Department of Music </label>
+
+</div>
+<div class="form-item form-type-radio form-item-field-gallery-tag-tid">
+ <input class="bef-select-as-radios form-radio" type="radio" id="edit-field-gallery-tag-tid-5" name="field_gallery_tag_tid" value="5" />  <label class="option" for="edit-field-gallery-tag-tid-5">Department of Theatre </label>
+
+</div>
+<div class="form-item form-type-radio form-item-field-gallery-tag-tid">
+ <input class="bef-select-as-radios form-radio" type="radio" id="edit-field-gallery-tag-tid-6" name="field_gallery_tag_tid" value="6" />  <label class="option" for="edit-field-gallery-tag-tid-6">Faculty </label>
+
+</div>
+<div class="form-item form-type-radio form-item-field-gallery-tag-tid">
+ <input class="bef-select-as-radios form-radio" type="radio" id="edit-field-gallery-tag-tid-7" name="field_gallery_tag_tid" value="7" />  <label class="option" for="edit-field-gallery-tag-tid-7">Youth Programs </label>
+
+</div>
+</div>        </div>
+              </div>
+                    <div class="views-exposed-widget views-submit-button">
+      <input class="ctools-use-ajax ctools-auto-submit-click js-hide form-submit" type="submit" id="edit-submit-gallery" name="" value="Apply" />    </div>
+      </div>
+</div>
+</div></form>  </div>
+</div>
+          </div>
+        
+        
+
+          <div class="main_content">
+            <h1 id="page-title">
+              Gallery            </h1>
+              <div id="block-system-main" class="block block-system">
+    
+  <div class="content">
+    <div class="view view-gallery view-id-gallery view-display-id-page_1 view-dom-id-c2049585c8d952c76453bd5c74dec0a5">
+        
+  
+  
+      <div class="view-content">
+      
+<div class="views-view-grid cols-3">
+  
+  <div>
+          <div class="row-1 row-first">
+                  <div class="col col-1 col-first">
+              
+  <div class="views-field views-field-field-gallery-images">        <div class="field-content"><a href="/history-repeats-itself-wind-ensemble-university-band"><img typeof="foaf:Image" src="https://theatreandmusic.uic.edu/sites/default/files/styles/max_width/public/gallery/IMG_0132_0.jpg?itok=PSPXLbvg" width="792" height="456" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/history-repeats-itself-wind-ensemble-university-band">As History Repeats Itself - Wind Ensemble &amp; University Band</a></span>  </div>  
+  <div class="views-field views-field-field-gallery-date">        <div class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2017-04-18T00:00:00-05:00">Tue, 04/18/2017</span> - <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2017-04-18T00:00:00-05:00">Tue, 04/18/2017</span> </div>  </div>  
+  <div class="views-field views-field-field-gallery-tag">        <div class="field-content">Department of Music</div>  </div>          </div>
+                  <div class="col col-2">
+              
+  <div class="views-field views-field-field-gallery-images">        <div class="field-content"><a href="/mariachi-fuego"><img typeof="foaf:Image" src="https://theatreandmusic.uic.edu/sites/default/files/styles/max_width/public/gallery/33728897863_b45c7c7002_o.jpg?itok=uzK_bQYY" width="792" height="456" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/mariachi-fuego">Mariachi Fuego</a></span>  </div>  
+  <div class="views-field views-field-field-gallery-date">        <div class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2017-05-05T00:00:00-05:00">Fri, 05/05/2017</span> - <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2017-05-05T00:00:00-05:00">Fri, 05/05/2017</span> </div>  </div>  
+  <div class="views-field views-field-field-gallery-tag">        <div class="field-content">Department of Music</div>  </div>          </div>
+                  <div class="col col-3 col-last">
+              
+  <div class="views-field views-field-field-gallery-images">        <div class="field-content"><a href="/lifes-dream"><img typeof="foaf:Image" src="https://theatreandmusic.uic.edu/sites/default/files/styles/max_width/public/gallery/DSC_6460_1.jpg?itok=LN_KRdcH" width="792" height="456" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/lifes-dream">Life&#039;s a Dream</a></span>  </div>  
+  <div class="views-field views-field-field-gallery-date">        <div class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2017-03-31T00:00:00-05:00">Fri, 03/31/2017</span> - <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2017-04-09T00:00:00-05:00">Sun, 04/09/2017</span> </div>  </div>  
+  <div class="views-field views-field-field-gallery-tag">        <div class="field-content">Department of Theatre</div>  </div>          </div>
+              </div>
+          <div class="row-2">
+                  <div class="col col-1 col-first">
+              
+  <div class="views-field views-field-field-gallery-images">        <div class="field-content"><a href="/glengarry-glen-ross"><img typeof="foaf:Image" src="https://theatreandmusic.uic.edu/sites/default/files/styles/max_width/public/gallery/DSC_9032.jpg?itok=wbzq391n" width="792" height="456" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/glengarry-glen-ross">Glengarry Glen Ross</a></span>  </div>  
+  <div class="views-field views-field-field-gallery-date">        <div class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2017-02-17T00:00:00-06:00">Fri, 02/17/2017</span> - <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2017-02-26T00:00:00-06:00">Sun, 02/26/2017</span> </div>  </div>  
+  <div class="views-field views-field-field-gallery-tag">        <div class="field-content">Department of Theatre</div>  </div>          </div>
+                  <div class="col col-2">
+              
+  <div class="views-field views-field-field-gallery-images">        <div class="field-content"><a href="/secret-wings"><img typeof="foaf:Image" src="https://theatreandmusic.uic.edu/sites/default/files/styles/max_width/public/gallery/The%20Secret%20In%20The%20Wings0639.jpg?itok=c7shyMGJ" width="792" height="456" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/secret-wings">The Secret in the Wings</a></span>  </div>  
+  <div class="views-field views-field-field-gallery-date">        <div class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2016-11-11T00:00:00-06:00">Fri, 11/11/2016</span> - <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2016-11-20T00:00:00-06:00">Sun, 11/20/2016</span> </div>  </div>  
+  <div class="views-field views-field-field-gallery-tag">        <div class="field-content">Department of Theatre</div>  </div>          </div>
+                  <div class="col col-3 col-last">
+              
+  <div class="views-field views-field-field-gallery-images">        <div class="field-content"><a href="/va-pensiero-0"><img typeof="foaf:Image" src="https://theatreandmusic.uic.edu/sites/default/files/styles/max_width/public/gallery/%20UIC%20Va%20Pensiero0998SM.JPG?itok=T2DOgaMl" width="792" height="456" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/va-pensiero-0">Va Pensiero</a></span>  </div>  
+  <div class="views-field views-field-field-gallery-date">        <div class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2016-11-19T00:00:00-06:00">Sat, 11/19/2016</span> - <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2016-11-19T00:00:00-06:00">Sat, 11/19/2016</span> </div>  </div>  
+  <div class="views-field views-field-field-gallery-tag">        <div class="field-content">Department of Music</div>  </div>          </div>
+              </div>
+          <div class="row-3">
+                  <div class="col col-1 col-first">
+              
+  <div class="views-field views-field-field-gallery-images">        <div class="field-content"><a href="/story-fall-2016"><img typeof="foaf:Image" src="https://theatreandmusic.uic.edu/sites/default/files/styles/max_width/public/gallery/DSC_6741.jpg?itok=_LYqfO4o" width="792" height="456" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/story-fall-2016">The Story (Fall 2016)</a></span>  </div>  
+  <div class="views-field views-field-field-gallery-date">        <div class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2016-09-30T00:00:00-05:00">Fri, 09/30/2016</span> - <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2016-10-09T00:00:00-05:00">Sun, 10/09/2016</span> </div>  </div>  
+  <div class="views-field views-field-field-gallery-tag">        <div class="field-content"></div>  </div>          </div>
+                  <div class="col col-2">
+              
+  <div class="views-field views-field-field-gallery-images">        <div class="field-content"><a href="/node/86"><img typeof="foaf:Image" src="https://theatreandmusic.uic.edu/sites/default/files/styles/max_width/public/gallery/DSC_0387.jpg?itok=Mr8Irx0U" width="792" height="456" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/node/86">A View from the Bridge (Fall 2015)</a></span>  </div>  
+  <div class="views-field views-field-field-gallery-date">        <div class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2015-10-02T00:00:00-05:00">Fri, 10/02/2015</span> - <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2015-10-11T00:00:00-05:00">Sun, 10/11/2015</span> </div>  </div>  
+  <div class="views-field views-field-field-gallery-tag">        <div class="field-content">Department of Theatre</div>  </div>          </div>
+                  <div class="col col-3 col-last">
+              
+  <div class="views-field views-field-field-gallery-images">        <div class="field-content"><a href="/node/82"><img typeof="foaf:Image" src="https://theatreandmusic.uic.edu/sites/default/files/styles/max_width/public/gallery/DSC_0056_0.jpg?itok=XfJUnYaA" width="792" height="456" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/node/82">Passing Strange (Spring, 2016)</a></span>  </div>  
+  <div class="views-field views-field-field-gallery-date">        <div class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2016-04-08T00:00:00-05:00">Fri, 04/08/2016</span> - <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2016-04-17T00:00:00-05:00">Sun, 04/17/2016</span> </div>  </div>  
+  <div class="views-field views-field-field-gallery-tag">        <div class="field-content">Department of Theatre</div>  </div>          </div>
+              </div>
+          <div class="row-4">
+                  <div class="col col-1 col-first">
+              
+  <div class="views-field views-field-field-gallery-images">        <div class="field-content"><a href="/node/85"><img typeof="foaf:Image" src="https://theatreandmusic.uic.edu/sites/default/files/styles/max_width/public/gallery/DSC_2613.jpg?itok=USSKLiP3" width="792" height="456" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/node/85">SNAFU (Spring, 2016)</a></span>  </div>  
+  <div class="views-field views-field-field-gallery-date">        <div class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2016-02-19T00:00:00-06:00">Fri, 02/19/2016</span> - <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2016-02-28T00:00:00-06:00">Sun, 02/28/2016</span> </div>  </div>  
+  <div class="views-field views-field-field-gallery-tag">        <div class="field-content">Department of Theatre</div>  </div>          </div>
+                  <div class="col col-2">
+              
+  <div class="views-field views-field-field-gallery-images">        <div class="field-content"><a href="/node/83"><img typeof="foaf:Image" src="https://theatreandmusic.uic.edu/sites/default/files/styles/max_width/public/gallery/DSC_8598.jpg?itok=qvLPHTaZ" width="792" height="456" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/node/83">As You Like It (Fall, 2015)</a></span>  </div>  
+  <div class="views-field views-field-field-gallery-date">        <div class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2015-11-13T00:00:00-06:00">Fri, 11/13/2015</span> - <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2015-11-22T00:00:00-06:00">Sun, 11/22/2015</span> </div>  </div>  
+  <div class="views-field views-field-field-gallery-tag">        <div class="field-content">Department of Theatre</div>  </div>          </div>
+                  <div class="col col-3 col-last">
+              
+  <div class="views-field views-field-field-gallery-images">        <div class="field-content"><a href="/node/78"><img typeof="foaf:Image" src="https://theatreandmusic.uic.edu/sites/default/files/styles/max_width/public/gallery/IMG_3362.JPG?itok=OR5Jia9X" width="792" height="456" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/node/78">Holiday Concert 2015</a></span>  </div>  
+  <div class="views-field views-field-field-gallery-date">        <div class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2015-12-05T00:00:00-06:00">Sat, 12/05/2015</span>  </div>  </div>  
+  <div class="views-field views-field-field-gallery-tag">        <div class="field-content"></div>  </div>          </div>
+              </div>
+          <div class="row-5">
+                  <div class="col col-1 col-first">
+              
+  <div class="views-field views-field-field-gallery-images">        <div class="field-content"><a href="/commencement-party-2015"><img typeof="foaf:Image" src="https://theatreandmusic.uic.edu/sites/default/files/styles/max_width/public/gallery/IMG_2724.JPG?itok=jJSyHSrA" width="792" height="456" alt="" title="Class of 2015 - School of Theatre &amp; Music" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/commencement-party-2015">Commencement Party 2015</a></span>  </div>  
+  <div class="views-field views-field-field-gallery-date">        <div class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2015-05-09T00:00:00-05:00">Sat, 05/09/2015</span> - <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2015-05-09T00:00:00-05:00">Sat, 05/09/2015</span> </div>  </div>  
+  <div class="views-field views-field-field-gallery-tag">        <div class="field-content"></div>  </div>          </div>
+                  <div class="col col-2">
+              
+  <div class="views-field views-field-field-gallery-images">        <div class="field-content"><a href="/node/84"><img typeof="foaf:Image" src="https://theatreandmusic.uic.edu/sites/default/files/styles/max_width/public/gallery/MSB_4615.jpg?itok=2PDr2LPh" width="792" height="456" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/node/84">A Matter of Life and Death (Spring, 2015)</a></span>  </div>  
+  <div class="views-field views-field-field-gallery-date">        <div class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2015-04-10T00:00:00-05:00">Fri, 04/10/2015</span> - <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2015-04-25T00:00:00-05:00">Sat, 04/25/2015</span> </div>  </div>  
+  <div class="views-field views-field-field-gallery-tag">        <div class="field-content">Department of Theatre</div>  </div>          </div>
+                  <div class="col col-3 col-last">
+              
+  <div class="views-field views-field-field-gallery-images">        <div class="field-content"><a href="/piano-lesson-spring-2015"><img typeof="foaf:Image" src="https://theatreandmusic.uic.edu/sites/default/files/styles/max_width/public/gallery/The%20Piano%20Lesson%20Web%20043.jpg?itok=e7xbK-n1" width="792" height="456" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/piano-lesson-spring-2015">The Piano Lesson (Spring, 2015)</a></span>  </div>  
+  <div class="views-field views-field-field-gallery-date">        <div class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2015-02-20T00:00:00-06:00">Fri, 02/20/2015</span> - <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2015-03-01T00:00:00-06:00">Sun, 03/01/2015</span> </div>  </div>  
+  <div class="views-field views-field-field-gallery-tag">        <div class="field-content">Department of Theatre</div>  </div>          </div>
+              </div>
+          <div class="row-6">
+                  <div class="col col-1 col-first">
+              
+  <div class="views-field views-field-field-gallery-images">        <div class="field-content"><a href="/ivanov-fall-2014"><img typeof="foaf:Image" src="https://theatreandmusic.uic.edu/sites/default/files/styles/max_width/public/gallery/Ivanov%202.jpg?itok=syw8944D" width="792" height="456" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/ivanov-fall-2014">Ivanov (Fall, 2014)</a></span>  </div>  
+  <div class="views-field views-field-field-gallery-date">        <div class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2014-11-14T00:00:00-06:00">Fri, 11/14/2014</span> - <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2014-11-23T00:00:00-06:00">Sun, 11/23/2014</span> </div>  </div>  
+  <div class="views-field views-field-field-gallery-tag">        <div class="field-content">Department of Theatre</div>  </div>          </div>
+                  <div class="col col-2">
+              
+  <div class="views-field views-field-field-gallery-images">        <div class="field-content"><a href="/misalliance-fall-2014"><img typeof="foaf:Image" src="https://theatreandmusic.uic.edu/sites/default/files/styles/max_width/public/gallery/Hypatia%20and%20Joey%20flying%20SMALL.jpg?itok=JT4IZyZD" width="792" height="456" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/misalliance-fall-2014">Misalliance (Fall, 2014)</a></span>  </div>  
+  <div class="views-field views-field-field-gallery-date">        <div class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2014-10-03T00:00:00-05:00">Fri, 10/03/2014</span> - <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2014-10-12T00:00:00-05:00">Sun, 10/12/2014</span> </div>  </div>  
+  <div class="views-field views-field-field-gallery-tag">        <div class="field-content">Department of Theatre</div>  </div>          </div>
+                  <div class="col col-3 col-last">
+              
+  <div class="views-field views-field-field-gallery-images">        <div class="field-content"><a href="/2014-jazz-summer-camp"><img typeof="foaf:Image" src="https://theatreandmusic.uic.edu/sites/default/files/styles/max_width/public/gallery/JazzStudents.jpg?itok=koQ40xm3" width="792" height="456" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/2014-jazz-summer-camp">2014 Jazz Summer Camp</a></span>  </div>  
+  <div class="views-field views-field-field-gallery-date">        <div class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2014-07-14T00:00:00-05:00">Mon, 07/14/2014</span> - <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2014-07-25T00:00:00-05:00">Fri, 07/25/2014</span> </div>  </div>  
+  <div class="views-field views-field-field-gallery-tag">        <div class="field-content">Youth Programs</div>  </div>          </div>
+              </div>
+          <div class="row-7">
+                  <div class="col col-1 col-first">
+              
+  <div class="views-field views-field-field-gallery-images">        <div class="field-content"><a href="/2014-symphonic-band-summer-camp"><img typeof="foaf:Image" src="https://theatreandmusic.uic.edu/sites/default/files/styles/max_width/public/gallery/BandRhsl.jpg?itok=IAgjnlvI" width="792" height="456" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/2014-symphonic-band-summer-camp">2014 Symphonic Band Summer Camp</a></span>  </div>  
+  <div class="views-field views-field-field-gallery-date">        <div class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2014-07-28T00:00:00-05:00">Mon, 07/28/2014</span> - <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2014-08-01T00:00:00-05:00">Fri, 08/01/2014</span> </div>  </div>  
+  <div class="views-field views-field-field-gallery-tag">        <div class="field-content">Youth Programs</div>  </div>          </div>
+                  <div class="col col-2">
+              
+  <div class="views-field views-field-field-gallery-images">        <div class="field-content"><a href="/2014-theatre-summer-camp"><img typeof="foaf:Image" src="https://theatreandmusic.uic.edu/sites/default/files/styles/max_width/public/gallery/TheatreStudents1.jpg?itok=b-pDXjQn" width="792" height="456" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/2014-theatre-summer-camp">2014 Theatre Summer Camp</a></span>  </div>  
+  <div class="views-field views-field-field-gallery-date">        <div class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2014-07-14T00:00:00-05:00">Mon, 07/14/2014</span> - <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2014-08-01T00:00:00-05:00">Fri, 08/01/2014</span> </div>  </div>  
+  <div class="views-field views-field-field-gallery-tag">        <div class="field-content">Youth Programs</div>  </div>          </div>
+                  <div class="col col-3 col-last">
+              
+  <div class="views-field views-field-field-gallery-images">        <div class="field-content"><a href="/clybourne-park-spring-2014"><img typeof="foaf:Image" src="https://theatreandmusic.uic.edu/sites/default/files/styles/max_width/public/gallery/Gallery%20Kevin%20Act%202.jpg?itok=JWpa_2HX" width="792" height="456" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/clybourne-park-spring-2014">Clybourne Park (Spring, 2014)</a></span>  </div>  
+  <div class="views-field views-field-field-gallery-date">        <div class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2014-02-21T00:00:00-06:00">Fri, 02/21/2014</span> - <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2014-03-02T00:00:00-06:00">Sun, 03/02/2014</span> </div>  </div>  
+  <div class="views-field views-field-field-gallery-tag">        <div class="field-content">Department of Theatre</div>  </div>          </div>
+              </div>
+          <div class="row-8">
+                  <div class="col col-1 col-first">
+              
+  <div class="views-field views-field-field-gallery-images">        <div class="field-content"><a href="/things-i-found-craigslist-spring-2014"><img typeof="foaf:Image" src="https://theatreandmusic.uic.edu/sites/default/files/styles/max_width/public/gallery/craigslistEnsemble_1.jpg?itok=qEMhtICJ" width="792" height="456" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/things-i-found-craigslist-spring-2014">&quot;...things i found on craigslist&quot; (Spring, 2014) </a></span>  </div>  
+  <div class="views-field views-field-field-gallery-date">        <div class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2014-04-11T00:00:00-05:00">Fri, 04/11/2014</span> - <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2014-04-19T00:00:00-05:00">Sat, 04/19/2014</span> </div>  </div>  
+  <div class="views-field views-field-field-gallery-tag">        <div class="field-content">Department of Theatre</div>  </div>          </div>
+                  <div class="col col-2">
+              
+  <div class="views-field views-field-field-gallery-images">        <div class="field-content"><a href="/twelfth-night-fall-2013"><img typeof="foaf:Image" src="https://theatreandmusic.uic.edu/sites/default/files/styles/max_width/public/gallery/olivia%20web%20gallery.jpg?itok=972lA4-U" width="792" height="456" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/twelfth-night-fall-2013">Twelfth Night (Fall, 2013)</a></span>  </div>  
+  <div class="views-field views-field-field-gallery-date">        <div class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2013-11-15T00:00:00-06:00">Fri, 11/15/2013</span> - <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2013-11-24T00:00:00-06:00">Sun, 11/24/2013</span> </div>  </div>  
+  <div class="views-field views-field-field-gallery-tag">        <div class="field-content">Department of Theatre</div>  </div>          </div>
+                  <div class="col col-3 col-last">
+              
+  <div class="views-field views-field-field-gallery-images">        <div class="field-content"><a href="/new-music-new-school"><img typeof="foaf:Image" src="https://theatreandmusic.uic.edu/sites/default/files/styles/max_width/public/gallery/DG14_03_33_013.jpg?itok=hWSGIzGI" width="792" height="456" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/new-music-new-school">New Music for a New School</a></span>  </div>  
+  <div class="views-field views-field-field-gallery-date">        <div class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2014-03-15T00:00:00-05:00">Sat, 03/15/2014</span> - <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2014-03-15T00:00:00-05:00">Sat, 03/15/2014</span> </div>  </div>  
+  <div class="views-field views-field-field-gallery-tag">        <div class="field-content">Department of Music</div>  </div>          </div>
+              </div>
+          <div class="row-9 row-last">
+                  <div class="col col-1 col-first">
+              
+  <div class="views-field views-field-field-gallery-images">        <div class="field-content"><a href="/eurydice-fall-2013"><img typeof="foaf:Image" src="https://theatreandmusic.uic.edu/sites/default/files/styles/max_width/public/gallery/MSB_5753.jpg?itok=UC3Wn9zy" width="792" height="456" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/eurydice-fall-2013">Eurydice (Fall, 2013)</a></span>  </div>  
+  <div class="views-field views-field-field-gallery-date">        <div class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2013-10-04T00:00:00-05:00">Fri, 10/04/2013</span> - <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2013-10-13T00:00:00-05:00">Sun, 10/13/2013</span> </div>  </div>  
+  <div class="views-field views-field-field-gallery-tag">        <div class="field-content">Department of Theatre</div>  </div>          </div>
+                  <div class="col col-2">
+              
+  <div class="views-field views-field-field-gallery-images">        <div class="field-content"><a href="/ensembles-uic"><img typeof="foaf:Image" src="https://theatreandmusic.uic.edu/sites/default/files/styles/max_width/public/gallery/UICStringOrch_Photo_Osgood_3.jpg?itok=vtO2ab5G" width="792" height="456" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/ensembles-uic">Ensembles at UIC</a></span>  </div>  
+  <div class="views-field views-field-field-gallery-date">        <div class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2014-03-16T00:00:00-05:00">Sun, 03/16/2014</span>  </div>  </div>  
+  <div class="views-field views-field-field-gallery-tag">        <div class="field-content">Department of Music</div>  </div>          </div>
+                  <div class="col col-3 col-last">
+                      </div>
+              </div>
+      </div>
+</div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>
+          </div>
+        
+              </main>
+
+    </div>
+
+    <div class="l-footer-wrapper">
+      <footer id="l-footer" class="l-footer" role="contentinfo">
+        <div class="l-inner">
+          <div class="footer-subsection-1 footer-subsection">
+            <div id="l-footer1" class="l-footer1  ">
+
+                <span class="icon-stack slide-hide">
+                    <a class="icon-circle icon"></a>
+                    <a class="icon-ion-social-facebook icon" href="https://www.facebook.com/UICTheatreandMusic"></a>
+                </span>
+
+                <span class="icon-stack slide-hide">
+                    <a class="icon-circle icon"></a>
+                    <a class="icon-ion-social-twitter icon" href="http://twitter.com/uictheatremusic" ></a>
+
+                </span>
+
+              <a class="icon-ion-social-instagram icon slide-hide"  href="http://instagram.com/uictheatremusic/"></a>
+              <a class="icon-ion-social-youtube icon slide-hide" href="http://www.youtube.com/channel/UCwSTTEFgGyahYfpnpzkNFmQ"></a>
+
+
+                <span class="footer-search">
+                  <span class="icon-ion-ios-search-strong icon" id="search-icon" ></span>
+                  <form action="/gallery" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-ehTxUsMRZ3EdeV88BvY4fnRdcpfTNpTmIPjHc4Fg1m0" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>                </span>
+
+                <span class="footer-mail">
+                  <span class="icon-mail icon" id="mail-icon"></span>
+                  <form id="mailing-list-form" target="vr_optin_popup" onsubmit="window.open( 'http://www.verticalresponse.com', 'vr_optin_popup', 'scrollbars=yes,width=600,height=450' ); return true;" method="post" action="https://oi.vresp.com?fid=430d8b2cbd">
+                    <label class="element-invisible">Enter your email address to subscribe to our mailing list:</label>  <input type="text" size="15" name="email_address" value="subscribe to our mailing list" id="mailing-list-subscribe"> <br> <input type="submit" value="subscribe" class="element-invisible">
+                  </form>
+                </span>
+
+		<!-- Privacy policy -->
+                <span>
+                    <a href="https://www.vpaa.uillinois.edu/resources/web_privacy">Privacy policy</a>
+                </span>	
+
+                              </div>
+          </div>
+
+          <div class="footer-subsection-2 footer-subsection">
+            <div id="l-footer2" class="l-footer2  ">
+              <a class="icon-uicinverse" href="http://uic.edu"></a>
+              <a href="http://cada.uic.edu/">College of Architecture, Design, and the Arts </a>
+                            </div>
+            <div id="l-footer3" class="l-footer3  ">
+              
+                          </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+  </div>
+</div>
+</body>
+</html>

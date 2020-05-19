@@ -1,0 +1,218 @@
+<HTML>
+<HEAD> <TITLE>RT Home</TITLE> </HEAD>
+<BODY>
+
+<H1>Welcome to helpdesk.uic.edu!</H1>
+
+<H2>RT Documentation</H2>
+
+<A HREF="https://accc.uic.edu/service/rt">ACCC RT Documentation</A><BR>
+<A HREF="https://www.uic.edu/wiki/view/TWiki/TagMeSearch?tag=rt&qweb=ACCC.REACH">REACH RT Wiki</A><BR>
+<A HREF="https://training.helpdesk.uic.edu">RT Management video series</A><BR>
+<A HREF="https://wiki.bestpractical.com/">Best Practical RT Wiki</A><BR>
+
+<H2>Current RT Instances</H2>
+
+<TABLE>
+
+  <TR>
+    <TD>rt-aa</TD>
+    <TD><A HREF="https://aa.helpdesk.uic.edu">https://aa.helpdesk.uic.edu</A></TD>
+  </TR>
+
+  <TR>
+    <TD>rt-accc</TD>
+    <TD><A HREF="https://accc.helpdesk.uic.edu">https://accc.helpdesk.uic.edu</A></TD>
+  </TR>
+
+  <TR>
+    <TD>rt-ahs</TD>
+    <TD><A HREF="https://ahs.helpdesk.uic.edu">https://ahs.helpdesk.uic.edu</A></TD>
+  </TR>
+
+  <TR>
+    <TD>rt-bps-dgs</TD>
+    <TD><A HREF="https://bps-dgs.helpdesk.uic.edu">https://bps-dgs.helpdesk.uic.edu</A></TD>
+  </TR>
+
+  <TR>
+    <TD>rt-brl</TD>
+    <TD><A HREF="https://brl.helpdesk.uic.edu">https://brl.helpdesk.uic.edu</A></TD>
+  </TR>
+
+  <TR>
+    <TD>rt-cas</TD>
+    <TD><A HREF="https://cas.helpdesk.uic.edu">https://cas.helpdesk.uic.edu</A></TD>
+  </TR>
+
+  <TR>
+    <TD>rt-cba</TD>
+    <TD><A HREF="https://cba.helpdesk.uic.edu">https://cba.helpdesk.uic.edu</A></TD>
+  </TR>
+
+  <TR>
+    <TD>rt-cc</TD>
+    <TD><A HREF="https://cc.helpdesk.uic.edu">https://cc.helpdesk.uic.edu</A></TD>
+  </TR>
+
+  <TR>
+    <TD>rt-cfl</TD>
+    <TD><A HREF="https://cfl.helpdesk.uic.edu">https://cfl.helpdesk.uic.edu</A></TD>
+  </TR>
+
+  <TR>
+    <TD>rt-coe</TD>
+    <TD><A HREF="https://coe.helpdesk.uic.edu">https://coe.helpdesk.uic.edu</A></TD>
+  </TR>
+
+  <TR>
+    <TD>rt-coip</TD>
+    <TD><A HREF="https://coip.helpdesk.uic.edu">https://coip.helpdesk.uic.edu</A></TD>
+  </TR>
+
+  <TR>
+    <TD>rt-com</TD>
+    <TD><A HREF="https://com.helpdesk.uic.edu">https://com.helpdesk.uic.edu</A></TD>
+  </TR>
+
+  <TR>
+    <TD>rt-con</TD>
+    <TD><A HREF="https://con.helpdesk.uic.edu">https://con.helpdesk.uic.edu</A></TD>
+  </TR>
+
+  <TR>
+    <TD>rt-cte</TD>
+    <TD><A HREF="https://cte.helpdesk.uic.edu">https://cte.helpdesk.uic.edu</A></TD>
+  </TR>
+
+  <TR>
+    <TD>rt-dentistry</TD>
+    <TD><A HREF="https://dentistry.helpdesk.uic.edu">https://dentistry.helpdesk.uic.edu</A></TD>
+  </TR>
+
+  <TR>
+    <TD>rt-dme</TD>
+    <TD><A HREF="https://dme.helpdesk.uic.edu">https://dme.helpdesk.uic.edu</A></TD>
+  </TR>
+
+  <TR>
+    <TD>rt-dom</TD>
+    <TD><A HREF="https://dom.helpdesk.uic.edu">https://dom.helpdesk.uic.edu</A></TD>
+  </TR>
+
+  <TR>
+    <TD>rt-etl</TD>
+    <TD><A HREF="https://etl.helpdesk.uic.edu">https://etl.helpdesk.uic.edu</A></TD>
+  </TR>
+
+  <TR>
+    <TD>rt-exed_tie</TD>
+    <TD><A HREF="https://exed_tie.helpdesk.uic.edu">https://exed_tie.helpdesk.uic.edu</A></TD>
+  </TR>
+
+  <TR>
+    <TD>rt-gme</TD>
+    <TD><A HREF="https://gme.helpdesk.uic.edu">https://gme.helpdesk.uic.edu</A></TD>
+  </TR>
+
+  <TR>
+    <TD>rt-gradcoll</TD>
+    <TD><A HREF="https://gradcoll.helpdesk.uic.edu">https://gradcoll.helpdesk.uic.edu</A></TD>
+  </TR>
+
+  <TR>
+    <TD>rt-healthres</TD>
+    <TD><A HREF="https://healthres.helpdesk.uic.edu">https://healthres.helpdesk.uic.edu</A></TD>
+  </TR>
+
+  <TR>
+    <TD>rt-hosp-adminupdates</TD>
+    <TD><A HREF="https://hosp-adminupdates.helpdesk.uic.edu">https://hosp-adminupdates.helpdesk.uic.edu</A></TD>
+  </TR>
+
+  <TR>
+    <TD>rt-ihrp</TD>
+    <TD><A HREF="https://ihrp.helpdesk.uic.edu">https://ihrp.helpdesk.uic.edu</A></TD>
+  </TR>
+
+  <TR>
+    <TD>rt-jaddams</TD>
+    <TD><A HREF="https://jaddams.helpdesk.uic.edu">https://jaddams.helpdesk.uic.edu</A></TD>
+  </TR>
+
+  <TR>
+    <TD>rt-las</TD>
+    <TD><A HREF="https://las.helpdesk.uic.edu">https://las.helpdesk.uic.edu</A></TD>
+  </TR>
+
+  <TR>
+    <TD>rt-library</TD>
+    <TD><A HREF="https://library.helpdesk.uic.edu">https://library.helpdesk.uic.edu</A></TD>
+  </TR>
+
+  <TR>
+    <TD>rt-lsri</TD>
+    <TD><A HREF="https://lsri.helpdesk.uic.edu">https://lsri.helpdesk.uic.edu</A></TD>
+  </TR>
+
+  <TR>
+    <TD>rt-mede</TD>
+    <TD><A HREF="https://mede.helpdesk.uic.edu">https://mede.helpdesk.uic.edu</A></TD>
+  </TR>
+
+  <TR>
+    <TD>rt-oar</TD>
+    <TD><A HREF="https://oar.helpdesk.uic.edu">https://oar.helpdesk.uic.edu</A></TD>
+  </TR>
+
+  <TR>
+    <TD>rt-oia</TD>
+    <TD><A HREF="https://oia.helpdesk.uic.edu">https://oia.helpdesk.uic.edu</A></TD>
+  </TR>
+
+  <TR>
+    <TD>rt-oir</TD>
+    <TD><A HREF="https://oir.helpdesk.uic.edu">https://oir.helpdesk.uic.edu</A></TD>
+  </TR>
+
+  <TR>
+    <TD>rt-opaa</TD>
+    <TD><A HREF="https://opaa.helpdesk.uic.edu">https://opaa.helpdesk.uic.edu</A></TD>
+  </TR>
+
+  <TR>
+    <TD>rt-ovcr</TD>
+    <TD><A HREF="https://ovcr.helpdesk.uic.edu">https://ovcr.helpdesk.uic.edu</A></TD>
+  </TR>
+
+  <TR>
+    <TD>rt-pga</TD>
+    <TD><A HREF="https://pga.helpdesk.uic.edu">https://pga.helpdesk.uic.edu</A></TD>
+  </TR>
+
+  <TR>
+    <TD>rt-pharm</TD>
+    <TD><A HREF="https://pharm.helpdesk.uic.edu">https://pharm.helpdesk.uic.edu</A></TD>
+  </TR>
+
+  <TR>
+    <TD>rt-rrc</TD>
+    <TD><A HREF="https://rrc.helpdesk.uic.edu">https://rrc.helpdesk.uic.edu</A></TD>
+  </TR>
+
+  <TR>
+    <TD>rt-sph</TD>
+    <TD><A HREF="https://sph.helpdesk.uic.edu">https://sph.helpdesk.uic.edu</A></TD>
+  </TR>
+
+  <TR>
+    <TD>rt-uihhr</TD>
+    <TD><A HREF="https://uihhr.helpdesk.uic.edu">https://uihhr.helpdesk.uic.edu</A></TD>
+  </TR>
+
+</TABLE>
+
+<P>Page last modified on Feb 18, 2020.</P>
+
+</BODY>
+</HTML>

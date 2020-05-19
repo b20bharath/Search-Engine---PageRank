@@ -1,0 +1,2366 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="http://ipconference.jmls.uic.edu/2019/xmlrpc.php">
+
+<title>Speakers</title>
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//cdn.jsdelivr.net' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title=" &raquo; Feed" href="https://ipconference.jmls.uic.edu/2019/feed/" />
+<link rel="alternate" type="application/rss+xml" title=" &raquo; Comments Feed" href="https://ipconference.jmls.uic.edu/2019/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/ipconference.jmls.uic.edu\/2019\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.4.1"}};
+			/*! This file is auto-generated */
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='http://ipconference.jmls.uic.edu/2019/wp-includes/css/dist/block-library/style.min.css?ver=5.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wpfront-scroll-top-css'  href='http://ipconference.jmls.uic.edu/2019/wp-content/plugins/wpfront-scroll-top/css/wpfront-scroll-top.min.css?ver=2.0.2' type='text/css' media='all' />
+<link rel='stylesheet' id='parent-style-css'  href='http://ipconference.jmls.uic.edu/2019/wp-content/themes/karuna/style.css?ver=5.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='karuna-style-css'  href='http://ipconference.jmls.uic.edu/2019/wp-content/themes/karuna/style.css?ver=5.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='_s-style-css'  href='http://ipconference.jmls.uic.edu/2019/wp-content/themes/karuna-child/style.css?ver=1589137722' type='text/css' media='all' />
+<link rel='stylesheet' id='karuna-fonts-css'  href='https://fonts.googleapis.com/css?family=Karla%3A400%2C400italic%2C700%2C700italic&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='genericons-css'  href='http://ipconference.jmls.uic.edu/2019/wp-content/themes/karuna/assets/fonts/genericons/genericons.css?ver=3.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='bfa-font-awesome-css'  href='//cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css?ver=4.7.0' type='text/css' media='all' />
+<script type='text/javascript' src='http://ipconference.jmls.uic.edu/2019/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='http://ipconference.jmls.uic.edu/2019/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://ipconference.jmls.uic.edu/2019/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var force_refresh_js_object = {"ajax_url":"https:\/\/ipconference.jmls.uic.edu\/2019\/wp-admin\/admin-ajax.php","post_id":"102","refresh_interval":"120"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://ipconference.jmls.uic.edu/2019/wp-content/plugins/force-refresh/library/dist/js/force-refresh.built.min.js?ver=1553267499'></script>
+<link rel='https://api.w.org/' href='https://ipconference.jmls.uic.edu/2019/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://ipconference.jmls.uic.edu/2019/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://ipconference.jmls.uic.edu/2019/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.4.1" />
+<link rel="canonical" href="https://ipconference.jmls.uic.edu/2019/speakers/" />
+<link rel='shortlink' href='https://ipconference.jmls.uic.edu/2019/?p=102' />
+<link rel="alternate" type="application/json+oembed" href="https://ipconference.jmls.uic.edu/2019/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fipconference.jmls.uic.edu%2F2019%2Fspeakers%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://ipconference.jmls.uic.edu/2019/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fipconference.jmls.uic.edu%2F2019%2Fspeakers%2F&#038;format=xml" />
+<script type="text/javascript">
+(function(url){
+	if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
+	var addEvent = function(evt, handler) {
+		if (window.addEventListener) {
+			document.addEventListener(evt, handler, false);
+		} else if (window.attachEvent) {
+			document.attachEvent('on' + evt, handler);
+		}
+	};
+	var removeEvent = function(evt, handler) {
+		if (window.removeEventListener) {
+			document.removeEventListener(evt, handler, false);
+		} else if (window.detachEvent) {
+			document.detachEvent('on' + evt, handler);
+		}
+	};
+	var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
+	var logHuman = function() {
+		if (window.wfLogHumanRan) { return; }
+		window.wfLogHumanRan = true;
+		var wfscr = document.createElement('script');
+		wfscr.type = 'text/javascript';
+		wfscr.async = true;
+		wfscr.src = url + '&r=' + Math.random();
+		(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
+		for (var i = 0; i < evts.length; i++) {
+			removeEvent(evts[i], logHuman);
+		}
+	};
+	for (var i = 0; i < evts.length; i++) {
+		addEvent(evts[i], logHuman);
+	}
+})('//ipconference.jmls.uic.edu/2019/?wordfence_lh=1&hid=6D77485EC0DCD67DEE7C3E4DD558F038');
+</script><!-- <meta name="NextGEN" version="3.3.5" /> -->
+<script type="text/javascript" id="sns_global_scripts_in_head">jQuery(document).ready(function($) {
+	var windowSize = $(window).width();
+  	//$( "<style>h2.title:after { width: " + windowSize + "px; }</style>" ).appendTo( "main" );
+  	$('h2.title').css("background-color", "#900");
+  	$('h2.title').css("width", windowSize);
+	var contentwidth=$('div#content').width();
+	$('h2.title').css("margin-left", "-"+((windowSize-contentwidth)/2)+"px");
+	$('h2.title').css("padding-left", ((windowSize-contentwidth)/2)+"px");
+	var entrycontentwidth=$('div.entry-content').width();
+	$('.speakerSection').css("margin-left", "-"+((windowSize-entrycontentwidth)/2)+"px");
+	$('.speakerSection').css("margin-right", "-"+((windowSize-entrycontentwidth)/2)+"px");
+	$('.speakerSection').css("padding-left", ((windowSize-entrycontentwidth)/2)+"px");
+	$('.speakerSection').css("padding-right", ((windowSize-entrycontentwidth)/2)+"px");
+	/*if(windowSize>=1100) {
+		$('h2.title').css("margin-left", "-"+((windowSize-1040)/2)+"px");
+		$('h2.title').css("padding-left", ((windowSize-1040)/2)+"px");
+	}
+    else if(windowSize>=768) {
+		space=windowSize*0.2;
+		if((windowSize-space)>1040) {
+			$('h2.title').css("margin-left", "-"+((windowSize-1040)/2)+"px");
+			$('h2.title').css("padding-left", ((windowSize-1040)/2)+"px");
+		}
+		else {
+			$('h2.title').css("margin-left", "-"+space/2+"px");
+			$('h2.title').css("padding-left", space/2+"px");
+		}	
+    }
+    else {
+		$('h2.title').css("margin-left", "-"+((windowSize*0.1)/2)+"px");
+		$('h2.title').css("padding-left", ((windowSize*0.1)/2)+"px");
+    }*/
+	/*if( windowSize <= 1099 ) {
+		$('#schedulescroll1').html('11/03/2017');
+		$('#schedulescroll2').html('11/04/2017');
+	}
+	else {
+		$('#schedulescroll1').html('Day 1 — November 3, 2017');
+		$('#schedulescroll2').html('Day 2 — November 4, 2017');
+	}*/
+	if(windowSize>425) {
+		h2height=$('h2.lunch').height();
+		$('h2.dinner').css("height", h2height);
+	}
+  	$(window).on('resize', function(event){
+        var width=$('table').width();
+        $('.scheduledays').css("width",width);
+        if($('.sticky-wrapper').hasClass('sticking')) {
+          height=$('.sticky-wrapper').height();
+          $('.scheduledays').css("top",height);
+        }
+        else {
+          $('.scheduledays').css("top",0);
+        }
+		
+		var windowSize = $(window).width();      	
+      	//$( "<style>h2.title:after { width: " + windowSize + "px; }</style>" ).appendTo( "main" );
+      	$('h2.title').css("width", windowSize);
+        var contentwidth=$('div#content').width();
+		$('h2.title').css("margin-left", "-"+((windowSize-contentwidth)/2)+"px");
+		$('h2.title').css("padding-left", ((windowSize-contentwidth)/2)+"px");
+		var entrycontentwidth=$('div.entry-content').width();
+		$('.speakerSection').css("margin-left", "-"+((windowSize-entrycontentwidth)/2)+"px");
+		$('.speakerSection').css("margin-right", "-"+((windowSize-entrycontentwidth)/2)+"px");
+		$('.speakerSection').css("padding-left", ((windowSize-entrycontentwidth)/2)+"px");
+		$('.speakerSection').css("padding-right", ((windowSize-entrycontentwidth)/2)+"px");
+		/*if( windowSize <= 1099 ) {
+			$('#schedulescroll1').html('11/03/2017');
+			$('#schedulescroll2').html('11/04/2017');
+		}
+		else {
+			$('#schedulescroll1').html('Day 1 — November 3, 2017');
+			$('#schedulescroll2').html('Day 2 — November 4, 2017');
+		}*/
+		if(windowSize>425) {
+			h2height=$('h2.lunch').height();
+			$('h2.dinner').css("height", h2height);
+		}
+    });
+
+	$(".schedulescroll").click(function() {
+      	$(".schedulescroll").removeClass("active");
+      	$(this).addClass("active");
+		var id = $(this).attr('target');
+		$('html, body').animate({
+			scrollTop: $(id).offset().top-200
+		}, 800);
+	});
+  	$(window).scroll(function() {
+        width=$('table').width();
+        $('.scheduledays').css("width",width);
+        if($('.sticky-wrapper').hasClass('sticking')) {
+          height=$('.sticky-wrapper').height();
+          $('.scheduledays').css("top",height);
+        }
+        else {
+          $('.scheduledays').css("top",0);
+        }
+      
+      /*height=$('#masthead').outerHeight();
+      if ($(window).scrollTop()>height) {
+          //$('#navbar-container').fadeOut();
+          $('.scheduledays').addClass('sticky');
+          
+      }
+      else {
+          //$('#navbar-container').fadeIn();
+          $('.scheduledays').removeClass('sticky');
+      }*/
+   });
+});</script><link rel="icon" href="https://ipconference.jmls.uic.edu/2019/wp-content/uploads/2019/08/cropped-UIC-SOCIALMEDIA-LOGO-01-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://ipconference.jmls.uic.edu/2019/wp-content/uploads/2019/08/cropped-UIC-SOCIALMEDIA-LOGO-01-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://ipconference.jmls.uic.edu/2019/wp-content/uploads/2019/08/cropped-UIC-SOCIALMEDIA-LOGO-01-180x180.png" />
+<meta name="msapplication-TileImage" content="https://ipconference.jmls.uic.edu/2019/wp-content/uploads/2019/08/cropped-UIC-SOCIALMEDIA-LOGO-01-270x270.png" />
+</head>
+
+<body class="page-template-default page page-id-102 wp-custom-logo">
+<div id="page" class="site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+	<header id="masthead" class="site-header" role="banner">
+
+		<div class="top-bar">
+	<div class="top-bar-wrapper">
+		
+			</div><!-- .top-bar-wrapper -->
+</div><!-- .top-bar -->
+		<div class="sticky-wrapper">
+	<div class="site-branding-wrapper">
+		<div class="site-branding">
+			<a href="https://ipconference.jmls.uic.edu/2019/" class="custom-logo-link" rel="home"><img width="457" height="198" src="https://ipconference.jmls.uic.edu/2019/wp-content/uploads/2019/08/cropped-COL.JMLS_.CIPIPL.LOCKB_.SM_.REDC_.png" class="custom-logo" alt="" srcset="https://ipconference.jmls.uic.edu/2019/wp-content/uploads/2019/08/cropped-COL.JMLS_.CIPIPL.LOCKB_.SM_.REDC_.png 457w, https://ipconference.jmls.uic.edu/2019/wp-content/uploads/2019/08/cropped-COL.JMLS_.CIPIPL.LOCKB_.SM_.REDC_-300x130.png 300w" sizes="(max-width: 457px) 100vw, 457px" /></a>							<p class="site-title"><a href="https://ipconference.jmls.uic.edu/2019/" rel="home"></a></p>
+					</div><!-- .site-branding -->
+
+		<nav id="site-navigation" class="main-navigation" role="navigation">
+	<button class="menu-toggle" aria-controls="top-menu" aria-expanded="false"><span class="genericon genericon-menu"></span>Menu</button>
+	<div class="menu-primary-menu-container"><ul id="top-menu" class="menu"><li id="menu-item-43" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-43"><a href="https://ipconference.jmls.uic.edu/2019/">Home</a></li>
+<li id="menu-item-70" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-70"><a href="https://ipconference.jmls.uic.edu/2019/schedule/">Schedule</a></li>
+<li id="menu-item-113" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-102 current_page_item menu-item-113"><a href="https://ipconference.jmls.uic.edu/2019/speakers/" aria-current="page">Speakers</a></li>
+<li id="menu-item-112" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-112"><a href="https://ipconference.jmls.uic.edu/2019/sponsors/">Sponsors</a></li>
+<li id="menu-item-111" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-111"><a href="https://ipconference.jmls.uic.edu/2019/accommodations/">Accommodations</a></li>
+<li id="menu-item-110" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-110"><a href="https://ipconference.jmls.uic.edu/2019/contact/">Contact</a></li>
+<li id="menu-item-521" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-521"><a href="https://110119ipconference.eventbrite.com">Register</a></li>
+<li id="menu-item-1031" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1031"><a href="https://ipconference.jmls.uic.edu/2019/publicity/">Publicity</a></li>
+<li id="menu-item-1518" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1518"><a href="https://ipconference.jmls.uic.edu/2019/transcripts/">Transcripts</a></li>
+<li id="menu-item-979" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-979"><a href="#">Past Conferences</a>
+<ul class="sub-menu">
+	<li id="menu-item-1342" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1342"><a href="http://ipconference.jmls.uic.edu/2018/">2018</a></li>
+	<li id="menu-item-980" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-980"><a href="https://ipconference.jmls.uic.edu/2017/">2017</a></li>
+</ul>
+</li>
+</ul></div></nav><!-- #site-navigation -->
+			</div><!-- .site-branding-wrapper -->
+</div><!-- .sticky-wrapper -->
+		
+		
+<div class="header-widget-area">
+	<div class="header-widget-area-wrapper">
+		<section id="custom_html-8" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><div class="bgimage">
+
+<div class="top">
+
+<div class="toptext"><p><span>Join Us in Chicago!</span></p>63<sup>rd</sup> Annual<br>Intellectual Property Law Conference</div>
+<p class="bottomtext">Current Developments in Intellectual Property, Information Technology &amp; Privacy Law</p>
+
+</div>
+
+<div class="bottom">
+	<div class="lefttext">
+		<p class="first">Friday, November 1, 2019</p><p class="second">8 a.m. – 6:30 p.m.</p>
+	</div>
+	<div class="righttext">
+		<p><a href="https://110119ipconference.eventbrite.com" class="registerbutton">Register Online</a></p>
+		<p style="line-height: 16px;"><span class="cleCredit"><i>CLE Credit: 8 Hours (pending)</i></span></p>
+	</div>
+</div>
+
+</div></div></section>	</div><!-- .header-widget-area-wrapper -->
+</div><!-- .header-widget-area -->	</header>
+	<div id="content" class="site-content">
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+
+			
+<article id="post-102" class="post-102 page type-page status-publish hentry">
+	<header class="entry-header">
+		<h1 class="entry-title">Speakers</h1>	</header>
+	<div class="entry-content">
+		<h2 class="title spaceOnTop">2019 Conference Faculty</h2>
+<h4 class="spaceOnTop">2019 Keynote Speaker</h4>
+<div>
+<div class="featuredspeakers">
+<div><img src="//ipconference.jmls.uic.edu/2019/wp-content/uploads/2019/04/diane-wood-230x291.jpg" alt=""></div>
+<p><!--
+
+
+<h4 class="talk">"Antitrust &amp; IP: Does It Need to Be Retooled?"</h4>
+
+
+--></p>
+<h4>Hon. Diane P. Wood</h4>
+<p><em>Chief Judge</em>, U.S. Court of Appeals for the Seventh Circuit</p>
+</div>
+<p><!--
+
+
+<div class="featuredspeakers secondlast">&nbsp;</div>
+
+
+
+
+<div class="featuredspeakers">&nbsp;</div>
+
+
+
+
+<div class="featuredspeakers last">&nbsp;</div>
+
+
+--></div>
+<h4 class="spaceOnTop">List of Speakers</h4>
+<div class="clear spaceOnTop"><a class="viewall" href="https://www.dropbox.com/s/6vf4gl2hzrjt0nh/1%20IP%20Conference%20Faculty_PUBLIC.docx?dl=0" target="_blank" rel="noopener noreferrer">View Current List of Conference Faculty</a></div>
+<p><!--
+
+
+<table class="speakerlist" style="height: 2832px;">
+
+
+<tbody>
+
+
+<tr style="height: 24px;">
+
+
+<td class="subtableheader" style="padding-top: 0px; height: 24px; width: 1136px;" colspan="4">Government/Judiciary</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<th style="width: 280px; height: 24px;">Name</th>
+
+
+
+
+<th style="width: 507.2px; height: 24px;">Title</th>
+
+
+
+
+<th style="width: 336.8px; height: 24px;">Organization</th>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">Drew Hirshfeld</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">Commissioner of Patents</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">U.S. Patent and Trademark Office</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">Albert Keyack</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">Attaché to the United States</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">European Patent Office</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">Suzanne Munck</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">Chief Counsel for IP; Deputy Director, Policy Planning</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">U.S. Federal Trade Commission</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">Hon. Pauline Newman</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">Circuit Judge</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">U.S. Court of Appeals for the Federal Circuit</td>
+
+
+</tr>
+
+
+
+
+<tr class="' . $rowbg . ' last" style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">Catherine Rowland</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">Associate Register of Copyrights</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">U.S. Copyright Office</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="subtableheader" style="height: 24px; width: 1136px;" colspan="4">Academia</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<th style="width: 280px; height: 24px;">Name</th>
+
+
+
+
+<th style="width: 507.2px; height: 24px;">Title</th>
+
+
+
+
+<th style="width: 336.8px; height: 24px;">Organization</th>
+
+
+</tr>
+
+
+
+
+<tr style="height: 72px;">
+
+
+<td class="name" style="height: 72px; width: 280px;">Irene Calboli</td>
+
+
+
+
+<td class="title" style="height: 72px; width: 507.2px;">Professor of Law/Visiting Professor</td>
+
+
+
+
+<td class="organization" style="height: 72px; width: 336.8px;">Texas A&amp;M University School of Law/Nanyang Technological University and National University of Singapore Faculty of Law</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">Maureen Collins</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">Professor of Law</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">The John Marshall Law School</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 48px;">
+
+
+<td class="name" style="height: 48px; width: 280px;">James Conley</td>
+
+
+
+
+<td class="title" style="height: 48px; width: 507.2px;">Clinical Professor</td>
+
+
+
+
+<td class="organization" style="height: 48px; width: 336.8px;">Northwestern University Kellogg School of Management</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">Mark Cohen</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">Distinguished Senior Fellow; Director, China Initiative</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">Berkeley Center for Law and Technology</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 48px;">
+
+
+<td class="name" style="height: 48px; width: 280px;">Tom Cotter</td>
+
+
+
+
+<td class="title" style="height: 48px; width: 507.2px;">Briggs and Morgan Chair in Law</td>
+
+
+
+
+<td class="organization" style="height: 48px; width: 336.8px;">University of Minnesota Law School
+(<em>Comparative Patent Remedies Blog</em>)</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 48px;">
+
+
+<td class="name" style="height: 48px; width: 280px;">Dennis Crouch</td>
+
+
+
+
+<td class="title" style="height: 48px; width: 507.2px;">Associate Professor of Law</td>
+
+
+
+
+<td class="organization" style="height: 48px; width: 336.8px;">University of Missouri School of Law
+(<em>Patently-O Blog</em>)</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">Darby Dickerson</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">Dean; Professor of Law</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">The John Marshall Law School</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">Graeme Dinwoodie</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">Global Professor of Intellectual Property Law</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">Chicago-Kent College of Law</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">William K. Ford</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">Professor of Law</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">The John Marshall Law School</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 48px;">
+
+
+<td class="name" style="height: 48px; width: 280px;">Christine Haight Farley</td>
+
+
+
+
+<td class="title" style="height: 48px; width: 507.2px;">Professor of Law</td>
+
+
+
+
+<td class="organization" style="height: 48px; width: 336.8px;">American University Washington College of Law</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 48px;">
+
+
+<td class="name" style="height: 48px; width: 280px;">Hugh Hansen</td>
+
+
+
+
+<td class="title" style="height: 48px; width: 507.2px;">Professor of Law; Director, Fordham Intellectual Property Law Institute</td>
+
+
+
+
+<td class="organization" style="height: 48px; width: 336.8px;">Fordham University School of Law</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 48px;">
+
+
+<td class="name" style="height: 48px; width: 280px;">Cynthia Ho</td>
+
+
+
+
+<td class="title" style="height: 48px; width: 507.2px;">Clifford E. Vickrey Research Professor; Director, Intellectual Property Program</td>
+
+
+
+
+<td class="organization" style="height: 48px; width: 336.8px;">Loyola University Chicago School of Law</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 48px;">
+
+
+<td class="name" style="height: 48px; width: 280px;">Marshall Leaffer</td>
+
+
+
+
+<td class="title" style="height: 48px; width: 507.2px;">Professor of Law; Distinguished Scholar in Intellectual Property Law; University Fellow</td>
+
+
+
+
+<td class="organization" style="height: 48px; width: 336.8px;">Indiana University Maurer School of Law</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">Edward Lee</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">Professor of Law; Director, Program in IP Law</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">Chicago-Kent College of Law</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">Ioannis Lianos</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">Chair, Global Competition Law and Policy</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">Faculty of Laws, University College London</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 48px;">
+
+
+<td class="name" style="height: 48px; width: 280px;">Daryl Lim</td>
+
+
+
+
+<td class="title" style="height: 48px; width: 507.2px;">Professor of Law; Director, Center for Intellectual Property, Information &amp; Privacy Law</td>
+
+
+
+
+<td class="organization" style="height: 48px; width: 336.8px;">The John Marshall Law School</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">Sean O’Connor</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">Boeing International Professor of Law</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">University of Washington School of Law</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 48px;">
+
+
+<td class="name" style="height: 48px; width: 280px;">Guy Rub</td>
+
+
+
+
+<td class="title" style="height: 48px; width: 507.2px;">Professor of Law</td>
+
+
+
+
+<td class="organization" style="height: 48px; width: 336.8px;">The Ohio State University Michael E. Moritz College of Law</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 48px;">
+
+
+<td class="name" style="height: 48px; width: 280px;">Matthew Sag</td>
+
+
+
+
+<td class="title" style="height: 48px; width: 507.2px;">Georgia Reithal Professor of Law; Associate Director, Intellectual Property, Institute for Consumer Antitrust Studies</td>
+
+
+
+
+<td class="organization" style="height: 48px; width: 336.8px;">Loyola University Chicago School of Law</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">Joshua Sarnoff</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">Professor of Law</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">DePaul University College of Law</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 48px;">
+
+
+<td class="name" style="height: 48px; width: 280px;">David Schwartz</td>
+
+
+
+
+<td class="title" style="height: 48px; width: 507.2px;">Stanford Clinton Sr. and Zylpha Kilbride Clinton Research Professor of Law</td>
+
+
+
+
+<td class="organization" style="height: 48px; width: 336.8px;">Northwestern University Pritzker School of Law</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">Shlomit Yanisky-Ravid</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">Visiting Professor/Founder; Academic Director/Fellow</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">Fordham Law School/Shalom Comparative Legal Research Center /Yale Law School, Information Society Project</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">Arthur Yuan</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">Director, Chinese IP Resource Center; Director, Patent Clinic</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">The John Marshall Law School</td>
+
+
+</tr>
+
+
+
+
+<tr class="' . $rowbg . ' last" style="height: 48px;">
+
+
+<td class="name" style="height: 48px; width: 280px;">Peter Yu</td>
+
+
+
+
+<td class="title" style="height: 48px; width: 507.2px;">Professor of Law; Director, Center for Law &amp; Intellectual Property; Professor of Communication</td>
+
+
+
+
+<td class="organization" style="height: 48px; width: 336.8px;">Texas A&amp;M University School of Law</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="subtableheader" style="height: 24px; width: 1136px;" colspan="4">Private Sector</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<th style="width: 280px; height: 24px;">Name</th>
+
+
+
+
+<th style="width: 507.2px; height: 24px;">Title</th>
+
+
+
+
+<th style="width: 336.8px; height: 24px;">Organization</th>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">Carlos Aboim</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">Partner</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">Licks Attorneys</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">Kristin Achterhof</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">Partner</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">Katten Muchin Rosenman LLP</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">Kenneth R. Adamo</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">Partner, Intellectual Property Group</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">Kirkland &amp; Ellis LLP</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">Kira Alvarez</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">Legislative Consultant</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">ABA Section of Intellectual Property Law</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 48px;">
+
+
+<td class="name" style="height: 48px; width: 280px;">Themi Anagnos</td>
+
+
+
+
+<td class="title" style="height: 48px; width: 507.2px;">Deputy General Counsel; Director, Intellectual Property for the Americas</td>
+
+
+
+
+<td class="organization" style="height: 48px; width: 336.8px;">Continental Automotive</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 48px;">
+
+
+<td class="name" style="height: 48px; width: 280px;">Ian Ballon</td>
+
+
+
+
+<td class="title" style="height: 48px; width: 507.2px;">Shareholder; Co-Chair, Global Intellectual Property &amp; Technology Practice Group</td>
+
+
+
+
+<td class="organization" style="height: 48px; width: 336.8px;">Greenberg Traurig LLP</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">Patrick Burns</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">Founding Shareholder</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">Greer, Burns &amp; Crain, Ltd.</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">Scott Alan Burroughs</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">Partner</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">Doniger / Burroughs</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">Mark Campagna</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">Vice President, Patent Enforcement</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">Rovi Corporation, a TiVo Company</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">Christopher V. Carani</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">Partner</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">McAndrews, Held &amp; Malloy, Ltd.</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">Charisse Castagnoli</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">Vice President, Security; General Counsel</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">Trucker Path Inc.</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">Jacqueline Charlesworth</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">Of Counsel</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">Covington &amp; Burling LLP</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">Manus Cooney</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">Partner</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">American Continental Group</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">Gareth Dickson</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">Partner; WIPO UDRP Panelist</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">Taylor Vinters</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">David Djavaherian</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">President</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">PacTech Law, P.C.</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 48px;">
+
+
+<td class="name" style="height: 48px; width: 280px;">Donald Dunner</td>
+
+
+
+
+<td class="title" style="height: 48px; width: 507.2px;">Senior Partner</td>
+
+
+
+
+<td class="organization" style="height: 48px; width: 336.8px;">Finnegan, Henderson, Farabow, Garrett &amp; Dunner, LLP</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">Lisa Dunner</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">Managing Partner</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">Dunner Law PLLC</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">Theodore Essex</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">Counsel</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">Hogan Lovells</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">Mark Feldman</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">Senior Counsel</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">DLA Piper</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">Jomarie Fredericks</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">Deputy General Counsel; Chief Intellectual Property Counsel</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">Rotary International</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 48px;">
+
+
+<td class="name" style="height: 48px; width: 280px;">Gary Friedlander</td>
+
+
+
+
+<td class="title" style="height: 48px; width: 507.2px;">Senior Vice President; Division General Counsel, International Operations &amp; Global IP</td>
+
+
+
+
+<td class="organization" style="height: 48px; width: 336.8px;">TransUnion LLC</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">Hon. Arthur Gajarsa (ret.)</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">Senior Counsel</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">Wilmer Cutler Pickering Hale and Dorr LLP</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">Jim Ginsburg</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">President</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">Chicago Classical Recording Foundation</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 48px;">
+
+
+<td class="name" style="height: 48px; width: 280px;">Nicholas Groombridge</td>
+
+
+
+
+<td class="title" style="height: 48px; width: 507.2px;">Partner/Immediate Past President</td>
+
+
+
+
+<td class="organization" style="height: 48px; width: 336.8px;">Paul, Weiss, Rifkind, Wharton &amp; Garrison LLP/Federal Circuit Bar Association</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">David Haas</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">Managing Director, Dispute Consulting Group</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">Stout Risius Ross</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">Tobias Hahn</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">Partner</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">HOYNG ROKH MONEGIER</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">Jeffery Handelman</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">Shareholder</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">Brinks Hofer Gilson &amp; Lione</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">Terry Hart</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">VP Legal Policy; Copyright Counsel</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">Copyright Alliance</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">Reginald Hill</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">Partner</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">Jenner &amp; Block</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">Arica Hilton</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">President</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">Hilton Asmus Contemporary</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 48px;">
+
+
+<td class="name" style="height: 48px; width: 280px;">Jonathan Jennings</td>
+
+
+
+
+<td class="title" style="height: 48px; width: 507.2px;">Partner</td>
+
+
+
+
+<td class="organization" style="height: 48px; width: 336.8px;">Pattishall, McAuliffe, Newbury, Hilliard &amp; Geraldson LLP</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">Lisa Jorgenson</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">Executive Director</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">AIPLA</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">David Kappos</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">Partner</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">Cravath, Swaine &amp; Moore LLP</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">Adam G. Kelly</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">Partner</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">Loeb &amp; Loeb LLP</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">Thomas Kjellberg</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">Partner</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">Cowan, Liebowitz &amp; Latman</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">Jay Krames</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">Director</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">PricewaterhouseCoopers</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">Jim Lai</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">Cyber Risk Manager</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">KPMG</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">Maria Maras</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">Senior Legal Counsel, IP Litigation</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">Accenture</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">Alice Martin</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">Partner</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">Barnes &amp; Thornburg LLP</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">William T. McGrath</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">Partner</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">Davis McGrath LLC</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">Antony J. McShane</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">Partner</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">Neal, Gerber &amp; Eisenberg LLP</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">Alejandro Menchaca</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">Shareholder</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">McAndrews, Held &amp; Malloy, Ltd.</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">Robert Newman</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">Partner</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">Loeb &amp; Loeb LLP</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">Kenneth Ng</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">Partner</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">Chang Tsi &amp; Partners</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">Kevin Noonan</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">Partner</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">McDonnell Boehnen Hulbert &amp; Berghoff LLP</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">Kevin Parks</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">Member</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">Leydig, Voit &amp; Mayer, Ltd.</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">David Poell</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">Associate</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">Sheppard, Mullin, Richter &amp; Hampton LLP</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">Glenn Pudelka</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">President/Counsel</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">Copyright Society of the USA/Locke Lord LLP</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">Gene Quinn&nbsp;</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">Patent Attorney; Publisher</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">IPWatchdog, Inc.</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">Rick Sanders</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">Partner</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">Aaron &amp; Sanders, PLLC</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">Hans Sauer</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">Deputy General Counsel; Vice President, Intellectual Property</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">BIO</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">Martin Schwimmer</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">Partner</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">Leason Ellis LLP</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">Jeffrey Sharp</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">Managing Partner</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">Marshall, Gerstein &amp; Borun LLP</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">Charles Shifley</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">Partner</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">Banner &amp; Witcoff, Ltd</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">Thomas Smedinghoff</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">Of Counsel</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">Locke Lord LLP</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">Brett Sylvester</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">Partner</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">Sughrue Mion PLLC</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">Monica Thompson</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">Partner</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">TottisLaw</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">Detlef von Ahsen</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">Partner</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">Kuhnen &amp; Wacker</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">Marci Rolnik Walker</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">Legal Director</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">Lawyers for the Creative Arts</td>
+
+
+</tr>
+
+
+
+
+<tr style="height: 24px;">
+
+
+<td class="name" style="height: 24px; width: 280px;">Annsley Merelle Ward</td>
+
+
+
+
+<td class="title" style="height: 24px; width: 507.2px;">Senior Associate</td>
+
+
+
+
+<td class="organization" style="height: 24px; width: 336.8px;">Bristows / IPKAT</td>
+
+
+</tr>
+
+
+</tbody>
+
+
+</table>
+
+
+--></p>
+	</div>
+	<footer class="entry-footer">
+			</footer>
+</article><!-- #post-## -->
+		</main>
+	</div>
+
+<aside id="secondary" class="widget-area" role="complementary">
+	<section id="custom_html-17" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><h5 class="script">Join Us in Chicago!</h5>
+<a href="https://110119ipconference.eventbrite.com" class="registerbutton" target="_self" rel="noopener noreferrer">Register Online</a>
+<p>CLE Credit: 8 Hours (pending)
+<br><br>
+$545 general registration<br>
+$295 in-house counsel/non-profit/small-firm registration
+<br><br>
+Free for JMLS Students, Faculty, Adjuncts, Staff, and IP Advisory Board Members
+<br><br>
+<em>Limited scholarships available for 2017–2019 JMLS graduates, non-JMLS law students, academics, and government employees.</em>
+</p></div></section><section id="custom_html-19" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><h5>Contact Us</h5>
+<p>For inquiries, please contact Daryl Lim at <a href="mailto:daryllim@jmls.edu">daryllim@jmls.edu</a>.</p></div></section></aside>
+					<div class="full-width-widget-area widget-area">
+				<section id="custom_html-13" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"></div></section>			</div>
+			</div><!-- #content -->
+	<footer id="colophon" class="site-footer" role="contentinfo">
+		<div class="footer-widgets-wrapper">
+			<div class="left">          	
+				<h5 class="script">Join Us in Chicago!</h5>
+				<a href="https://110119ipconference.eventbrite.com/" target="_blank" class="registerbutton">Register Online</a>
+			</div>
+			<div class="middle">
+				<p>&copy; 2020 UIC John Marshall Law School</p>
+				<p><a href="//ipconference.jmls.edu/2019/">Home</a> | 
+                   <a href="//ipconference.jmls.edu/2019/schedule/">Schedule</a> | 
+				   <a href="//ipconference.jmls.edu/2019/speakers/">Speakers</a> | 
+				   <a href="//ipconference.jmls.edu/2019/sponsors/">Sponsors</a> | 
+				   <a href="//ipconference.jmls.edu/2019/accommodations/">Accommodations</a> | 
+				   <a href="//ipconference.jmls.edu/2019/contact/">Contact</a> |
+					<a href="//www.vpaa.uillinois.edu/resources/web_privacy">Privacy Statement</a>
+				</p>
+				<p>For inquiries, please contact Daryl Lim at <a href="mailto:daryllim@jmls.edu">daryllim@jmls.edu</a>.</p>
+			</div>
+			<div class="right">
+				<h5>Stay Connected With Us</h5>
+				<a href="https://twitter.com/CenterforIPLaw" target="_blank"><img class="socialicon" src="//ipconference.jmls.edu/wp-content/uploads/2017/08/icon_color_twitter.png"></a>
+				<a href="https://www.facebook.com/centerforiplaw/" target="_blank"><img class="socialicon"  src="//ipconference.jmls.edu/wp-content/uploads/2017/08/icon_color_facebook.png"></a>
+			</div>
+		</div>	
+	</footer>
+</div><!-- #page -->
+<!-- ngg_resource_manager_marker --><script type='text/javascript' src='http://ipconference.jmls.uic.edu/2019/wp-content/plugins/wpfront-scroll-top/js/wpfront-scroll-top.min.js?ver=2.0.2'></script>
+<script type='text/javascript' src='http://ipconference.jmls.uic.edu/2019/wp-content/themes/karuna/assets/js/navigation.js?ver=20151215'></script>
+<script type='text/javascript' src='http://ipconference.jmls.uic.edu/2019/wp-content/themes/karuna/assets/js/skip-link-focus-fix.js?ver=20151215'></script>
+<script type='text/javascript' src='http://ipconference.jmls.uic.edu/2019/wp-content/themes/karuna/assets/js/functions.js?ver=20160531'></script>
+<script type='text/javascript' src='http://ipconference.jmls.uic.edu/2019/wp-includes/js/wp-embed.min.js?ver=5.4.1'></script>
+	<a class="optanon-show-settings optanon-show-settings-default">Cookie&nbsp;Settings</a>
+	<script src="https://cdn.cookielaw.org/consent/f5cc0259-ebf9-460e-b628-c1d661e5d3b6.js" type="text/javascript" charset="UTF-8"></script>
+	<script type="text/javascript">function OptanonWrapper() {}</script>
+	<style type="text/css">
+		.optanon-show-settings-popup-wrapper {
+			z-index: 10001;
+			position: absolute;
+		}						
+	</style>
+	
+
+
+    <div id="wpfront-scroll-top-container">
+        <img src="//ipconference.jmls.edu/2019/wp-content/uploads/2017/08/backtotop.png" alt="" />    </div>
+    <script type="text/javascript">function wpfront_scroll_top_init() {if(typeof wpfront_scroll_top == "function" && typeof jQuery !== "undefined") {wpfront_scroll_top({"scroll_offset":100,"button_width":42,"button_height":42,"button_opacity":1,"button_fade_duration":200,"scroll_duration":400,"location":1,"marginX":0,"marginY":100,"hide_iframe":false,"auto_hide":false,"auto_hide_after":2,"button_action":"top","button_action_element_selector":"","button_action_container_selector":"html, body","button_action_element_offset":0});} else {setTimeout(wpfront_scroll_top_init, 100);}}wpfront_scroll_top_init();</script>
+</body>
+</html>

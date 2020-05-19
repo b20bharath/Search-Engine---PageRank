@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<!--[if lt IE 9 ]>    <html class="lt-ie9 no-js"  lang="en" dir="ltr"> <![endif]-->
+<!--[if gte IE 9]><!--> <html class="no-js"  lang="en" dir="ltr"  prefix="content: http://purl.org/rss/1.0/modules/content/
+ dc: http://purl.org/dc/terms/
+ foaf: http://xmlns.com/foaf/0.1/
+ og: http://ogp.me/ns#
+ rdfs: http://www.w3.org/2000/01/rdf-schema#
+ sioc: http://rdfs.org/sioc/ns#
+ sioct: http://rdfs.org/sioc/types#
+ skos: http://www.w3.org/2004/02/skos/core#
+ xsd: http://www.w3.org/2001/XMLSchema#
+"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+<link rel="shortcut icon" href="https://arch.uic.edu/sites/all/themes/archweb/favicons/favicon-32x32.png" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<script type="application/ld+json">
+{"@context":"http:\/\/schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"name":"Programs","@id":"https:\/\/arch.uic.edu\/programs"}}]}
+</script><meta name="description" content="HiArch is UIC&#039;s introductory summer architecture program for current high school students. The program introduces students to architectural ways of thinking and making through class tutorials, studio time, one-on-one desk critiques and group discussions." />
+<meta name="generator" content="Drupal 7 (https://www.drupal.org)" />
+<link rel="canonical" href="https://arch.uic.edu/HiArch" />
+<link rel="shortlink" href="https://arch.uic.edu/node/36" />
+    <title>HiArch: Summer High School Architecture Workshop | Architecture at UIC</title>
+    <!-- Favicons from realfavicongenerator -->
+    <link rel="apple-touch-icon" sizes="57x57" href="sites/all/themes/archweb/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="sites/all/themes/archweb/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="sites/all/themes/archweb/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="sites/all/themes/archweb/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="sites/all/themes/archweb/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="sites/all/themes/archweb/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="sites/all/themes/archweb/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="sites/all/themes/archweb/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="sites/all/themes/archweb/favicons/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="sites/all/themes/archweb/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="sites/all/themes/archweb/favicons/favicon-194x194.png" sizes="194x194">
+    <link rel="icon" type="image/png" href="sites/all/themes/archweb/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="sites/all/themes/archweb/favicons/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="sites/all/themes/archweb/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="sites/all/themes/archweb/favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#0074f8">
+    <meta name="msapplication-TileImage" content="sites/all/themes/archweb/favicons/mstile-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+
+
+    <link rel="stylesheet" href="https://arch.uic.edu/sites/arch.uic.edu/files/css/css_kShW4RPmRstZ3SpIC-ZvVGNFVAi0WEMuCnI0ZkYIaFw.css" />
+<link rel="stylesheet" href="https://arch.uic.edu/sites/arch.uic.edu/files/css/css_uOcnmSEPANjCJCKsEchj-B6BXgSLMrHl8rsliHLJEHM.css" />
+<link rel="stylesheet" href="https://arch.uic.edu/sites/arch.uic.edu/files/css/css_lsxdGM1uBogAnqN51tfBD8vR-gpNjbJaYuAXsiYrKnA.css" />
+<link rel="stylesheet" href="https://arch.uic.edu/sites/arch.uic.edu/files/css/css_Y4dD8MSFtjTOKt5cJ61PlCEV1xaFMSCti0lkF2q5R6c.css" />
+<link rel="stylesheet" href="https://arch.uic.edu/sites/arch.uic.edu/files/css/css_P4WkatWxlhFH-k9p8T3-7gOEqVoY6aK80fR8dupwwxo.css" media="print" />
+    <script src="https://arch.uic.edu/sites/all/libraries/modernizr/modernizr.min.js?pynsge"></script>
+<script src="https://arch.uic.edu/sites/arch.uic.edu/files/js/js_E1jmc43oJz4fh4mf-rN93JABFUUucyR1e1Z8zEjwZ9E.js"></script>
+<script src="https://arch.uic.edu/sites/arch.uic.edu/files/js/js_rsGiM5M1ffe6EhN-RnhM5f3pDyJ8ZAPFJNKpfjtepLk.js"></script>
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-55456113-5", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga("send", "pageview");</script>
+<script src="https://arch.uic.edu/sites/arch.uic.edu/files/js/js_gLGV8jnKfGn3XClc37dbq-iGXoBfbf8PeM1ju6wHfrY.js"></script>
+<script>(function(){var e={kitId:"; Information added by Drupal.org packaging script on 2015-02-11",scriptTimeout:3e3},t=document.getElementsByTagName("html")[0];t.className+=" wf-loading";var n=setTimeout(function(){t.className=t.className.replace(/(\s|^)wf-loading(\s|$)/g," "),t.className+=" wf-inactive"},e.scriptTimeout),r=document.createElement("script"),i=!1;r.src="//use.typekit.net/"+e.kitId+".js",r.type="text/javascript",r.async="true",r.onload=r.onreadystatechange=function(){var t=this.readyState;if(i||t&&t!="complete"&&t!="loaded")return;i=!0,clearTimeout(n);try{Typekit.load(e)}catch(r){}};var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(r,s)})()</script>
+<script src="https://arch.uic.edu/sites/arch.uic.edu/files/js/js_IWb8-3nGAyVMdsEPje70tPR5A8vkf5LSsLjZuH4WCSs.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"archweb","theme_token":"JK5uu-y7093f4k5LbHVTFcITEOd_d2y73RURL9C7r7A","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/flexslider\/assets\/css\/flexslider_img.css":1,"sites\/all\/libraries\/flexslider\/flexslider.css":1,"sites\/all\/themes\/archweb\/css\/style.css":1,"sites\/all\/themes\/archweb\/css\/print.css":1},"js":{"sites\/all\/modules\/flexslider\/assets\/js\/flexslider.load.js":1,"sites\/all\/libraries\/modernizr\/modernizr.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/jquery\/2.1\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"0":1,"sites\/all\/libraries\/flexslider\/jquery.flexslider-min.js":1,"1":1,"sites\/all\/themes\/archweb\/js\/jquery.matchHeight.js":1,"sites\/all\/themes\/archweb\/js\/scripts.js":1,"sites\/all\/themes\/archweb\/js\/donate.js":1}},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"flexslider":{"optionsets":{"default":{"namespace":"flex-","selector":".slides \u003E li","easing":"swing","direction":"horizontal","reverse":false,"smoothHeight":false,"startAt":0,"animationSpeed":600,"initDelay":0,"useCSS":true,"touch":true,"video":false,"keyboard":true,"multipleKeyboard":false,"mousewheel":0,"controlsContainer":".flex-control-nav-container","sync":"","asNavFor":"","itemWidth":0,"itemMargin":0,"minItems":0,"maxItems":0,"move":0,"animation":"fade","slideshow":false,"slideshowSpeed":"7000","directionNav":true,"controlNav":true,"prevText":"","nextText":"","pausePlay":false,"pauseText":"Pause","playText":"Play","randomize":false,"thumbCaptions":false,"thumbCaptionsBoth":false,"animationLoop":true,"pauseOnAction":true,"pauseOnHover":false,"manualControls":""}},"instances":{"flexslider-1":"default"}}});</script>
+  </head>
+  <body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-36 node-type-program left-side-menu" >
+    <div id="skip-link">
+      <a href="#main" class="element-invisible element-focusable" role="link">Skip to main content</a>
+    </div>
+        <div id="l-wrapper" class="l-wrapper">
+  <div class="background-image background-image--cover"></div>
+  <div id="l-page" class="l-page">
+    <div class="l-header-wrapper">
+      <header id="l-header" class="l-header" role="banner">
+        <div class="l-inner">
+          <!--    Color logo for front page, B/W for others     -->
+
+          <div class="logo" id="logo">
+              <a href="/" title="Home" rel="home" >
+                <img src="https://arch.uic.edu/sites/all/themes/archweb/logo.png" alt="Home" />
+              </a>
+          </div>
+          <!--  END Color logo for front page, B/W for others     -->
+
+          <div id="l-icons" class="l-icons">
+            <div class="i-inner">
+              <span class="icon-ion-android-menu mobile-menu-toggle js-mobile-menu-toggle" ></span>
+              &nbsp;
+
+            </div>
+
+          </div>
+
+
+          <div id="l-navigation" class="l-navigation" role="navigation">
+            <nav>
+                <div id="block-menu-block-1" class="block block-menu-block">
+
+    
+  <div class="content">
+    <div class="menu-block-wrapper menu-block-1 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="first leaf has-children menu-mlid-417 top-border collapsed menu-1-collapse"><a href="/directors-message" title="">About</a></li>
+<li class="leaf has-children menu-mlid-420 top-border collapsed menu-1-collapse"><a href="/people">People</a></li>
+<li class="leaf has-children menu-mlid-426 third top-border collapsed menu-1-collapse"><a href="/apply">Apply</a></li>
+<li class="leaf menu-mlid-646 collapsed menu-1-collapse"><a href="/news" title="">News</a></li>
+<li class="leaf has-children active-trail menu-mlid-421 collapsed menu-1-collapse"><a href="/programs" class="active-trail">Programs</a></li>
+<li class="leaf has-children menu-mlid-430 third collapsed menu-1-collapse"><a href="/giving" title="">Give</a></li>
+<li class="leaf has-children menu-mlid-533 collapsed menu-1-collapse"><a href="/events" title="">Events</a></li>
+<li class="leaf has-children menu-mlid-425 collapsed menu-1-collapse"><a href="/work">Work</a></li>
+<li class="leaf menu-mlid-419 collapsed menu-1-collapse"><a href="/contact">Contact</a></li>
+<li class="last leaf menu-mlid-830 collapsed menu-1-collapse"><a href="/student-resources">Student Resources</a></li>
+</ul></div>
+  </div>
+</div>
+
+            </nav>
+          </div>
+
+
+
+
+
+
+        </div>
+      </header>
+    </div>
+
+
+
+
+
+    <div class="l-main-wrapper">
+
+
+      <main id="main" class="main" role="main">
+
+        <a id="main-content"></a>
+
+
+                                                  
+
+          <div class="main_prefix">
+            <h2 class="element-invisible">You are here</h2><div class="breadcrumb"><a href="/front-page">Home</a> &gt; <a href="/programs">Programs</a></div>              <h1 id="page-title" class="title">
+  HiArch Summer High School Architecture Workshop</h1>
+<div id="block-menu-block-2" class="block block-menu-block">
+
+    
+  <div class="content">
+    <div class="menu-block-wrapper menu-block-2 menu-name-main-menu parent-mlid-0 menu-level-3">
+  <ul class="menu"><li class="first leaf menu-mlid-866"><a href="/program-details">Program Details</a></li>
+<li class="leaf menu-mlid-756"><a href="/registration-and-cost">Registration and Cost</a></li>
+<li class="last leaf menu-mlid-867"><a href="/faq" title="Frequently Asked Questions">FAQ</a></li>
+</ul></div>
+  </div>
+</div>
+          </div>
+
+        
+
+          <div class="main_content">
+              <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <article id="node-36" class="node node-program clearfix" about="/HiArch" typeof="sioc:Item foaf:Document" role="article">
+
+  <header>
+            <span property="dc:title" content="HiArch Summer High School Architecture Workshop" class="rdf-meta element-hidden"></span>  </header>
+
+  
+  <div class="content">
+    <div class="field field-name-field-media field-type-file field-label-hidden"><div class="field-items"><div class="field-item even"><div  id="flexslider-1" class="flexslider optionset-default">
+  <ul class="slides"><li><div id="file-594" class="file file-image file-image-jpeg">
+
+        <h2 class="element-invisible"><a href="/files/uic-hiarch-2018-1.jpg">UIC HiArch 2018_1.jpg</a></h2>
+    
+  
+  <div class="content">
+    <img typeof="foaf:Image" src="https://arch.uic.edu/sites/arch.uic.edu/files/styles/responsive_landscape/public/43748874101_42d0ef384d_k.jpg?itok=NS2r3h07" width="646" height="320" alt="UIC HiArch High School Summer Architecture Program" title="UIC HiArch" />  </div>
+
+  
+</div>
+</li>
+<li><div id="file-595" class="file file-image file-image-jpeg">
+
+        <h2 class="element-invisible"><a href="/files/uic-hiarch-2018-2jpg">UIC HiArch 2018_2.jpg</a></h2>
+    
+  
+  <div class="content">
+    <img typeof="foaf:Image" src="https://arch.uic.edu/sites/arch.uic.edu/files/styles/responsive_landscape/public/43748819181_11a3ff19fe_z.jpg?itok=nCXf_SaR" width="646" height="320" alt="UIC HiArch High School Summer Architecture Program" title="UIC HiArch" />  </div>
+
+  
+</div>
+</li>
+<li><div id="file-596" class="file file-image file-image-jpeg">
+
+        <h2 class="element-invisible"><a href="/files/uic-hiarch-20183jpg">UIC HiArch 2018_3.jpg</a></h2>
+    
+  
+  <div class="content">
+    <img typeof="foaf:Image" src="https://arch.uic.edu/sites/arch.uic.edu/files/styles/responsive_landscape/public/43748711431_crop.jpg?itok=QJq7oHgf" width="646" height="320" alt="UIC HiArch High School Summer Architecture Program" title="UIC HiArch" />  </div>
+
+  
+</div>
+</li>
+<li><div id="file-597" class="file file-image file-image-jpeg">
+
+        <h2 class="element-invisible"><a href="/files/uic-hiarch-2018-4b.jpg">UIC HiArch 2018_4b.jpg</a></h2>
+    
+  
+  <div class="content">
+    <img typeof="foaf:Image" src="https://arch.uic.edu/sites/arch.uic.edu/files/styles/responsive_landscape/public/41936186560_crop.jpg?itok=SUXXnzYf" width="646" height="320" alt="UIC HiArch High School Summer Architecture Program" title="UIC HiArch" />  </div>
+
+  
+</div>
+</li>
+</ul></div>
+</div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><div style="box-sizing: inherit; font-family: BrownRegular, sans-serif; font-size: 15px;"><span style="box-sizing: inherit; font-family: BrownItalic, sans-serif;">COVID-19 update: HiArch will shift to an online format in July 2020. Additional details will be posted here as they become available. Registered participants may request a refund until July 1 if they are no longer in a position to pay for or participate in HiArch.</span></div>
+<div> </div>
+<div>
+<hr style="font-size: 13.008px;" /><h3><strong>HiArch 2020</strong></h3>
+</div>
+<p><strong>Registration is now open, and the form is available on the <a href="https://arch.uic.edu/registration-and-cost">Registration and Cost</a> page. </strong></p>
+<div><strong>HiArch</strong> is UIC's introductory summer architecture program for current high school students. The program introduces students to architectural ways of thinking and making through class tutorials, studio time, one-on-one desk critiques, and group discussions. Students will develop both analog and digital skills, from drawing and building models by hand to digital drafting and computer modeling. They will also gain exposure to the field of architecture through guest lectures and discussions with UIC students, faculty, and local designers. The program concludes each year with an exhibit of students' work and celebration of their achievements with family and friends at the School of Architecture.</div>
+<div> </div>
+<div>HiArch is a non-residential program. See the <a href="https://arch.uic.edu/faq">FAQ page</a> for more information on housing options on and around campus. </div>
+<div> </div>
+<div><strong style="font-size: 13.008px;">Week 1: July 13-17, 2020<br />Week 2, Model-Making Workshop: July 20-24, 2020</strong></div>
+<div>
+<div class="_form_18"> </div>
+<hr /><h3>What former participants say about HiArch:</h3>
+<p>"HiArch was a great learning experience. I would highly recommend it to anyone interested in architecture."</p>
+<p>"The lunch lectures were very informal and they changed my idea and perception of what I thought architecture was. I really enjoyed everything about this camp."</p>
+<p>"I loved this program and I've already started telling my friends!"</p>
+</div>
+</div></div></div><div class="field field-name-field-margin-notes field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><div><strong><a href="https://flic.kr/s/aHsmpTKZD6" target="_blank">See Photos from HiArch 2018</a></strong></div>
+<div> </div>
+<div><strong>Questions?</strong></div>
+<div>Contact</div>
+<div><a href="mailto:hiarch@uic.edu">hiarch@uic.edu</a></div>
+</div></div></div>  </div>
+
+    
+</article>
+  </div>
+</div>
+          </div>
+        
+              </main>
+
+    </div>
+
+    <div class="l-footer-wrapper">
+      <footer id="l-footer" class="l-footer" role="contentinfo">
+        <div class="l-inner">
+          <div class="footer" id="footer">
+            <div class="footer-left">
+              <a class="icon-uic" href="http://uic.edu"></a>
+              <a href="http://cada.uic.edu/" class="college-link-text">College of Architecture, Design, and the Arts | </a>
+	<a href="https://www.vpaa.uillinois.edu/resources/web_privacy" style="text-decoration: none;">Privacy policy</a>      
+      </div>
+
+            <div class="footer-right">
+              
+              <a class="icon-facebook-ionicons icon" href="https://www.facebook.com/UICSchoolofArchitecture" alt="Facebook" target="_blank"></a>
+
+	      <a class="icon" href="https://www.instagram.com/uicsoa/" alt="Instagram" target="_blank"><img src="https://arch.uic.edu/sites/all/themes/archweb/img/icons/InstagramIcon.png"></a>
+
+              <a class="icon-twitter-ionicons icon" href="https://twitter.com/uic_soa" alt="Twitter" target="_blank"></a>
+
+              <!--a class="icon-linked-in-ionicons icon" href="http://www.linkedin.com/edu/school?id=150034&trk=edu-cp-title" alt="Linkedin" target="_blank"></a-->
+
+	 <!--a class="icon" href="https://www.instagram.com/uicsoa/" alt="Instagram" target="_blank"><img src="http://arch.uic.edu/sites/all/themes/archweb/img/icons/InstagramIcon.png"></a-->
+
+              <a class="icon-youtube-ionicons icon" href="https://www.youtube.com/user/uicsoa" alt="Youtube" target="_blank"></a>
+
+              <a class="icon-flickr-fontawesome icon" href="http://www.flickr.com/photos/uic_soa/" alt="Flickr" target="_blank"></a>
+
+
+
+
+          </div>
+
+
+
+        </div>
+      </footer>
+    </div>
+
+  </div>
+</div>
+    <script src="https://arch.uic.edu/sites/arch.uic.edu/files/js/js_uTpGZRbRZm_lrt5640lI88hN-6jGIe3E3hxZcagIuss.js"></script>
+  </body>
+</html>

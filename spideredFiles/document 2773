@@ -1,0 +1,1400 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"ee7ded8f0e",applicationID:"2553927"};window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var i=n[t]={exports:{}};e[t][0].call(i.exports,function(n){var i=e[t][1][n];return r(i||n)},i,i.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<t.length;i++)r(t[i]);return r}({1:[function(e,n,t){function r(){}function i(e,n,t){return function(){return o(e,[u.now()].concat(f(arguments)),n?null:this,t),n?void 0:this}}var o=e("handle"),a=e(4),f=e(5),c=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",d=l+"ixn-";a(p,function(e,n){s[n]=i(l+n,!0,"api")}),s.addPageAction=i(l+"addPageAction",!0),s.setCurrentRouteName=i(l+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,i="function"==typeof n;return o(d+"tracer",[u.now(),e,t],r),function(){if(c.emit((i?"":"no-")+"fn-start",[u.now(),r,i],t),i)try{return n.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],t),e}finally{c.emit("fn-end",[u.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=i(d+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){var t=e.getEntries();t.forEach(function(e){"first-paint"===e.name?c("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&c("timing",["fcp",Math.floor(e.startTime)])})}function i(e,n){var t=e.getEntries();t.length>0&&c("lcp",[t[t.length-1]])}function o(e){if(e instanceof s&&!l){var n,t=Math.round(e.timeStamp);n=t>1e12?Date.now()-t:u.now()-t,l=!0,c("timing",["fi",t,{type:e.type,fid:n}])}}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var a,f,c=e("handle"),u=e("loader"),s=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){a=new PerformanceObserver(r),f=new PerformanceObserver(i);try{a.observe({entryTypes:["paint"]}),f.observe({entryTypes:["largest-contentful-paint"]})}catch(p){}}if("addEventListener"in document){var l=!1,d=["click","keydown","mousedown","pointerdown","touchstart"];d.forEach(function(e){document.addEventListener(e,o,!1)})}}},{}],3:[function(e,n,t){function r(e,n){if(!i)return!1;if(e!==i)return!1;if(!n)return!0;if(!o)return!1;for(var t=o.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var f=navigator.userAgent,c=f.match(a);c&&f.indexOf("Chrome")===-1&&f.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}n.exports={agent:i,version:o,match:r}},{}],4:[function(e,n,t){function r(e,n){var t=[],r="",o=0;for(r in e)i.call(e,r)&&(t[o]=n(r,e[r]),o+=1);return t}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],5:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,i=t-n||0,o=Array(i<0?0:i);++r<i;)o[r]=e[n+r];return o}n.exports=r},{}],6:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function i(e){function n(e){return e&&e instanceof r?e:e?c(e,f,o):o()}function t(t,r,i,o){if(!l.aborted||o){e&&e(t,r,i);for(var a=n(i),f=v(t),c=f.length,u=0;u<c;u++)f[u].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function d(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||i(t)}function w(e,n){u(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:d,addEventListener:d,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(l.aborted=!0,s=l.backlog={})}var f="nr@context",c=e("gos"),u=e(4),s={},p={},l=n.exports=i();l.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(i.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[n]=r,r}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){i.buffer([e],r),i.emit(e,n,t)}var i=e("ee").get("handle");n.exports=r,r.ee=i},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=E.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();u(y,function(n,t){e[n]||(e[n]=t)}),c("mark",["onload",a()+E.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function i(){"complete"===d.readyState&&o()}function o(){c("mark",["domContent",a()+E.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(f=Math.max((new Date).getTime(),f))-E.offset}var f=(new Date).getTime(),c=e("handle"),u=e(4),s=e("ee"),p=e(3),l=window,d=l.document,m="addEventListener",v="attachEvent",g=l.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:g,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1167.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),E=n.exports={offset:f,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),e(2),d[m]?(d[m]("DOMContentLoaded",o,!1),l[m]("load",r,!1)):(d[v]("onreadystatechange",i),l[v]("onload",r)),c("mark",["firstbyte",f],null,"api");var x=0,O=e(6)},{}],"wrap-function":[function(e,n,t){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(5),a="nr@original",f=Object.prototype.hasOwnProperty,c=!1;n.exports=function(e,n){function t(e,n,t,i){function nrWrapper(){var r,a,f,c;try{a=this,r=o(arguments),f="function"==typeof t?t(r,a):t||{}}catch(u){l([u,"",[r,a,i],f])}s(n+"start",[r,a,i],f);try{return c=e.apply(a,r)}catch(p){throw s(n+"err",[r,a,p],f),p}finally{s(n+"end",[r,a,c],f)}}return r(e)?e:(n||(n=""),nrWrapper[a]=e,p(e,nrWrapper),nrWrapper)}function u(e,n,i,o){i||(i="");var a,f,c,u="-"===i.charAt(0);for(c=0;c<n.length;c++)f=n[c],a=e[f],r(a)||(e[f]=t(a,u?f+i:i,o,f))}function s(t,r,i){if(!c||n){var o=c;c=!0;try{e.emit(t,r,i,n)}catch(a){l([a,t,r,i])}c=o}}function p(e,n){if(Object.defineProperty&&Object.keys)try{var t=Object.keys(e);return t.forEach(function(t){Object.defineProperty(n,t,{get:function(){return e[t]},set:function(n){return e[t]=n,n}})}),n}catch(r){l([r])}for(var i in e)f.call(e,i)&&(n[i]=e[i]);return n}function l(n){try{e.emit("internal-error",n)}catch(t){}}return e||(e=i),t.inPlace=u,t.flag=a,t}},{}]},{},["loader"]);</script>
+    <title>University of Illinois at Chicago | Off Campus Housing Search</title>
+    <link rel="apple-touch-icon" type="image/png" href="/university/wq4327wcurvng6assqzd7q/apple-touch-icon.0.0885.png">
+    <link rel="icon" type="image/png" href="/university/wq4327wcurvng6assqzd7q/favicon.0.0885.png">
+
+		<meta name="description" content="Find Off-Campus housing and roommates near UIC. Log in as a student, guest or property manager to get started." />
+
+	<meta property="og:type" content="website" />
+	<meta property="og:image" content="https://offcampushousing.uic.edu/css/images/facebook/Default.jpg"/>
+	<meta property="og:url" content="https://offcampushousing.uic.edu" />
+	<meta property="og:description" content="Find Off-Campus housing and roommates near UIC. Log in as a student, guest or property manager to get started."/>
+	<meta property="og:title" content="University of Illinois at Chicago Off-Campus Housing Search" />
+	<meta property="og:site_name" content="University of Illinois at Chicago Off-Campus Housing Search"/>
+
+	<meta name="viewport" content="width=device-width"/>
+	<meta name="google-translate-customization" content="e276a63714b4c32e-d854a22806c6ddfc-g0596cf36dcc61f0e-15"/>
+
+	<link rel="dns-prefetch" href="//dujf85tasbaqk.cloudfront.net">
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//use.fontawesome.com">
+	<link rel="dns-prefetch" href="//ajax.googleapis.com">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i|Merriweather:400" rel="stylesheet">
+	<link rel="stylesheet" href="/v2/css/styles.1586389794.css">
+	<link rel="stylesheet" href="/university/wq4327wcurvng6assqzd7q/styles.0.0885.css">
+	<link rel="stylesheet" href="/v2/css/ocp.search.1588249978.css">
+
+    <script src="https://use.fontawesome.com/afc1ff39e3.js"></script>
+	<script src="/v2/js/vendor/modernizr-2.6.2.min.js"></script>
+	<script>
+	var ocp_options = {},$base_url = '',$social_url = 'https://offcampushousing.uic.edu',$user_name = '',$user_email = '',$university_id = '239',$controller = 'index',$action = 'index',_gaq = [],track = true;
+    ocp_options.language = 'en';
+    ocp_options.country = 'US';
+    </script>
+
+<script>
+    ocp_options.ga = [];
+
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-45347247-2', 'auto');
+    
+
+    ga('set', 'dimension3', '239');
+    ga('send', 'pageview');
+
+    ga('create', 'UA-123147018-1', 'auto', {'name': 'ocpTracker'});
+    ga('ocpTracker.send', 'pageview');
+    ocp_options.ga[ocp_options.ga.length] = 'ocpTracker';
+</script>
+
+    <!-- Begin comScore Tag -->
+    <script>
+        var _comscore = _comscore || [];
+        _comscore.push({ c1: "2", c2: "18075227" });
+        (function() {
+            var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+            s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+            el.parentNode.insertBefore(s, el);
+        })();
+    </script>
+    <noscript>
+        <img src="https://sb.scorecardresearch.com/p?c1=2&c2=18075227&cv=2.0&cj=1" />
+    </noscript>
+    <!-- End comScore Tag -->
+</head>
+
+<body class="logged-out premium-slideshow front" data-user="">
+
+    <div role="complementary" aria-label="Site Notices">
+
+	<a id="skip-to-main" class="visuallyhidden focusable" href="#main">Skip to main</a>
+
+
+	<script type="text/javascript">
+		var skip = document.getElementById("skip-to-main");
+		skip.addEventListener("click", function(event) {
+			event.preventDefault();
+			var expo = document.getElementById("expo");
+			if (expo) {
+				expo.focus();
+			} else {
+				document.getElementById("main").focus();
+			}
+		});
+	</script>
+
+
+
+
+    </div><!-- END complementary landmark -->
+
+	<div id="page" class="clearfix">
+
+		<header class="header header-page"
+            role="banner"
+            aria-labelledby="site-header">
+			<div class="univ-header-bg clearfix">
+    <div class="univ-header col-6 clearfix">
+
+        <h1 class="sitename" id="site-header"><a class="logo" aria-label="University of Illinois at Chicago Off-Campus Housing" href="https://www.uic.edu/">University of Illinois at Chicago</a></h1><h2 class="site-tagline">Off-Campus Housing</h2>
+            </div>
+</div>
+			<div class="menu-link-wrap">
+				<div class="col-6">
+					<a href="#menu" class="menu-link"><span class="icon icon-chevron-down"></span>Menu</a>
+				</div>
+			</div>
+		</header>
+
+		<!-- Nav Menu -->
+		
+<div id="navigation" class="navigation position-sticky">
+    <nav id="menu" class="nav nav-primary" aria-label="Site menu">
+        <div class="col-6">
+            <ul class="flat">
+                <!-- The "Home" menu item: -->
+                <li class="home">
+                    <a href="/">
+                        Home
+                    </a>
+                </li>
+
+            <!-- The rest of the menu items: -->
+            
+
+
+    <li id="nav-item-housing" class="">
+        <a href="/property/search"
+           class="">
+            Housing        </a>
+
+        
+    </li>
+
+
+
+    <li class="">
+        <a href="/roommate/search" class="auth-required">
+            Roommates
+        </a>
+    </li>
+
+    <li class="even ">
+        <a href="/message-board">
+            Message Boards        </a>
+    </li>
+
+
+    <li class="">
+        <a href="/resource"
+           class="">
+            Resources
+        </a>
+        </li>
+
+
+
+<li class="even last ">
+    <a href="/help">Help</a>
+</li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <nav class="nav nav-secondary" aria-label="Site login">
+	<ul class="flat clearfix">
+			<li class="active"><a class="btn btn-signup" href="/registration">Sign Up</a></li>
+		<li class="last"><a class="btn btn-secondary auth-required" href="/login">Log In</a></li>
+		</ul>
+	<div class="notice-bubble notice-bubble--arrowtop" role="alert" aria-atomic="true" data-action="add-listing">
+		<p>Sign up to add a listing!</p>	</div>
+	
+</nav>
+
+</div>
+
+		<!-- Premium Slideshow -->
+		<section class="section section-hero" role="complementary" aria-label="Slideshow">
+	<div class="section-inner">
+
+		
+		<div class="carousel-wrap">
+			<div class="slideshow slideshow-fullwidth">
+				<div id="slider" class="swipe">
+					<div class="swipe-wrap">
+
+						
+						<div class="picture"
+                             data-image-id="5130551"
+                             data-user_id="3072307"
+                             data-package="Diamond (Premium)"
+                        >
+                            <a href="/property/search?uid=3072307" title="731 South" tabindex="0">                            <span data-picture data-alt="731 South">
+
+														<span data-src="//img.offcampusimages.com/sG_EMSJ8nX0HsQ7kYBKxPgGPw7c=/480x220/left/top/smart/images/yh0d0l3ug_7xqjbd_vage144i_mptgdlocm4dog_zie.jpeg" ></span>
+														<span data-src="//img.offcampusimages.com/sG_EMSJ8nX0HsQ7kYBKxPgGPw7c=/480x220/left/top/smart/images/yh0d0l3ug_7xqjbd_vage144i_mptgdlocm4dog_zie.jpeg" data-media="(min-width: 400px)"></span>
+														<span data-src="//img.offcampusimages.com/I_jwtscyZAPWKpqPZMXINwa18EE=/960x440/left/top/smart/images/yh0d0l3ug_7xqjbd_vage144i_mptgdlocm4dog_zie.jpeg" data-media="(min-width: 700px)"></span>
+							
+
+							<!--[if (lt IE 9) & (!IEMobile)]>
+							<span data-src="//img.offcampusimages.com/I_jwtscyZAPWKpqPZMXINwa18EE=/960x440/left/top/smart/images/yh0d0l3ug_7xqjbd_vage144i_mptgdlocm4dog_zie.jpeg"></span>
+							<![endif]-->
+							<noscript>
+							<img src="//img.offcampusimages.com/I_jwtscyZAPWKpqPZMXINwa18EE=/960x440/left/top/smart/images/yh0d0l3ug_7xqjbd_vage144i_mptgdlocm4dog_zie.jpeg" alt="731 South">
+							</noscript>
+
+
+							</span>
+							</a>						</div> <!--end div picture -->
+
+						
+						<div class="picture"
+                             data-image-id="4617485"
+                             data-user_id="2713821"
+                             data-package="Diamond (Premium)"
+                        >
+                            <a href="/property/search?uid=2713821" title="Automatic Lofts" tabindex="0">                            <span data-picture data-alt="Automatic Lofts">
+
+														<span data-src="//img.offcampusimages.com/8_efL4UsOaZW52hegGFHTw8Fln0=/480x220/left/top/smart/images/eggittyvckhqw9jf2f0deewyxpng4vuppnttwx9udik.jpeg" ></span>
+														<span data-src="//img.offcampusimages.com/8_efL4UsOaZW52hegGFHTw8Fln0=/480x220/left/top/smart/images/eggittyvckhqw9jf2f0deewyxpng4vuppnttwx9udik.jpeg" data-media="(min-width: 400px)"></span>
+														<span data-src="//img.offcampusimages.com/h7yl8ThnCeiF7aMNhs2h65fJpTI=/960x440/left/top/smart/images/eggittyvckhqw9jf2f0deewyxpng4vuppnttwx9udik.jpeg" data-media="(min-width: 700px)"></span>
+							
+
+							<!--[if (lt IE 9) & (!IEMobile)]>
+							<span data-src="//img.offcampusimages.com/h7yl8ThnCeiF7aMNhs2h65fJpTI=/960x440/left/top/smart/images/eggittyvckhqw9jf2f0deewyxpng4vuppnttwx9udik.jpeg"></span>
+							<![endif]-->
+							<noscript>
+							<img src="//img.offcampusimages.com/h7yl8ThnCeiF7aMNhs2h65fJpTI=/960x440/left/top/smart/images/eggittyvckhqw9jf2f0deewyxpng4vuppnttwx9udik.jpeg" alt="Automatic Lofts">
+							</noscript>
+
+
+							</span>
+							</a>						</div> <!--end div picture -->
+
+						
+						<div class="picture"
+                             data-image-id="4616177"
+                             data-user_id="2713629"
+                             data-package="Diamond (Premium)"
+                        >
+                            <a href="/property/search?uid=2713629" title="Scio at the Medical District" tabindex="0">                            <span data-picture data-alt="Scio at the Medical District">
+
+														<span data-src="//img.offcampusimages.com/1u8z44yFgh8TBWzuw7lfCjJq_ZE=/480x220/left/top/smart/images/q95eyj2jdlzdol6cdeuowrrpvmjwoafdlsa_wp49ayi.jpeg" ></span>
+														<span data-src="//img.offcampusimages.com/1u8z44yFgh8TBWzuw7lfCjJq_ZE=/480x220/left/top/smart/images/q95eyj2jdlzdol6cdeuowrrpvmjwoafdlsa_wp49ayi.jpeg" data-media="(min-width: 400px)"></span>
+														<span data-src="//img.offcampusimages.com/Axh-c8Jy-PXh3mS03zE46hr1Q2k=/960x440/left/top/smart/images/q95eyj2jdlzdol6cdeuowrrpvmjwoafdlsa_wp49ayi.jpeg" data-media="(min-width: 700px)"></span>
+							
+
+							<!--[if (lt IE 9) & (!IEMobile)]>
+							<span data-src="//img.offcampusimages.com/Axh-c8Jy-PXh3mS03zE46hr1Q2k=/960x440/left/top/smart/images/q95eyj2jdlzdol6cdeuowrrpvmjwoafdlsa_wp49ayi.jpeg"></span>
+							<![endif]-->
+							<noscript>
+							<img src="//img.offcampusimages.com/Axh-c8Jy-PXh3mS03zE46hr1Q2k=/960x440/left/top/smart/images/q95eyj2jdlzdol6cdeuowrrpvmjwoafdlsa_wp49ayi.jpeg" alt="Scio at the Medical District">
+							</noscript>
+
+
+							</span>
+							</a>						</div> <!--end div picture -->
+
+						
+						<div class="picture"
+                             data-image-id="5213104"
+                             data-user_id="3108410"
+                             data-package="Diamond (Premium)"
+                        >
+                            <a href="/property/search?uid=3108410" title="Imprint Apartments" tabindex="0">                            <span data-picture data-alt="Imprint Apartments">
+
+														<span data-src="//img.offcampusimages.com/T8ktzQrCNuQ6As1u2MFJxkmIuHo=/480x220/left/top/smart/images/i2zungc5lskvanazlbmmwo1nbfbq2ddbyv_d0lpiqcm.jpeg" ></span>
+														<span data-src="//img.offcampusimages.com/T8ktzQrCNuQ6As1u2MFJxkmIuHo=/480x220/left/top/smart/images/i2zungc5lskvanazlbmmwo1nbfbq2ddbyv_d0lpiqcm.jpeg" data-media="(min-width: 400px)"></span>
+														<span data-src="//img.offcampusimages.com/J8zEI8Vl4exlLM0g2kV5pV5ybk8=/960x440/left/top/smart/images/i2zungc5lskvanazlbmmwo1nbfbq2ddbyv_d0lpiqcm.jpeg" data-media="(min-width: 700px)"></span>
+							
+
+							<!--[if (lt IE 9) & (!IEMobile)]>
+							<span data-src="//img.offcampusimages.com/J8zEI8Vl4exlLM0g2kV5pV5ybk8=/960x440/left/top/smart/images/i2zungc5lskvanazlbmmwo1nbfbq2ddbyv_d0lpiqcm.jpeg"></span>
+							<![endif]-->
+							<noscript>
+							<img src="//img.offcampusimages.com/J8zEI8Vl4exlLM0g2kV5pV5ybk8=/960x440/left/top/smart/images/i2zungc5lskvanazlbmmwo1nbfbq2ddbyv_d0lpiqcm.jpeg" alt="Imprint Apartments">
+							</noscript>
+
+
+							</span>
+							</a>						</div> <!--end div picture -->
+
+						
+						<div class="picture"
+                             data-image-id="5297440"
+                             data-user_id="3128625"
+                             data-package="Diamond (Premium)"
+                        >
+                            <a href="/property/search?uid=3128625" title="Eleven40 Apartments" tabindex="0">                            <span data-picture data-alt="Eleven40 Apartments">
+
+														<span data-src="//img.offcampusimages.com/wHlNhBceKtTzCyB7fghZGtyAlr0=/480x220/left/top/smart/images/i6kma_bcl_sknjd768mtlad2v9wafxvryxyg3v8aapo.png" ></span>
+														<span data-src="//img.offcampusimages.com/wHlNhBceKtTzCyB7fghZGtyAlr0=/480x220/left/top/smart/images/i6kma_bcl_sknjd768mtlad2v9wafxvryxyg3v8aapo.png" data-media="(min-width: 400px)"></span>
+														<span data-src="//img.offcampusimages.com/qUdpIW1dGUlg1eodgVeFCL_ZMF4=/960x440/left/top/smart/images/i6kma_bcl_sknjd768mtlad2v9wafxvryxyg3v8aapo.png" data-media="(min-width: 700px)"></span>
+							
+
+							<!--[if (lt IE 9) & (!IEMobile)]>
+							<span data-src="//img.offcampusimages.com/qUdpIW1dGUlg1eodgVeFCL_ZMF4=/960x440/left/top/smart/images/i6kma_bcl_sknjd768mtlad2v9wafxvryxyg3v8aapo.png"></span>
+							<![endif]-->
+							<noscript>
+							<img src="//img.offcampusimages.com/qUdpIW1dGUlg1eodgVeFCL_ZMF4=/960x440/left/top/smart/images/i6kma_bcl_sknjd768mtlad2v9wafxvryxyg3v8aapo.png" alt="Eleven40 Apartments">
+							</noscript>
+
+
+							</span>
+							</a>						</div> <!--end div picture -->
+
+						
+						<div class="picture"
+                             data-image-id="5260844"
+                             data-user_id="2925733"
+                             data-package="Diamond (Premium)"
+                        >
+                            <a href="/property/search?uid=2925733" title="The Van Buren" tabindex="0">                            <span data-picture data-alt="The Van Buren">
+
+														<span data-src="//img.offcampusimages.com/Sw3qHcI4Li0maAliaKP79fpg8rs=/480x220/left/top/smart/images/mqe7kxwtmegknqfepjm9rf9hkqikvdyay4ma5to7b8i.jpeg" ></span>
+														<span data-src="//img.offcampusimages.com/Sw3qHcI4Li0maAliaKP79fpg8rs=/480x220/left/top/smart/images/mqe7kxwtmegknqfepjm9rf9hkqikvdyay4ma5to7b8i.jpeg" data-media="(min-width: 400px)"></span>
+														<span data-src="//img.offcampusimages.com/j3UpXoHbFgzPSvQVvW6Adtd_uoo=/960x440/left/top/smart/images/mqe7kxwtmegknqfepjm9rf9hkqikvdyay4ma5to7b8i.jpeg" data-media="(min-width: 700px)"></span>
+							
+
+							<!--[if (lt IE 9) & (!IEMobile)]>
+							<span data-src="//img.offcampusimages.com/j3UpXoHbFgzPSvQVvW6Adtd_uoo=/960x440/left/top/smart/images/mqe7kxwtmegknqfepjm9rf9hkqikvdyay4ma5to7b8i.jpeg"></span>
+							<![endif]-->
+							<noscript>
+							<img src="//img.offcampusimages.com/j3UpXoHbFgzPSvQVvW6Adtd_uoo=/960x440/left/top/smart/images/mqe7kxwtmegknqfepjm9rf9hkqikvdyay4ma5to7b8i.jpeg" alt="The Van Buren">
+							</noscript>
+
+
+							</span>
+							</a>						</div> <!--end div picture -->
+
+						
+												</div> <!-- end slide-wrap -->
+                    <div class="info-area">
+                        <span class="img-pagination serif overlay-bg">
+                            <span class="current-slide-number">1</span>
+                            / <span class="total-slide-number">6</span>
+                        </span>
+                    </div>
+					<div class="info-boxed">						<!-- <span class="fa fa-chevron-circle-right"></span> -->
+						<div class="img-description overlay-bg">731 South </div>
+											</div>
+				</div> <!-- /end slider-->
+			</div> <!-- /end slideshow -->
+		</div> <!--/end carousel -->
+
+	<div class="home-search-bar clearfix">
+		<form id="home-search" action="/property/home-search" method="post">
+
+            <div class="rent">
+                <div class="field-container field-container--input">
+                    <label class="visuallyhidden" for="rent-from">Minimum Rent Amount</label>
+                    <input type="text" pattern="[0-9]*" maxlength="4"
+                            name="min-price" id="rent-from"
+                            aria-label="Minimum Rent Amount"
+                            placeholder="$Min">
+
+                </div>
+                <div class="field-container field-container--input">
+                    <label class="visuallyhidden" for="rent-to">Maximum Rent Amount</label>
+                    <input type="text" pattern="[0-9]*" maxlength="4"
+                            name="max-price" class="rent-to" id="rent-to"
+                            aria-label="Maximum Rent Amount"
+                            placeholder="$Max">
+                </div>
+
+                                    <fieldset>
+                        <legend class="visuallyhidden">Rent Unit</legend>
+                                                                                <div class="field-container field-container--radio">
+                                <label for="per-unit" >
+                                    <input type="radio" name="per_bed" id="per-unit" value="u" checked>
+                                    per unit                                </label>
+                            </div>
+                                                                                                            <div class="field-container field-container--radio">
+                                <label for="per-bedroom" >
+                                    <input type="radio" name="per_bed" id="per-bedroom" value="b" >
+                                    per bedroom                                </label>
+                            </div>
+                                                                        </fieldset>
+                
+            </div>
+
+			<div id='beds-bath-search'>
+				<div class="field-container beds-bath">
+					<div class="beds">
+						<label for="bedrooms">Bed</label>
+						<div class="search-input">
+							<select name="beds" id="bedrooms">
+								<option value="" selected>#</option>
+								<option value="0">Studio</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10+</option>
+							</select>
+						</div>
+					</div>
+					<div class="bathrooms">
+						<label for="bathrooms">Bath</label>
+						<div class="search-input">
+							<select name="baths" id="bathrooms">
+								<option value="" selected>#</option>
+								<option value="1">1</option>
+								<option value="1.5">1.5</option>
+								<option value="2">2</option>
+								<option value="2.5">2.5</option>
+								<option value="3">3</option>
+								<option value="3.5">3.5</option>
+								<option value="4">4</option>
+								<option value="4.5">4.5</option>
+								<option value="5">5</option>
+								<option value="5.5">5.5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10+</option>
+							</select>
+						</div>
+					</div>
+				</div>
+			</div>
+            <div class="field-container home-search-btn">
+                <input class="btn " data-submit="#home-search" type="submit" value="Search" >
+            </div>
+		</form>
+	</div>
+</div> <!-- /.section-inner -->
+
+</section> <!-- /.section-hero -->
+
+		<main id="main" class="main col-6" tabindex="-1">
+			<p class="alert alert-info">
+    <strong>Stay Safe. Tour Online</strong>
+    We're here to help you continue your housing search while staying safe at home.
+    Use our Virtual Tours and videos, and ask for a live online tour.
+    Most properties are more than happy to accommodate!
+</p>
+<header class="header-main col-4 col-fleft serif" aria-labelledby="page-header" id="page-header">
+	<div class="field-body">
+		<p class="lede">
+            <h3>Welcome to the <strong>University of Illinois at Chicago<br>Off-Campus Housing Service!</strong></h3>        </p>
+	</div>
+</header>
+
+<section class="sidebar col-2" role="article" aria-label="Quick Links">
+	<div class="links">
+					<a href="/registration/property-manager" class="btn btn-chevronright btn-fullwidth"><strong>Have a listing?</strong> Post it now.</a>
+				<a href="/roommate/search" class="auth-required btn btn-chevronright btn-fullwidth">Search for Roommates</a>	</div>
+</section>
+
+<script>
+	ocp_options.listing_mini_slideshow = true;
+	ocp_options.listing_alt_img = true;
+</script>
+<section class="homepage-deluxe grid-view listings col-4 col-fleft"
+         role="article"
+         aria-label="Featured listings">
+
+
+<article class="ocp-property-search property-580035"
+     aria-labelledby="property-search-listing-name-580035 property-search-listing-bedbath-580035 property-search-listing-rent-580035"
+     data-property_id="580035"
+     data-user_id="2713629"
+     data-package="Diamond (Premium)">
+
+    <div class="ocp-property-search-content"><!-- Container for main search result content -->
+        <div class="info">
+        <div class="priceholder clearfix">
+            <div class="beds-and-bath">
+            <span id="property-search-listing-bedbath-580035">
+                Studio - 2 beds<br />
+1 - 2 baths<br />
+            </span>
+                            Apartment                            
+
+            </div>
+            
+            <div class="price"
+                 id="property-search-listing-rent-580035">
+                $1,588 to $14,021                <span class="label">
+                    per unit                </span>
+            </div>
+
+            
+        </div>
+
+        <div class="name">
+                                                <a href="/property/view/listingid/580035"
+               id="property-search-listing-name-580035"
+               class="property-headline "
+               aria-labelledby="property-search-listing-name-580035 property-search-listing-bedbath-580035 property-search-listing-rent-580035"
+            >
+                SCIO AT THE MEDICAL DISTRICT            </a>
+                        <span class="address">
+                901 South Ashland Avenue Chicago, IL 60607            </span>
+        </div>
+
+        
+        <div class="search--listing-extras">
+        <strong>Move In:</strong> See Floorplans<br><strong>Listed by</strong> Atlantic Residential        </div>
+
+
+    </div>
+                <div class="slideshow">
+            <div class="property-image">
+
+    <span class="gradient"></span>
+
+<div class='swipe' data-images="&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/cmUKFqdulaxevm4LstHU1YSr9Sk=/600x400/left/top/smart/images/w5cm6l_7xso5n82zamumqhsfoaxhokpjddpbvbmrw2c.jpeg&#039; alt=&#039;Listing Photo (5139011)&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/513CvVHUz1oHvYxJgoGN1lfD8Kc=/600x400/left/top/smart/images/ks6_uqyt4tx3ohbcq92cyqcjwghnoxopcvh8yv8zyn0.jpeg&#039; alt=&#039;Private Dining Room&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/GR6VU9DI59Glklf7bqDt2f3ywE8=/600x400/left/top/smart/images/ejw2bfilvrudxnkeucm2ebkcuevj0wumgh9y2ntzvek.jpeg&#039; alt=&#039;Lobby Lounge&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/BTFVlsRafsRXdD8bXw7qswaGvuY=/600x400/left/top/smart/images/rtkb3phdjscqkw2xofhbdguxklyrr0cgrsdbfnihfk4.jpeg&#039; alt=&#039;Lobby Lounge&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/vx3svuUwgZLWGKN3z9faYViEIvw=/600x400/left/top/smart/images/3yf9gg0atyimhofltoxgiiwrvu8g7lby8wstsd053_0.jpeg&#039; alt=&#039;Listing Photo (5139015)&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/NUWgeYLVel2_7JTV1z4V3V3FOEM=/600x400/left/top/smart/images/6gwwtfsbzimriqpyhqsmadc5s5wczqno1ykyqjdt9yi.jpeg&#039; alt=&#039;Standard 1 Bedroom Apartment at Scio&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/u8dBBpt8mRenSNKWkF38OuZMIWw=/600x400/left/top/smart/images/p78ouf90vo_mlqipghhglxbe5lzgc_iej_qjnq9mzs0.jpeg&#039; alt=&#039;Scio Pool&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/-C6Mdw44WnzQxqhpiFSOvpVvp5A=/600x400/left/top/smart/images/7af29nivpor_lhpdsaprfje1gojcl4miggr5rbh8w8m.jpeg&#039; alt=&#039;Scio Chicago Gym&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/yA-u8OQmVBZbh-4Pxj46Bc6fdAk=/600x400/left/top/smart/images/5vh5xulnipztt03mjamv__d_n22z_clp0pgz8rdecry.jpeg&#039; alt=&#039;Outdoor Living at Scio&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/J7cgjv-OG4cQgoazmMv0CHXTopU=/600x400/left/top/smart/images/c9cx_2pfxhw_sozgfmwlcjjwxrem7pdqg52ur6v_q4m.jpeg&#039; alt=&#039;Let&#039;s shoot some pool!&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/TQcJdOJbxMF9gsdZGfC3k-mxhSg=/600x400/left/top/smart/images/vhzzhajmlyy3x42eck5gjgulgxia7uxfbwz1cccvefs.jpeg&#039; alt=&#039;Scio Chicago Welcome Home&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/D49jNqUpnuUMeVLaOBp1zVv-t4c=/600x400/left/top/smart/images/g2tlrzo_fnvemeymmxfy18vvg4ovxxfg4zfupjq37ea.jpeg&#039; alt=&#039;Scio Chicago Welcome Home&#039;&gt;&lt;/div&gt;">
+    <div class='swipe-wrap'>
+        <div class="first">
+
+                    <img src="//img.offcampusimages.com/nP2dIoMPb6Fly9p49ErE9Gqmzfc=/600x400/left/top/smart/images/m5zpropuxwboltjw2nsmjh4nrvadkphdi0vdul5bdoa.jpeg"
+                 alt="Scio Chicago Outdoor Pool">
+        
+        </div>
+
+    </div>
+
+    <div class="img-pagination-controls">
+        <button class="prev control icon-btn icon-btn--circle icon-btn--overlay icon-btn--3d" aria-label="Previous Image" title="Previous image" aria-describedby="property-search-listing-name-580035 property-search-listing-bedbath-580035 property-search-listing-rent-580035"></button>
+        <button class="next control icon-btn icon-btn--circle icon-btn--overlay icon-btn--3d" aria-label="Next Image" title="Next image" aria-describedby="property-search-listing-name-580035 property-search-listing-bedbath-580035 property-search-listing-rent-580035"></button>
+    </div>
+
+</div>
+
+    <a href="/user/add-favorites/property/580035?from=%2F"
+       class="favorite favorite-add auth-required icon-btn icon-btn--dark icon-btn--circle icon-btn--overlay"
+       title="Add listing to favorites"
+       id="property-listing-favorite-580035"
+       aria-labelledby="property-search-listing-name-580035 property-search-listing-bedbath-580035 property-search-listing-rent-580035"
+       data-property_id='580035'
+       data-user_id='2713629'
+       data-package='Diamond (Premium)'
+       tabindex="0"
+    >
+        <span class="fa fa-heart"></span>
+        <span class="visuallyhidden">Add to Favorites</span>
+    </a>
+
+    <a role="link"
+        title="View location on map"
+        class="alt-img icon-btn icon-btn--dark icon-btn--circle icon-btn--overlay"
+        tabindex="0"
+        aria-describedby="property-search-listing-name-580035 property-search-listing-bedbath-580035 property-search-listing-rent-580035"
+    >
+        <span class="fa fa-map-marker"></span>
+        <span class="visuallyhidden">View location on map</span>
+    </a>
+
+</div>
+
+            <div>
+
+    </div>
+            <div><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mediaViewCostarVideo" src="https://vapi.apartmentfinder.com/1.10.2/videosbyloopnet.js"></script>
+
+
+
+</div>
+        </div>
+    </div>
+</article>
+
+<article class="ocp-property-search property-655798"
+     aria-labelledby="property-search-listing-name-655798 property-search-listing-bedbath-655798 property-search-listing-rent-655798"
+     data-property_id="655798"
+     data-user_id="2925733"
+     data-package="Diamond (Premium)">
+
+    <div class="ocp-property-search-content"><!-- Container for main search result content -->
+        <div class="info">
+        <div class="priceholder clearfix">
+            <div class="beds-and-bath">
+            <span id="property-search-listing-bedbath-655798">
+                Studio - 2 beds<br />
+1 - 2 baths<br />
+            </span>
+                            Apartment                            
+
+            </div>
+            
+            <div class="price"
+                 id="property-search-listing-rent-655798">
+                See Floorplans for Pricing                <span class="label">
+                    per unit                </span>
+            </div>
+
+            
+        </div>
+
+        <div class="name">
+                                                <a href="/property/view/listingid/655798"
+               id="property-search-listing-name-655798"
+               class="property-headline "
+               aria-labelledby="property-search-listing-name-655798 property-search-listing-bedbath-655798 property-search-listing-rent-655798"
+            >
+                The Van Buren            </a>
+                        <span class="address">
+                808 W Van Buren St Chicago, IL 60607            </span>
+        </div>
+
+        
+        <div class="search--listing-extras">
+        <strong>Move In:</strong> See Floorplans<br><strong>Listed by</strong> Greystar        </div>
+
+
+    </div>
+                <div class="slideshow">
+            <div class="property-image">
+
+    <span class="gradient"></span>
+
+<div class='swipe' data-images="&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/g-zKT4LTkDhbvGcXbf0QmzUywQU=/600x400/left/top/smart/images/_gzpur1sum7gbop2_djzml6vbsje2sg5ugdpe0tw93s.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/HcdvbY56jf61Y7D0Y_13_dUMuQg=/600x400/left/top/smart/images/fwefojg7ui0was_q_4bmlgly4agybe2zyfhgdrlyapu.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/zxh0gLqncH6PciPmz0gUuhEIKnI=/600x400/left/top/smart/images/h_tcwbv2jdpwoyd0x0dqezqpbbxwfabpyohgdamb6a4.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/-hdNpiHkxlUfHrwAxKlr0JuRW58=/600x400/left/top/smart/images/tg37tqwrwmghxczx0dicwgcpc3irvtyrp0o_l9trnke.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/wh_G_aP2aKT7ZaAQdLhWeWec3OA=/600x400/left/top/smart/images/3qb5ran9k_8f5kqjnty9td497lyohep5amhrehaqrt8.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/-sQXMxATQlTx31bPdiUzA3c3DWQ=/600x400/left/top/smart/images/qnshnad6lwftees5vvz6k08iq4_ocke1cetcs83gvya.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/XIygEkqdq24EEKrq9eDZLS4pGWE=/600x400/left/top/smart/images/vrcznvrtkc1j4fdqwkqrncbqiwhyagicffwrpg8rpmw.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/G6xBtr2_FPoxCxyVry3OLl43tUE=/600x400/left/top/smart/images/uq7ht3j_a0quurhav1yfrusj98en_hkngcpyjgm7abe.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/sGE9iIceZi6sCiCTu6dcSvYUGAQ=/600x400/left/top/smart/images/hts68dm8kn_9hovkfoo04cntaym8nk07zp3ipyhjfnk.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/E1AGxCz6P07a6R93XvemAvz5Bnc=/600x400/left/top/smart/images/is62wsrkcvhap7iljnvfxcmpz8deloredrsvq14edg4.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/WXH1npaq_nrHz64IcPUs4BEzSx8=/600x400/left/top/smart/images/wdngp94oevdk77k69oan0yjxuxjmsptgvtafgewulnw.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/eLEstwCR7wW2kFiNuqwBWmdMlkg=/600x400/left/top/smart/images/l_iedqhyw3426f04pwywue1mkco5ndu_if55zuqrzls.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/zRbyHknfIseVWPBRVTD4kH3Gum8=/600x400/left/top/smart/images/q0qgifftwawlbesib9yhq7ropuccwhi0y_hxpq04wbe.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/b4N7olnlBQ-M5Ar_HDHvfTKQY9w=/600x400/left/top/smart/images/i9gbtc1otevqgp8glzuwekir7asenired3fb_c0nesw.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/nKxdOmQaIVsw6_SCU68Vb6bDTVU=/600x400/left/top/smart/images/wa1aafxj1z9u82yozlsdbga0htkeklmb3j0mu6xzdmq.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/xOQvKNGf_5Oa5mVIy1wK5UwEPpQ=/600x400/left/top/smart/images/uvtzhirxhfvaxcoh1gv3arx7vfl2fnq49_qrnwn2ywe.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/8dQwOrkgDoqqAZDY77R_3ht9nRY=/600x400/left/top/smart/images/_vygy5pv187ah6ofcs0ljvgmaf1xiab8igryjoxv0gk.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/MS5gUqkehBPc0Tiwm9qJBqSrkhI=/600x400/left/top/smart/images/lytbzinca8wweajfk0ochpb9l7jmwcf2ntvieexjtpg.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/kDQCM_QlpV2QlMmgMnDNzIsw0H8=/600x400/left/top/smart/images/kdfxs7ixkhsaks4wyoyznpwukvjxx79zbmb_nzio5lg.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/Dx_WJ8q89wW5QUR5Gtjsg7ci_Qc=/600x400/left/top/smart/images/jhbo1n9kru7zrc7hpeowyqlhsk7ug_fxrv1nqjlsqzq.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/gRM6a5Sy6Zq0WSYwCEI-FJJiCr0=/600x400/left/top/smart/images/rlortevximec2_xqahnimap98eeyhxrcsi_sdbnwl18.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/KSM0eBntDlgs7I8DTO-kpG35S1o=/600x400/left/top/smart/images/zcq20u8qove_dme0vagr15zjoc9dudw5zu_vtaqovqk.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/s2pXYBeCsLgL95YCKAbbn7SSlNo=/600x400/left/top/smart/images/2phx0gmvtjqhkvaynq_hour2i0wnpmkvdq1immfv4pe.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/DM641GSjtqNpuu_2hhyhHm1ZSDg=/600x400/left/top/smart/images/fh5vmlssw47atl_6fnegnvm4wxos2_5wiu18emzx8xa.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/xhI1AKje-I3teocvdA4734YEocg=/600x400/left/top/smart/images/mn600gknt0cas924ohwcy2ffy7ea6kl1sxc89_yu7om.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/4Dx9Sq97MlFBBeRj_-GIsjwjhqs=/600x400/left/top/smart/images/gzke__bhrkqlbxcz35bkcyasyzqt4fvi5zztba92mtg.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/Z-wXf-Ac7H7KacSaBOlmcGY2SaI=/600x400/left/top/smart/images/1omiof5wrovjxrwzvry_464ry8y2dz0ucges9bm0e1a.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/4EvizyOWk8BVQyf0NaAE9aEYDIk=/600x400/left/top/smart/images/j4wlzbxhmk64g7ywo_brthvyykkl68_7jjam6jjhela.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/i_V_zjhPx9c1-uUKqOzZ2Wmiur4=/600x400/left/top/smart/images/fggitud4_pgwtcfsopdibw3ppsvshmpxoaw5zilj3n4.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/NJ374-c_cJgqAEPLZaK7x1vutio=/600x400/left/top/smart/images/sny_un0lepujxcnllkq0kyykcchlyyjasm_ru8xja2e.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/PD5U9AEGs0xgkh4TtTUaQSbKYmQ=/600x400/left/top/smart/images/nvipmvsx7qoe5ycor_u5wf_szi0t4vbtybvh4xikwts.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/gVn9GGeqCxqgGIv1yzV2dUmWEWY=/600x400/left/top/smart/images/o8apuo0dcnv5hxdcpxqzqqocxhncdq9piwpadxkef3k.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/IbwdFdUX363dmmBOuu23CctuEvQ=/600x400/left/top/smart/images/_14c1kclitfg1m4e_jlkem7274_gy0k7zgernri_vmi.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/BA9nFEVIpH2tUJL8aV1sC9qWkeg=/600x400/left/top/smart/images/2koba_sq5d3lo49eqeokyeibreanxpmo_7aturtqyjm.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/zB5FdByDJ0FxVSl1LVPd0Lv4c8A=/600x400/left/top/smart/images/32yshvh_orfn_oki4wpwjbodxoigghfjq6vuwvxn5x4.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/eNBlFmbdXVO9beenKDLo5q5EkoE=/600x400/left/top/smart/images/u_kmcbagdhdvxu_ir3awov_qmjg_vqijqfacatjqrs8.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/mm18mHQqtaubLN2rGXoUo53rkZs=/600x400/left/top/smart/images/3tohsi6d0j1w_qtrxbgzyp8usyunba57e4fecizy3yy.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/4eRmQD2j9nOZVfcZR6Nfd1J9Ybo=/600x400/left/top/smart/images/f5zwl3cnwb7sfzi25t0qlo_rhfrwu1gjlm4v0rnj1to.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/eAlJXerero_XT6PKe6ARWAGMEis=/600x400/left/top/smart/images/dcaiaf5oh__0ci8cwgksel5uyb0v_v4umdtqma5dboo.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/1rIJtfZNkic-Gf-kAk6jcpPhH3g=/600x400/left/top/smart/images/sdoczlu2xkrad_hcbkdib37femvqgmy0ecmdgjmghxo.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/EO580YBkvcYfOBxCp_KK58C4lrU=/600x400/left/top/smart/images/xl0jp4dcfhateimgtpsahy6otrw7w_vr2bqryhbdniu.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/ldkon3_9gxFKTNUE_ilvl7SMMAc=/600x400/left/top/smart/images/v54ygixozv7g0fm3xu57f2zruw2eldr5nzgur7idd08.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;">
+    <div class='swipe-wrap'>
+        <div class="first">
+
+                    <img src="//img.offcampusimages.com/7aWk5VLkwmNpUaAhomRwr-wtB4I=/600x400/left/top/smart/images/hcwdzroc9meqkdtm_rog9fc7dwhlokzzv0h9uvhdhcu.jpeg"
+                 alt="PrimaryPhoto">
+        
+        </div>
+
+    </div>
+
+    <div class="img-pagination-controls">
+        <button class="prev control icon-btn icon-btn--circle icon-btn--overlay icon-btn--3d" aria-label="Previous Image" title="Previous image" aria-describedby="property-search-listing-name-655798 property-search-listing-bedbath-655798 property-search-listing-rent-655798"></button>
+        <button class="next control icon-btn icon-btn--circle icon-btn--overlay icon-btn--3d" aria-label="Next Image" title="Next image" aria-describedby="property-search-listing-name-655798 property-search-listing-bedbath-655798 property-search-listing-rent-655798"></button>
+    </div>
+
+</div>
+
+    <a href="/user/add-favorites/property/655798?from=%2F"
+       class="favorite favorite-add auth-required icon-btn icon-btn--dark icon-btn--circle icon-btn--overlay"
+       title="Add listing to favorites"
+       id="property-listing-favorite-655798"
+       aria-labelledby="property-search-listing-name-655798 property-search-listing-bedbath-655798 property-search-listing-rent-655798"
+       data-property_id='655798'
+       data-user_id='2925733'
+       data-package='Diamond (Premium)'
+       tabindex="0"
+    >
+        <span class="fa fa-heart"></span>
+        <span class="visuallyhidden">Add to Favorites</span>
+    </a>
+
+    <a role="link"
+        title="View location on map"
+        class="alt-img icon-btn icon-btn--dark icon-btn--circle icon-btn--overlay"
+        tabindex="0"
+        aria-describedby="property-search-listing-name-655798 property-search-listing-bedbath-655798 property-search-listing-rent-655798"
+    >
+        <span class="fa fa-map-marker"></span>
+        <span class="visuallyhidden">View location on map</span>
+    </a>
+
+</div>
+
+            <div>
+
+        <div class="vtq-container">
+        <div id="vtq-btn-container-655798">
+                            <a href="/tracking/virtual-tour/id/655798"
+                   target="_blank"
+                   class="vtq link"
+                >
+                    Virtual Tour <small><span class="fa fa-external-link"></span></small>
+                </a>
+                    </div>
+    </div>
+    </div>
+            <div><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mediaViewCostarVideo" src="https://vapi.apartmentfinder.com/1.10.2/videosbyloopnet.js"></script>
+
+
+    <div id="video-playback-modal-container-655798" class="video-playback-options">
+        <div class="video-playback-options--modal">
+            <div class="modal video-modal" style="border-color: #D50032">
+                <div class="video-playback-options--content">
+                    <div class="video-playback-modal-title">808 W Van Buren St</div>
+                                            <div class="picture video-play"
+                             data-type="vidly"
+                             data-id="7t3t0u">
+                            <ins class="videosbyloopnet vidly"
+                                 style="display:block"
+                                 data-display="inline"
+                                 data-theme="brightblue"
+                                 data-video="7t3t0u"
+                                 data-muted="false"
+                                 data-sizeauto="px"
+                                 data-source=""
+                                 data-auto="play"
+                                 data-mute="true">
+                                <script>
+                                    (videosbyloopnet = window.videosbyloopnet || []).push({});
+                                </script>
+                            </ins>
+                        </div>
+                                    </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="vtb-container">
+        <div id="video-btn-container-655798">
+            <button
+            title="Play Video"
+            tabindex="0"
+            aria-labelledby="premium-slideshow-play"
+            class="icon-btn icon-btn--circle icon-btn--overlay icon-btn--3d"
+ .modal"
+                onclick="window.open('https://vapi.costargroup.com/video/play/7t3t0u?source=42', '_blank')"
+            >
+
+                                    <span aria-hidden="true" class="fa fa-play"></span>
+                                <span class="visuallyhidden" id="premium-slideshow-play">Play Video</span>
+            </button>
+        </div>
+    </div>
+
+</div>
+        </div>
+    </div>
+</article>
+
+<article class="ocp-property-search property-642707"
+     aria-labelledby="property-search-listing-name-642707 property-search-listing-bedbath-642707 property-search-listing-rent-642707"
+     data-property_id="642707"
+     data-user_id="3072307"
+     data-package="Diamond (Premium)">
+
+    <div class="ocp-property-search-content"><!-- Container for main search result content -->
+        <div class="info">
+        <div class="priceholder clearfix">
+            <div class="beds-and-bath">
+            <span id="property-search-listing-bedbath-642707">
+                2 - 3 beds<br />
+1 bath<br />
+            </span>
+                            Apartment                            
+
+            </div>
+            
+            <div class="price"
+                 id="property-search-listing-rent-642707">
+                $1,799 to $2,895                <span class="label">
+                    per unit                </span>
+            </div>
+
+            
+        </div>
+
+        <div class="name">
+                                                <a href="/property/view/listingid/642707"
+               id="property-search-listing-name-642707"
+               class="property-headline "
+               aria-labelledby="property-search-listing-name-642707 property-search-listing-bedbath-642707 property-search-listing-rent-642707"
+            >
+                731 South            </a>
+                        <span class="address">
+                731 S Plymouth Ct Chicago, IL 60605            </span>
+        </div>
+
+        
+        <div class="search--listing-extras">
+        <strong>Move In:</strong> See Floorplans<br><strong>Listed by</strong> 3L Real Estate        </div>
+
+
+    </div>
+                <div class="slideshow">
+            <div class="property-image">
+
+    <span class="gradient"></span>
+
+<div class='swipe' data-images="&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/OgvN4q4NX6Qqn2snbCdPlytaw6o=/600x400/left/top/smart/images/yvdaj2pnoi_xrz5c45vql_h4rs26tx3e3_50hau65do.jpeg&#039; alt=&#039;Gym (2) - 731 South&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/aay2O_QOYaUi9U2HDOhOxQWNiKA=/600x400/left/top/smart/images/m1carfspouymoqfixqj3v31pa5erbruif6femr_fvqy.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/Q-n34S6iSq1N25PECFitaO3XBsM=/600x400/left/top/smart/images/ggswrxz2pbbdi1s4tibu_3rs_k9sa2ip10sicgbgtna.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/rsP0yvbTjDkmeeRgcehcrBczFNY=/600x400/left/top/smart/images/gqsols79lxgzed1qs13aarribs4ednhngoe5_tzu1w8.jpeg&#039; alt=&#039;Interior Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/cL_ZHhpc57HiBrKVqnNMSGb0xr0=/600x400/left/top/smart/images/9melybbumdqkmgrkxdvv7mxxjzfoajkkgf4au_bmutq.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/q8AafAbMxTsHvcX-b8WU6Q4rs2k=/600x400/left/top/smart/images/vv4sxyp5oncsbfv2kwp5jj8zpfrh_bvorx3j0bkcapq.jpeg&#039; alt=&#039;Interior Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/ZRZCbnPcg992xxfmxY1VEquD26g=/600x400/left/top/smart/images/jaupkuf9pqurxykzymrzphvaowxenvjvbjguv3q4cvw.jpeg&#039; alt=&#039;Interior Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/FA2QR6YJuR1oPuF0GyiokgUoijA=/600x400/left/top/smart/images/94s9qpso_gwl4_kstugmy1vbig3xozd_a6bwpwh1y2k.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/bn6nHNkxnqRhhyRs9f8X5q6LPQ4=/600x400/left/top/smart/images/0fuaigfyv3x9k5xgambwsmnxc6ghp21lkeu46cp8ewi.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/Ptvwv5x_9Q7cA7SEUFp-E8j5fl0=/600x400/left/top/smart/images/tie_cg3xiysrjumxpqklndrti08mj3b8hohewfet6nu.jpeg&#039; alt=&#039;SouthWest Corner - 731 South&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/w7l4hrz4b3aLwVnFDdiI0XpY9fQ=/600x400/left/top/smart/images/afohfdgjjm3wepsizlqc6jf5popejuhnlily9pz84wu.jpeg&#039; alt=&#039;Interior Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/VER4HJvMWqRJ100-RPaeGi8Ew58=/600x400/left/top/smart/images/y0lcaxpd3ira9wtmpyio_ghtea_l2fgfd4tsa7nzko4.jpeg&#039; alt=&#039;Interior Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/lRWrchIHc3BsNuGXyPN3NPmPULU=/600x400/left/top/smart/images/whaaweg1emxx9ioarf8onb7k4fwpu_wu5hjapvzl81u.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/A2xFGW24NF4BMlS9_6zOat5m1dE=/600x400/left/top/smart/images/o_wrzxlby_29ycppkzk1rn_mldppkncnmne0hm8hgeq.jpeg&#039; alt=&#039;Interior Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/H1HBiei9tQeRSplckVFOmoLVvLo=/600x400/left/top/smart/images/twcte8h7aruq4j_ten10shlxvcboacl5ml3k1l_lc9i.jpeg&#039; alt=&#039;Interior Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/VHOtBHnEf53LjxjZ8aEfSevRgOg=/600x400/left/top/smart/images/re3qxidxb3_mb32gqwlpztkpsuhhaodquf0l_8jwd_u.jpeg&#039; alt=&#039;Interior Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/qwfi2IzROo0CL2jCFAhJoq7nI-Y=/600x400/left/top/smart/images/ruowfi9ouwrvsoe7aky1ldfsogazn7fq4mlqmbtis8k.jpeg&#039; alt=&#039;ButterflyMX - 731 South&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/U7RamflhQLajrR3OhuleG-qHGlw=/600x400/left/top/smart/images/s_ufwtyb391gbyhjz740bv62cveehcwlbnxxenhp83c.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/1-T0zz_uzBC6Ofm83psKWKqD8mY=/600x400/left/top/smart/images/ykhhycqb_8kw_rn2rgkgbtbfyady_vkswlbqbw1xqlq.jpeg&#039; alt=&#039;Interior Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/z_mPotV9ULu8lQViZ6ddojSBs_g=/600x400/left/top/smart/images/jrraejhpe4ilqdba7xmcchxv20pgenkecdvecmbz_sa.jpeg&#039; alt=&#039;Business Center - 731 South&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/ZcuuQ1W_F9mVCTjbK5eo0lvZiuU=/600x400/left/top/smart/images/qtpdphcyhvsksfy_rpy8ouexiblxgb9fgqe4awdy4ym.jpeg&#039; alt=&#039;Gym - 731 South&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/i6WW3nwbgDRmOuzjhVcJ4Q7nifg=/600x400/left/top/smart/images/myyeq_sk9zqkp1azvwescttcqlq3efcvj9dnnzldw7q.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/gDPyIW0TtnM9j_kNP8iOobH0N18=/600x400/left/top/smart/images/9ayivccpb2hycvydfzhap9_qzalk_ybtwkffsgsskci.jpeg&#039; alt=&#039;Fitness Center&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/BeKgwTUKsNyFNGRmmIrY1VuMGUI=/600x400/left/top/smart/images/o2kfmoept9o6i1evcdqxyjni1eqbw07etbh1tiycyue.jpeg&#039; alt=&#039;2 BR, 1 BA - Living Room&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/tjflvm1tuIiPFlv1hduoEttcmVU=/600x400/left/top/smart/images/gsc3b9aphj3etz0b2zpdjev71epmd63n9zzu3bwgrce.jpeg&#039; alt=&#039;731 South&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/ZCJDyJSnlFez5HZCmvTEEuxDN8U=/600x400/left/top/smart/images/_79gbqjahzvt6mlzkoif_j9zsi2t__dqyx5fas_rfbw.jpeg&#039; alt=&#039;LVT - Kitchen&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/X50vd1bGuqfBpjm6C4KaDF_XMek=/600x400/left/top/smart/images/x4iqk4f8bczoiefkiton7zdwmtwmhtnlolfcbgwimaa.jpeg&#039; alt=&#039;LVT - Kitchen&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/5Vx30gIlv3xNUuc_ESydBXXOcFw=/600x400/left/top/smart/images/9yr9j1y4jx3xid3loknq6ac2eznvgdwy_a6rfr9dnki.jpeg&#039; alt=&#039;2 BR, 1 BA - Bathroom&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/Z6CZD8XeYxWNUB2ROI20EK7ehlM=/600x400/left/top/smart/images/knaukuci4_wbt5f_63zkwj_xgtzq2ncpgelogyrlr8e.jpeg&#039; alt=&#039;LVT - Kitchen&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/Aw_IP8CFJQjZX-bW2q3ysbi1pbA=/600x400/left/top/smart/images/gbl32vwctfagb9kcae8wbpcjjdmg5tir3txomhcmrby.jpeg&#039; alt=&#039;LVT - Kitchen&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/z4MJDZ4NZ-ZNUnALKEvoZlDc4-8=/600x400/left/top/smart/images/grsi09lq9lvpninck__xjjypfostn3hk_mtwqvbdioc.jpeg&#039; alt=&#039;Exterior View&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/pq1o-aK0STtvK7gA7fUE8XZrf60=/600x400/left/top/smart/images/6gpcfa_a3zyt981qcudk5ipgkoetk9gj8c5yuydu6uo.jpeg&#039; alt=&#039;Lounge&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/y-utYAhVCpqJAbgkdLHc_NAOoiE=/600x400/left/top/smart/images/17cs4svs_tcos6x9o494femba2pfpy26xkcwriygfqi.jpeg&#039; alt=&#039;Game Room&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/kIO_h3ZnjatZvW_TNv4wBnxZt1s=/600x400/left/top/smart/images/uyvr1t62du21btwjkzmjxbrjb3fh5vf5fhwdx92_ndk.jpeg&#039; alt=&#039;Foosball&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/CB2Q_P04KFx9vMSRi42A-Iy0XC4=/600x400/left/top/smart/images/v027vmr41drcyrkcqimhj10bg57l73edqs8ftwo72ko.jpeg&#039; alt=&#039;Business Center&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/1yNwf2S-p0o3xCtMzR_1yAdYTCQ=/600x400/left/top/smart/images/drvgwra2y_xlwm1yzajhsm58yske_xy_nwswdodkzny.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/_TJh4ls_FYD-eWD0AUVrcPZe3FY=/600x400/left/top/smart/images/qvont6c_e2ltnx89tuh__yablnjapw_hfqqapletklw.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;">
+    <div class='swipe-wrap'>
+        <div class="first">
+
+                    <img src="//img.offcampusimages.com/G06L6OCRd0UqkJt7Ku-rgeZt9IU=/600x400/left/top/smart/images/1lwkfvmrs_hv_z8epocmqa14addvqzic40eap8vvoem.jpeg"
+                 alt="Fitness Center">
+        
+        </div>
+
+    </div>
+
+    <div class="img-pagination-controls">
+        <button class="prev control icon-btn icon-btn--circle icon-btn--overlay icon-btn--3d" aria-label="Previous Image" title="Previous image" aria-describedby="property-search-listing-name-642707 property-search-listing-bedbath-642707 property-search-listing-rent-642707"></button>
+        <button class="next control icon-btn icon-btn--circle icon-btn--overlay icon-btn--3d" aria-label="Next Image" title="Next image" aria-describedby="property-search-listing-name-642707 property-search-listing-bedbath-642707 property-search-listing-rent-642707"></button>
+    </div>
+
+</div>
+
+    <a href="/user/add-favorites/property/642707?from=%2F"
+       class="favorite favorite-add auth-required icon-btn icon-btn--dark icon-btn--circle icon-btn--overlay"
+       title="Add listing to favorites"
+       id="property-listing-favorite-642707"
+       aria-labelledby="property-search-listing-name-642707 property-search-listing-bedbath-642707 property-search-listing-rent-642707"
+       data-property_id='642707'
+       data-user_id='3072307'
+       data-package='Diamond (Premium)'
+       tabindex="0"
+    >
+        <span class="fa fa-heart"></span>
+        <span class="visuallyhidden">Add to Favorites</span>
+    </a>
+
+    <a role="link"
+        title="View location on map"
+        class="alt-img icon-btn icon-btn--dark icon-btn--circle icon-btn--overlay"
+        tabindex="0"
+        aria-describedby="property-search-listing-name-642707 property-search-listing-bedbath-642707 property-search-listing-rent-642707"
+    >
+        <span class="fa fa-map-marker"></span>
+        <span class="visuallyhidden">View location on map</span>
+    </a>
+
+</div>
+
+            <div>
+
+    </div>
+            <div><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mediaViewCostarVideo" src="https://vapi.apartmentfinder.com/1.10.2/videosbyloopnet.js"></script>
+
+
+    <div id="video-playback-modal-container-642707" class="video-playback-options">
+        <div class="video-playback-options--modal">
+            <div class="modal video-modal" style="border-color: #001B49">
+                <div class="video-playback-options--content">
+                    <div class="video-playback-modal-title">731 S Plymouth Ct</div>
+                                            <div class="picture video-play"
+                             data-type="vidly"
+                             data-id="2c7w9j">
+                            <ins class="videosbyloopnet vidly"
+                                 style="display:block"
+                                 data-display="inline"
+                                 data-theme="brightblue"
+                                 data-video="2c7w9j"
+                                 data-muted="false"
+                                 data-sizeauto="px"
+                                 data-source=""
+                                 data-auto="play"
+                                 data-mute="true">
+                                <script>
+                                    (videosbyloopnet = window.videosbyloopnet || []).push({});
+                                </script>
+                            </ins>
+                        </div>
+                                    </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="vtb-container">
+        <div id="video-btn-container-642707">
+            <button
+            title="Play Video"
+            tabindex="0"
+            aria-labelledby="premium-slideshow-play"
+            class="icon-btn icon-btn--circle icon-btn--overlay icon-btn--3d"
+ .modal"
+                onclick="window.open('https://vapi.costargroup.com/video/play/2c7w9j?source=42', '_blank')"
+            >
+
+                                    <span aria-hidden="true" class="fa fa-play"></span>
+                                <span class="visuallyhidden" id="premium-slideshow-play">Play Video</span>
+            </button>
+        </div>
+    </div>
+
+</div>
+        </div>
+    </div>
+</article>
+
+<article class="ocp-property-search property-657184"
+     aria-labelledby="property-search-listing-name-657184 property-search-listing-bedbath-657184 property-search-listing-rent-657184"
+     data-property_id="657184"
+     data-user_id="3128625"
+     data-package="Diamond (Premium)">
+
+    <div class="ocp-property-search-content"><!-- Container for main search result content -->
+        <div class="info">
+        <div class="priceholder clearfix">
+            <div class="beds-and-bath">
+            <span id="property-search-listing-bedbath-657184">
+                Studio - 2 beds<br />
+1 - 2 baths<br />
+            </span>
+                            Apartment                            
+
+            </div>
+            
+            <div class="price"
+                 id="property-search-listing-rent-657184">
+                See Floorplans for Pricing                <span class="label">
+                    per unit                </span>
+            </div>
+
+            
+        </div>
+
+        <div class="name">
+                                                <a href="/property/view/listingid/657184"
+               id="property-search-listing-name-657184"
+               class="property-headline "
+               aria-labelledby="property-search-listing-name-657184 property-search-listing-bedbath-657184 property-search-listing-rent-657184"
+            >
+                Eleven40            </a>
+                        <span class="address">
+                1136-1140 S Wabash Ave Chicago, IL 60605            </span>
+        </div>
+
+        
+        <div class="search--listing-extras">
+        <strong>Move In:</strong> See Floorplans<br><strong>Listed by</strong> Lincoln Property Company        </div>
+
+
+    </div>
+                <div class="slideshow">
+            <div class="property-image">
+
+    <span class="gradient"></span>
+
+<div class='swipe' data-images="&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/9apSZRQgcTfCV7hQk4nI6-PtnfE=/600x400/left/top/smart/images/tdbskd1ijey2_8rceo72tjul0i3ivd2wwqhcmd0_v_w.jpeg&#039; alt=&#039;Furnished Studio - Living Room&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/bmsFD2qeBtR_iu2UpslVCfX5G34=/600x400/left/top/smart/images/hsvv93p1q9n088q6exlju5auvyhjt_o_alptzx2lcug.jpeg&#039; alt=&#039;Furnished Studio - Murphy Bed&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/BE3g3LAfOTsVq_E7Ll6jwaPQwJ0=/600x400/left/top/smart/images/6hearmjb__zk1nq_zqkb_ozk3bsfnwrj_06lwi_p3bc.jpeg&#039; alt=&#039;Furnished Studio - Living Room&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/H8Okml1nfj22lNUWS2Qstqm6iSY=/600x400/left/top/smart/images/lma4aqntxexwcvkfwdltrsaez7v2jrxyzrixbbqvgia.jpeg&#039; alt=&#039;Furnished Studio - Bathroom&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/Dn_LCUYqNaaxS2Bg4F3nNEq8-DA=/600x400/left/top/smart/images/nvgyr1ezzcglc3_6dxl6pxaxtiwt7kwfpfzdiiv5pj4.jpeg&#039; alt=&#039;Furnished Studio - Laundry&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/03qapK0HyN-4AlSg3p9-rkyRO28=/600x400/left/top/smart/images/nxfusxj_oyuom9toujg7a_od6gs2bxpwseesjpkpehw.jpeg&#039; alt=&#039;Lounge&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/EEX9yDgp19czzIgaQUtMgzGfVeA=/600x400/left/top/smart/images/qtnvwm3ylme76u4oko1nyrygfm2e98g5kmfx17gexny.jpeg&#039; alt=&#039;Lounge Bar&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/5bV6njuOnQxF04JZilhgDvP1R58=/600x400/left/top/smart/images/haejp51r7zdnhyklzjwpu_bgoyeuxazoki8ddkfoasu.jpeg&#039; alt=&#039;Lounge&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/4W1Q9R_gsYyEEm9i58JBtM_Jfzc=/600x400/left/top/smart/images/2rzpdyvmnrnwskbduljn8yhxeerx79_lukd2j2udxx0.jpeg&#039; alt=&#039;Lounge&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/iSJef2KLHbjjhPW1tt4zc2kGLQQ=/600x400/left/top/smart/images/kteue8sdfanbmhulnqr_ea2pgarxhunaqc9j4y7boyi.jpeg&#039; alt=&#039;Lounge&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/iftp3GeqDMXw7pdRTn8qI2_bqtk=/600x400/left/top/smart/images/4ujfqdbg2xu6snt1rty1lafnnzrcodkakfvmpyrr_oe.jpeg&#039; alt=&#039;Game Room&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/hbHFg3_cPvkLYh2RpAIGCLyHtYY=/600x400/left/top/smart/images/vopqr3ixleliuxawymncc_actkhiu7pcpapbxkoilgk.jpeg&#039; alt=&#039;Game Room&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/JFV2BCFwzk10tKv9ErnjfFuqO_8=/600x400/left/top/smart/images/wqbslsvdansktg41u1b5rawqb3n0iqdd18glkfnrb_e.jpeg&#039; alt=&#039;Jam Room&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/Nmt3j_XV5LH2LJGZvQlex_xv2EA=/600x400/left/top/smart/images/uxwarv4yi_o7oe1db0uksuhhwgiq0pn9lfuhhrjhlss.jpeg&#039; alt=&#039;Brew Bar&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/hdce6dcUInuhzoS3XPoEcATZ2vw=/600x400/left/top/smart/images/jz5khdjt2_ebgixzkfpxgfjxcwmzwknvsm1s_wtr8zi.jpeg&#039; alt=&#039;Fitness Studio&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/gbBgSaqBlI0WOeKtlR6vXy3jXSU=/600x400/left/top/smart/images/1rumk0fwxn_dzsof09edqfvgxysvawfafttqkchdsh8.jpeg&#039; alt=&#039;Fitness Center&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/VEfWVPRh-djz00Jz9R1WiMVbNY8=/600x400/left/top/smart/images/znnn_ahdpqsmdeupoxitn_53qhcgk9wt08b3ovdyzgq.jpeg&#039; alt=&#039;Fitness Center&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/Z-sDoa4YnaZKRfsKn0CCM0GR1AI=/600x400/left/top/smart/images/mxhdocs3uw6zloa1lom734kaajnp1hb5v65avih1uag.jpeg&#039; alt=&#039;Co-Working Space&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/I1YaXqqAoO8nSu8S-E9_P0GmDFE=/600x400/left/top/smart/images/vyvzyotnseh33jkbtc0lw9y0p_lycl4jvwmhu0rfrca.jpeg&#039; alt=&#039;Co-Working Space&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/bhzERpDQuaj1ydPW8vImaCeUW9g=/600x400/left/top/smart/images/t9a1mlhp07zrnxfy_ep0r5heiz_81u2vvcux4s5im4u.jpeg&#039; alt=&#039;Co-Working Space&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/jctyRLSih9wnpYdQcwuNPj-bBK4=/600x400/left/top/smart/images/j3houhrg4zpiupaubodygt1v6szm1rcjwr7flwukcqi.jpeg&#039; alt=&#039;Pet Spa&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/28HWQGmW1oFSwIBZdFepIVH7RPQ=/600x400/left/top/smart/images/co34oncepcf_pn5kkmatckd9_wu5dnwewdjjhadykeg.jpeg&#039; alt=&#039;Aqua Lounge&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/PIQZbdcN3NSb4w5qzlts3AjbOBE=/600x400/left/top/smart/images/99_co3vpta51lp6bf58tcqin2nvt5r3k6cmb_7qncxq.jpeg&#039; alt=&#039;Aqua Lounge&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/hcMFV04vpD8z_xzRBmpvuydzVB8=/600x400/left/top/smart/images/yjd8u8g1q9z_ui6hclbalc6zezxfk27j1bdosyznrz4.jpeg&#039; alt=&#039;Lobby with Living Wall&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/2Ks1FtUh4lSNBPPhSm5IO2WKr1Q=/600x400/left/top/smart/images/t5xozwiycz8lj_o23rwmltjemn3pp_uijuezczzicik.jpeg&#039; alt=&#039;Concierge&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/uq67luggMgVVsTJUc5G1E7usfYA=/600x400/left/top/smart/images/stemyzyyzohbaje8sz5g9wkw_lkenbr9xrkeuidwebw.jpeg&#039; alt=&#039;Studio - Bathroom&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/FTI1bE0WGYIp8isW_2CHxQdlC68=/600x400/left/top/smart/images/ei48crk81lcyvuqqmpttiyosp6e9mtwsxzxd3gd9v9u.jpeg&#039; alt=&#039;Studio - Entrance&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/DRBiJiTTzPNRPktyf3vdQS4TiBA=/600x400/left/top/smart/images/slkj2ynpvygyjdum6shyro5fhjihuuraj9yukwb3xte.jpeg&#039; alt=&#039;Studio - Laundry&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/uQKBkiLTRT4EC3FlcSRMyxU6cYY=/600x400/left/top/smart/images/gigbjwpgwqitx5cjyixd28m8ed71oqbmsl8wjgr_qnc.jpeg&#039; alt=&#039;Studio - Kitchen&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/1qDeuc1qdxexdM65qLg87DtbcE8=/600x400/left/top/smart/images/_uxkhfjgbko6upym6kjqdn7rubteyyl9abz0yy_2csw.jpeg&#039; alt=&#039;Studio - Living Space&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/jW6AMJsGhSl-uWNK4AIoyvI5huU=/600x400/left/top/smart/images/t_elc20huwduma4xcrxnnhotjfpgep6ghzgwnrxgscq.jpeg&#039; alt=&#039;Studio - Living Space&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/12d4lvAVZ6s_oHnUbTqoFDoc0gI=/600x400/left/top/smart/images/z3zejyxlzbeihwxmkbuw7la5dijatil5vmkez691vzk.jpeg&#039; alt=&#039;1 Bedroom - Kitchen&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/lozoO79tVa8-K7l5kZbCSJ2ejys=/600x400/left/top/smart/images/ea_enzl4val2hy3fwmsf1do1telqmujkpcx7ypx_lki.jpeg&#039; alt=&#039;1 Bedroom - Laundry&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/X6kGa9vMxCThBKnykUR1-b_RObA=/600x400/left/top/smart/images/npzvyjyqonxmjyj84hcltssb1hq__9ht2mlg_ds6v_s.jpeg&#039; alt=&#039;1 Bedroom - Bedroom&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/lVT46a8enGeXNHZLJ3ejnVroYV0=/600x400/left/top/smart/images/dy34cpniczmvftqbk3nfjcyet4otgu21h5ny2ibyhpm.jpeg&#039; alt=&#039;1 Bedroom - Bedroom&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/GYFHy6BHUtaPJTK9nvD2OOY622w=/600x400/left/top/smart/images/dx1scvg8h4z5bnvnnftz0o6mnfbzgkhsgsqexavm13o.jpeg&#039; alt=&#039;1 Bedroom - Bathroom&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/Miu9FOs3CDXak0ujB1Ss4Y9x9Jc=/600x400/left/top/smart/images/o_xasyww8znatbqob4206tubxrz11k4jfiixj_gicnq.jpeg&#039; alt=&#039;1 Bedroom - Kitchen&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/u6Rbc-iBNqkwzq4zdmxAUPUhLK4=/600x400/left/top/smart/images/p8liezkwybv_sjano7ebrg3knyk4w9sgdg_ffp_bgxm.jpeg&#039; alt=&#039;1 Bedroom - Living Room&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/7rmt_xA2dvXyZh2P215Sd5x1wKE=/600x400/left/top/smart/images/en7igtgo1cithcxjqppjkzytavxigrhc_p68zi64cqc.jpeg&#039; alt=&#039;1 Bedroom - Living Room&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/ZUuAtSJhkCPHQavDJMGPJRlrYbM=/600x400/left/top/smart/images/xeirlasj5jmgsdbcz3q77yr9epmtfzp_xoifemdwx8g.jpeg&#039; alt=&#039;1 Bedroom - Living Room&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/yZ3JyjunasZtPWwG1q-mH4V7nQU=/600x400/left/top/smart/images/xgtcia5yu9ngpddrcdfukd_c_tmx3byapsjzdes5xg8.jpeg&#039; alt=&#039;2 Bedroom - Bathroom&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/cOoUrCqQrG2XJ2rHVpibBvCf5Sk=/600x400/left/top/smart/images/eywbcavedl3zyxpythnc0d91kw8jeyyg8vyfxeuwpli.jpeg&#039; alt=&#039;2 Bedroom - Second Bedroom&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/nN4_i-1bsB1m5yR5Sxig1eyWTXs=/600x400/left/top/smart/images/jkb7amam_vjnuhlqo5avf3_mkzo2fazmob5qbmossqe.jpeg&#039; alt=&#039;2 Bedroom - Second Bedroom&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/w5dKDOrcw0c2gWDETDo2HjGVK10=/600x400/left/top/smart/images/gbhkszbktjfd_roqjt7dmjiic4ppzegwpus8talvwtu.jpeg&#039; alt=&#039;2 Bedroom - Laundry&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/WTTYxh8GlHZwhGPjVLa46wQd7W0=/600x400/left/top/smart/images/eomaidgjcvgjrspeeq7wqvq2kkbx30_1s1s3hvlchry.jpeg&#039; alt=&#039;2 Bedroom - Master Bedroom&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/RmlEI0IDcs0kl89ylTFWf7BbBOs=/600x400/left/top/smart/images/hjjkrmvbjbxha5rwr8prweugwlawhxxjdpfmjqnee_0.jpeg&#039; alt=&#039;2 Bedroom - Master Bedroom&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/MYrizaX5gNrV6DXeBXVXsTrVbSY=/600x400/left/top/smart/images/vwgvingj4kkssj_plng2lat8tmvopjtlhk7zmncqttm.jpeg&#039; alt=&#039;2 Bedroom - Master Bathroom&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/LanWkRhQzBa-zzGgqsM2R4rSJ9g=/600x400/left/top/smart/images/niyhpqrjs1ifiq1qhvnxz0ulcb_ayofqj4ejdxu49j0.jpeg&#039; alt=&#039;2 Bedroom - Master Closet&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/GrV2nc6VQEPxcJ0QJUU4QbS5v0g=/600x400/left/top/smart/images/7xzbihpsvc_6fehqoox687olqkdhw2jfj27yhkx_idw.jpeg&#039; alt=&#039;2 Bedroom - Kitchen&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/UEBxYHiPi4tz5SklM3LOAomtTqo=/600x400/left/top/smart/images/r6une9tdxoywnvod_9tklqr96rp42zvpxu8ofajkcw8.jpeg&#039; alt=&#039;2 Bedroom - Living Room&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/WkReAIHsWLyyT1JBWI_emD00ikU=/600x400/left/top/smart/images/oo7tj0n7tclgsmqzos5bh_hnz1goj2k9_txatbvidj4.jpeg&#039; alt=&#039;2 Bedroom - Living Room&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/erBN1MhbgcMGtFvA5nUHafmUais=/600x400/left/top/smart/images/k7cmid2outokehzw_wyrzyer3thf6ykxpfsw18th4h4.jpeg&#039; alt=&#039;2 Bedroom - Balcony&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/lxy1mmClkoy9GNAuvGrWRfpvg-Q=/600x400/left/top/smart/images/ikzcym45fdfqwxcdtzafjlc48ljfgtac82cbnuuuhai.jpeg&#039; alt=&#039;Elevator Lobby&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/8ulxXRphDVCcWXgPof--FWXdteM=/600x400/left/top/smart/images/vu_a0_wcc2g_60ufyeahb89059_skomasib49y8ibpm.jpeg&#039; alt=&#039;Package Service&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/Ebcg2uPInYJfjAJqLi9-WgMvn84=/600x400/left/top/smart/images/cxzccf9u8u988htqtn9hxe0pmibdb_z8aisclwun7sy.jpeg&#039; alt=&#039;Pool&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/1T-O6XlExtQrC_E9Tke9E9FfjTw=/600x400/left/top/smart/images/_lc1hp_b8w_s9qu68ilsrdx0xeg5tzlirqsye_t0_uy.jpeg&#039; alt=&#039;Pool&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/ru3G8hFTtORlQLq3mOXszirQP1c=/600x400/left/top/smart/images/huzm9rdfeooqx1jlh1bkd6vejah_irajx0kurollbhc.jpeg&#039; alt=&#039;Hot Tub&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/znkuGbhDFsO4zgVBoN7LYDEFuQI=/600x400/left/top/smart/images/fen3629vy_ce8jgnwt4r3gcut9vbe3fz0ayadnud_iy.jpeg&#039; alt=&#039;Hot Tub&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/gGGlpWwgD-_L5cpv17iuqeeRqQc=/600x400/left/top/smart/images/cb2cw2gwswqkq9j9_aivcwgxiw1ghjj37flz1md6fse.jpeg&#039; alt=&#039;Sun Deck&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/U23_xZn9_eUumSzEE35pt5A7WkI=/600x400/left/top/smart/images/vc7brtuuef6dmla3ojayzxckptsivtfbkg9u1gofn0y.jpeg&#039; alt=&#039;Rooftop Deck&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/9xfBmErsFe3SyfMCoOPbumeDgN8=/600x400/left/top/smart/images/zl03jwjkbwtuuxdd6rspc_vbhcljngdslecbsgqxdy0.jpeg&#039; alt=&#039;Fire Pit&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/TdmTqaylvXA9bfVBxAEd5_X_S8I=/600x400/left/top/smart/images/sbkweuv97qirmkw_fulsv4znralzujlje4pknqtyg68.jpeg&#039; alt=&#039;Barbeque&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/vVkB4FfP9C_EZ8KtQahTbm72AQQ=/600x400/left/top/smart/images/uvxrk98chnofanj8nfa4tgrmnqp2yrrwa0wf2nawxkk.jpeg&#039; alt=&#039;Dog Run&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/Mw7spBBhfvlNZ5e1_Yf0v969868=/600x400/left/top/smart/images/qew6zuz6bfadljrzllach95m5q2brc2ho99e_db9fps.jpeg&#039; alt=&#039;Hammock&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/tmp8JG1kEOyDYCBb7SxNhHZ7rEI=/600x400/left/top/smart/images/yo5vxopsr9whyuxe7bhtygb7bbirqrtv4m3bilzpui0.jpeg&#039; alt=&#039;Terrace&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/PGU6wfCvr7ici4rogeVndg-IFlk=/600x400/left/top/smart/images/o0wi2ha5dyaxvphjkww4v1ql_iak6hm64qqdrjpfn8i.jpeg&#039; alt=&#039;Terrace&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/w7wI5ue8bOn0WWkbQ8G7WFl1RAk=/600x400/left/top/smart/images/pqkg4pjsakgqjai4oyu0ijsjiww2qjbpmfard6kpb8s.jpeg&#039; alt=&#039;Grilling Station&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/1dg6dPzllufb7pG1P45Kn8h1idY=/600x400/left/top/smart/images/vicj9v4d3wxoto4fvfoojuqq5tjvzphc_5nqv5r256g.jpeg&#039; alt=&#039;Outdoor Fitness Studio&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/BxL5yGLQkFMPUsdGZp4ia5RFP0c=/600x400/left/top/smart/images/1_9pe9trpulk87nlvemeiz_xi4xqd6rqlukpogernwc.jpeg&#039; alt=&#039;Eleven40&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/s8_jnkOEuP41i5merqkwQ_9PJK4=/600x400/left/top/smart/images/fqvvevefrvhdb44y_rbgefpf08fx1t1vuzesj7q0aig.jpeg&#039; alt=&#039;Eleven40&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/YA4Ui6W8kcl-5F_ezcrAKXVbkOM=/600x400/left/top/smart/images/iruopcpwrohjoh8mgrxfbarpxlma0kon156_f3anpjw.jpeg&#039; alt=&#039;Rooftop Deck&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/clEpZ4y9Gg1Yr1og32ZQSV-x2RM=/600x400/left/top/smart/images/8_vys062fy7_9k85l3l_vn7lu_ruwfc6hjocmqrdwna.jpeg&#039; alt=&#039;Rooftop Deck&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/9t34SI74NI1qJBV8U_CBmcBzoGY=/600x400/left/top/smart/images/ex7y9wz18ukscabsvls0892skynv9u7gsxzqopay23o.jpeg&#039; alt=&#039;Eleven40&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/oidDrBCPz56fMHw8860QTCD5ZHg=/600x400/left/top/smart/images/zhoup7e6prsodtyyh_noqagteau1gmga7997tfyr8tc.jpeg&#039; alt=&#039;Eleven40&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/zfapJZ2ptfeAs0i4xeizgKn1cec=/600x400/left/top/smart/images/awgeq7bqb_almala_pdg1duz3lzh_rsicjhtqbn59na.jpeg&#039; alt=&#039;Eleven40&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/dfx9r6I_cQtyKxb9V89gmwrNrnU=/600x400/left/top/smart/images/pgqwa_sxhgqffzhbgm0iilq__7pv8x8bq9xpuqdabzm.jpeg&#039; alt=&#039;Eleven40&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/DNz-IqycutOQCApCEFkLV_uOpfg=/600x400/left/top/smart/images/4dkqftp9mdpac99_zd7dzjl4zbfx5jx93knyfefvzms.jpeg&#039; alt=&#039;Eleven40&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/wbU_CqP9zmR8BislpBW9OGJ7_kY=/600x400/left/top/smart/images/ggm3jezbm8ajrldcylcdt2eccdcfnrq4_eaxbjm6zlk.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/9KqY_GejOafy0LU00Du-62aGqSw=/600x400/left/top/smart/images/gxxsnv11g5ojek0ukfgq4_aqft7jrb8t3gvaxh84xso.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/SP37ADKZ6z1TajnYbmoF40kvGVQ=/600x400/left/top/smart/images/hxczdk6amzm8fjh9_azwqme8woojkuzwgq8cif679ye.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/nPezVcuw5IaY0I6PnDdI2PJHkQo=/600x400/left/top/smart/images/lv32rptmxumtfhcnf4epo9kwsvbhivq3nz88tv_o83c.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/BFDW7E5utKLFTYiRQb5RZ0mteco=/600x400/left/top/smart/images/bfsbbq_t_et6r7j6tyg1_xaven9zmbizq_dammqfqg4.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/Ff66sRT6ZT5tWNwRA2Xmpx5XG1s=/600x400/left/top/smart/images/qjgwbkczgg5tydxf3nifsccaujbrgqt18hjregj5_jc.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/18iBekXpd0rQ_8B1d2GFPKweEyQ=/600x400/left/top/smart/images/rd3sgdznhyl3jzsfrtcmcocdxx4wrulpg_n0qj9jmds.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/H2B-phkKdZbCQOfkC5sYWqQNjBo=/600x400/left/top/smart/images/krsdsb7cmfeq25mgonqv_cm0jqtf_v9yqyyw5yeefq0.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/dTlskZeiFAusLihClRQAhlCrfr4=/600x400/left/top/smart/images/ryxxafhi6vgqtsbz9rdkbgqmfnxqa15qvtjebc3cwzc.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/zhu83AIqACXLxS2qr9LjtiVUXx0=/600x400/left/top/smart/images/_fyd2wtvugk17s4ksdahc1ddtr5exxuia6vpbucpv1c.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/igqcvZCQmzrg7fMWasFGr-U46dE=/600x400/left/top/smart/images/69r_hgusoqu_uftnkywd9dkzglya88jaucky2rvtsd0.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/KnYHmu-nzqoXhv2eznqnsiKfFIM=/600x400/left/top/smart/images/azaw6i3xesoz6dxge3jk4mb0j8avi9fqasidetxvpxu.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/c7tjVH5IlStSELu_KGU5WAN9Wms=/600x400/left/top/smart/images/qcvikhzxqusklsduuoicsn7tg_snglwyjw4nrh8hvg0.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/pi9-Z5yb5fkqy7h6BMDoBRsAweA=/600x400/left/top/smart/images/9ymznfiingcleng8ekyvtb4e5ezkb4c48pfweafdcwi.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/dkbTIA8xTlPlThN_mDzgG2btssI=/600x400/left/top/smart/images/fzcu1bft5__md2s5_f1lkkejqp7mlko5082vwlyzedc.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/bCsaHjJBT1Jx3vfmhJ6IDmSyLTM=/600x400/left/top/smart/images/v__wq2kowqexohmkldqheynxi_o8r5w2jxqp_anifv0.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/hz3yYh7yA5vD28ldE43TNZDr2fU=/600x400/left/top/smart/images/u_cxs_b74q_bnqfzmrmu3t5g_zvw0nnhmv0wv_5oliq.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/GDkHdC-REbHZlATHIq_QGUWxXK0=/600x400/left/top/smart/images/vzonvgu0lzgz8mthezxhisp0yqzfki5_8_q7jzgis9s.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/cIt2WG6eWs8wWQnrN06Wlf9o2KY=/600x400/left/top/smart/images/_n62zsastapj5sdo21l6mnan4zilztjyyg6qdfggnj8.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/L72yAyU37yIuEDzfUwreyHnsp74=/600x400/left/top/smart/images/xdl7bq827dn8dsc8kcnr0tvkbdapwdcw4pbqdocjrmy.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/lUTSBTQxl_L36y3NB6T4aMXzdXA=/600x400/left/top/smart/images/rzuz8cpjsgr_vr93wc_j9yckyw3a2guulkk5fv1__q4.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/2yFl7qZPj5XKQAarr1-aSCujunU=/600x400/left/top/smart/images/iltxpgcroi8ltmbrsnddmqhebg0oftjpt_pk3tdqjag.jpeg&#039; alt=&#039;Building Photo&#039;&gt;&lt;/div&gt;">
+    <div class='swipe-wrap'>
+        <div class="first">
+
+                    <img src="//img.offcampusimages.com/BUsCio7aMNU4KS2HUxLUR9E1o3M=/600x400/left/top/smart/images/yidag2eo6i272v0eq_z_zpjgyotnrihvg0wa5vnkjeo.jpeg"
+                 alt="Eleven40">
+        
+        </div>
+
+    </div>
+
+    <div class="img-pagination-controls">
+        <button class="prev control icon-btn icon-btn--circle icon-btn--overlay icon-btn--3d" aria-label="Previous Image" title="Previous image" aria-describedby="property-search-listing-name-657184 property-search-listing-bedbath-657184 property-search-listing-rent-657184"></button>
+        <button class="next control icon-btn icon-btn--circle icon-btn--overlay icon-btn--3d" aria-label="Next Image" title="Next image" aria-describedby="property-search-listing-name-657184 property-search-listing-bedbath-657184 property-search-listing-rent-657184"></button>
+    </div>
+
+</div>
+
+    <a href="/user/add-favorites/property/657184?from=%2F"
+       class="favorite favorite-add auth-required icon-btn icon-btn--dark icon-btn--circle icon-btn--overlay"
+       title="Add listing to favorites"
+       id="property-listing-favorite-657184"
+       aria-labelledby="property-search-listing-name-657184 property-search-listing-bedbath-657184 property-search-listing-rent-657184"
+       data-property_id='657184'
+       data-user_id='3128625'
+       data-package='Diamond (Premium)'
+       tabindex="0"
+    >
+        <span class="fa fa-heart"></span>
+        <span class="visuallyhidden">Add to Favorites</span>
+    </a>
+
+    <a role="link"
+        title="View location on map"
+        class="alt-img icon-btn icon-btn--dark icon-btn--circle icon-btn--overlay"
+        tabindex="0"
+        aria-describedby="property-search-listing-name-657184 property-search-listing-bedbath-657184 property-search-listing-rent-657184"
+    >
+        <span class="fa fa-map-marker"></span>
+        <span class="visuallyhidden">View location on map</span>
+    </a>
+
+</div>
+
+            <div>
+
+        <div class="vtq-container">
+        <div id="vtq-btn-container-657184">
+                            <a href="/tracking/virtual-tour/id/657184"
+                   target="_blank"
+                   class="vtq link"
+                >
+                    Virtual Tour <small><span class="fa fa-external-link"></span></small>
+                </a>
+                    </div>
+    </div>
+    </div>
+            <div><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mediaViewCostarVideo" src="https://vapi.apartmentfinder.com/1.10.2/videosbyloopnet.js"></script>
+
+
+    <div id="video-playback-modal-container-657184" class="video-playback-options">
+        <div class="video-playback-options--modal">
+            <div class="modal video-modal" style="border-color: #D50032">
+                <div class="video-playback-options--content">
+                    <div class="video-playback-modal-title">1136-1140 S Wabash Ave</div>
+                                            <div class="picture video-play"
+                             data-type="vidly"
+                             data-id="3t0d9p">
+                            <ins class="videosbyloopnet vidly"
+                                 style="display:block"
+                                 data-display="inline"
+                                 data-theme="brightblue"
+                                 data-video="3t0d9p"
+                                 data-muted="false"
+                                 data-sizeauto="px"
+                                 data-source=""
+                                 data-auto="play"
+                                 data-mute="true">
+                                <script>
+                                    (videosbyloopnet = window.videosbyloopnet || []).push({});
+                                </script>
+                            </ins>
+                        </div>
+                                    </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="vtb-container">
+        <div id="video-btn-container-657184">
+            <button
+            title="Play Video"
+            tabindex="0"
+            aria-labelledby="premium-slideshow-play"
+            class="icon-btn icon-btn--circle icon-btn--overlay icon-btn--3d"
+ .modal"
+                onclick="window.open('https://vapi.costargroup.com/video/play/3t0d9p?source=42', '_blank')"
+            >
+
+                                    <span aria-hidden="true" class="fa fa-play"></span>
+                                <span class="visuallyhidden" id="premium-slideshow-play">Play Video</span>
+            </button>
+        </div>
+    </div>
+
+</div>
+        </div>
+    </div>
+</article>
+
+<article class="ocp-property-search property-292652"
+     aria-labelledby="property-search-listing-name-292652 property-search-listing-bedbath-292652 property-search-listing-rent-292652"
+     data-property_id="292652"
+     data-user_id="1502793"
+     data-package="Platinum (Deluxe)">
+
+    <div class="ocp-property-search-content"><!-- Container for main search result content -->
+        <div class="info">
+        <div class="priceholder clearfix">
+            <div class="beds-and-bath">
+            <span id="property-search-listing-bedbath-292652">
+                Studio - 4 beds<br />
+1 - 2 baths<br />
+            </span>
+                            Apartment                            
+
+            </div>
+            
+            <div class="price"
+                 id="property-search-listing-rent-292652">
+                $2,200                <span class="label">
+                    per bedroom                </span>
+            </div>
+
+            
+        </div>
+
+        <div class="name">
+                                                <a href="/property/view/listingid/292652"
+               id="property-search-listing-name-292652"
+               class="property-headline "
+               aria-labelledby="property-search-listing-name-292652 property-search-listing-bedbath-292652 property-search-listing-rent-292652"
+            >
+                ARC - Student Living            </a>
+                        <span class="address">
+                407 S Dearborn St Chicago, IL 60605            </span>
+        </div>
+
+        
+        <div class="search--listing-extras">
+        <strong>Move In:</strong> See Floorplans<br><strong>Listed by</strong> CA Ventures        </div>
+
+
+    </div>
+                <div class="slideshow">
+            <div class="property-image">
+
+    <span class="gradient"></span>
+
+<div class='swipe' data-images="&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/vHuDlA-JcYXU-SnpkfOK0p_gel0=/600x400/left/top/smart/images/pb4e0buymjeef2rpjlqi_28j2qqionrfd7f1psyobqw.jpeg&#039; alt=&#039;Outdoor Rooftop Patio&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/f4zdVW7LQvQYwO0E_X2AS7Bk7xI=/600x400/left/top/smart/images/2dpqrinfjyy8g_irazk5r2ljbuypkb0ietzr02rcwwg.jpeg&#039; alt=&#039;Social Community Lounge&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/RaKekkxB9yz2EUxDDDq8EMP3Pn8=/600x400/left/top/smart/images/i1sxkigkcw2mvo_qce2_ptogjczo5u3bw_tgj5ss3oe.jpeg&#039; alt=&#039;Social Community Lounge&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/YCy96GltFZ2gXsdFdog9kP5fpOM=/600x400/left/top/smart/images/h4gf2btvbsjke6bcgloagfy99pkbn8gq4igds2dwy_g.jpeg&#039; alt=&#039;Historical Study Lounge&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/zUevZIwkDFWrGHPGe0qdhbwtCGw=/600x400/left/top/smart/images/xolspzvhz5rcx8dbns19_bcsmy7rm4oqka6mdqgliai.jpeg&#039; alt=&#039;Historical Study Lounge&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/kQukNjAJ0I8lYoJE5cmz17VpavU=/600x400/left/top/smart/images/getatlbubaufgawzhwne1fczq39o0qgeurwmzy8lleu.jpeg&#039; alt=&#039;Historical Study Lounge&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/tGLl6LLSSQod5ZjFLc_UeVGT-_U=/600x400/left/top/smart/images/zlnyaylig32ancuwl5brbzmyjej3k8vhuyli_tpkna4.jpeg&#039; alt=&#039;Club and Game Room&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/35PYybNfsyBDyrkDfKE9Lgd38SU=/600x400/left/top/smart/images/1ls4b6yptfqxuiryo0hpi3cv0__xvghaupjcwkg6kuy.jpeg&#039; alt=&#039;Club and Game Room&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/CFCBZVMeTXy5zpSOXS_CqAk6oXM=/600x400/left/top/smart/images/gyu3dqn4ynszs_tsjyugosmzx71dwdhzhxzb__5hyhy.jpeg&#039; alt=&#039;Rooftop Lounge&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/seqE3CfyNlIOdTGSX3KmZANedqo=/600x400/left/top/smart/images/okrcsdmaktfzdh3kohqw33ng2m_6zdom4vq5me6hy0w.jpeg&#039; alt=&#039;Student Study Lounge&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/-_Ibg0PObsxSptjtcgpQcdh0ehw=/600x400/left/top/smart/images/ayd2vllcfdksre58xjnf9dnxhvkkjqucsjepmo_dnqu.jpeg&#039; alt=&#039;24 Hour Fitness Center&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/yjLzXFnpngqUVdS-1DPuM2Qp8vc=/600x400/left/top/smart/images/j8gxbomwqnweezoqidtg2pfyt3z61veexfvmr8yarps.jpeg&#039; alt=&#039;Rooftop Oasis&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/CZGVwv011eygTOPXYvRb2wI2Cd4=/600x400/left/top/smart/images/rtslrgml_qmpngztplf2nqgcekhbrags7k9dtmgqx_o.jpeg&#039; alt=&#039;Front Door&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/9yUsT5Lq4Z8H7EjP_RF_8NS_QKw=/600x400/left/top/smart/images/npsxfpm5bo5kxabnjvwkjkaq_vdouohi_8p1xwtvrvs.jpeg&#039; alt=&#039;Exterior View&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/diHuKuv0uiVJRqhavCXnUIZOBa8=/600x400/left/top/smart/images/a_yhajuwcmaefruoqk4sqvg781wazsuwver8qcmdbf0.jpeg&#039; alt=&#039;Salon&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/ja1vNNVAubMKAbEtPVKPHE6GDd0=/600x400/left/top/smart/images/pf_wjdnbje0aytnngaht_xdsf6_mn7hlmyqttvns6h4.jpeg&#039; alt=&#039;Upgraded Kitchen&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/55noguzho53Y32x5T_rFU2RFvgM=/600x400/left/top/smart/images/yt_bfddupgipuj5myzsbejfimzgxljajs0fezg_afyw.jpeg&#039; alt=&#039;Furnished Living Room with City Views&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/74b9YYt8GCs3pHOkHZb-AGBbW4o=/600x400/left/top/smart/images/vgwu4_tg8ou8vjwcy8prltdnlxqf2mwmyhgy4nw0t_8.jpeg&#039; alt=&#039;Private City Bedroom&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/Raszlnren0DqOHDC4MWfXJNPsdM=/600x400/left/top/smart/images/16qhhfopl0s3bjfdesxsr86vcd5opdp2ca5ez9mbres.jpeg&#039; alt=&#039;Spacious Urban Living Room&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/4GltCSlYxLIim5ZpA7BWLcUj4KY=/600x400/left/top/smart/images/zosoo_swov6onm3nyyqvvegr8tvgcxva0_w3i2s4jgc.jpeg&#039; alt=&#039;Upgraded Bathroom&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/t55hFHjzTAHd4yuGkLXB5vKVZSc=/600x400/left/top/smart/images/4by7onjqjr_ro6ejksr0dfsbwbpfomiv3yptcsfrlzu.jpeg&#039; alt=&#039;In-Unit Washer &amp; Dryer&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/W2vbAxBnkPIzzK2SlV71DfIcIeE=/600x400/left/top/smart/images/cdquegq6f_sifnsvicjjsgdmfztc4qe3h6hcxfxsw_u.jpeg&#039; alt=&#039;Full Bathroom&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/FVHJXFxu-UHFc48hOEYSyn5SKCQ=/600x400/left/top/smart/images/263mxtwgoqzrgvtxe9omwrba_g6maeyxrwggidvpdw4.jpeg&#039; alt=&#039;Bedroom with Desk&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/55aF_5FK4oTtZyJV5hC3BDiaedc=/600x400/left/top/smart/images/hvx_epgspuxgimzphir9bh__67ll5e4cqhcwfulqkgy.jpeg&#039; alt=&#039;Bedroom&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/9S4_4AUAWaK0tTnKwwXANIBjPd8=/600x400/left/top/smart/images/t2nvxocn6oor_iniei_ckvskdznbaii66cyzuwvodlg.jpeg&#039; alt=&#039;Kitchen with Stainless Steel Appliances&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/QSnt95hvmwwhKnZrG-QMjSNlll0=/600x400/left/top/smart/images/_mm2tv0mehra_vdubjockz9iq3pnz_qmruolcwjqcui.jpeg&#039; alt=&#039;Bedroom&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/MPkg40mHbVJOQdqtNGkwoYeCcWY=/600x400/left/top/smart/images/ds4mwgn8wirlpwwfpxsawyadxp2oifrx79tk3r3cp4g.jpeg&#039; alt=&#039;Living Room&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/04FhHIaDgzjKMIt7efBhAAUgOQc=/600x400/left/top/smart/images/kdanenymtvksqj21uyshpx9ufi6ckfb7x_p2jnurbq4.jpeg&#039; alt=&#039;Living Room&#039;&gt;&lt;/div&gt;">
+    <div class='swipe-wrap'>
+        <div class="first">
+
+                    <img src="//img.offcampusimages.com/1olmZwgFfqIS90IN83kYpBn5y-c=/600x400/left/top/smart/images/bcnvq9ofirwxy_3uo5tbg4a2xw2p1oza0zg1brzguyy.jpeg"
+                 alt="PrimaryPhoto">
+        
+        </div>
+
+    </div>
+
+    <div class="img-pagination-controls">
+        <button class="prev control icon-btn icon-btn--circle icon-btn--overlay icon-btn--3d" aria-label="Previous Image" title="Previous image" aria-describedby="property-search-listing-name-292652 property-search-listing-bedbath-292652 property-search-listing-rent-292652"></button>
+        <button class="next control icon-btn icon-btn--circle icon-btn--overlay icon-btn--3d" aria-label="Next Image" title="Next image" aria-describedby="property-search-listing-name-292652 property-search-listing-bedbath-292652 property-search-listing-rent-292652"></button>
+    </div>
+
+</div>
+
+    <a href="/user/add-favorites/property/292652?from=%2F"
+       class="favorite favorite-add auth-required icon-btn icon-btn--dark icon-btn--circle icon-btn--overlay"
+       title="Add listing to favorites"
+       id="property-listing-favorite-292652"
+       aria-labelledby="property-search-listing-name-292652 property-search-listing-bedbath-292652 property-search-listing-rent-292652"
+       data-property_id='292652'
+       data-user_id='1502793'
+       data-package='Platinum (Deluxe)'
+       tabindex="0"
+    >
+        <span class="fa fa-heart"></span>
+        <span class="visuallyhidden">Add to Favorites</span>
+    </a>
+
+    <a role="link"
+        title="View location on map"
+        class="alt-img icon-btn icon-btn--dark icon-btn--circle icon-btn--overlay"
+        tabindex="0"
+        aria-describedby="property-search-listing-name-292652 property-search-listing-bedbath-292652 property-search-listing-rent-292652"
+    >
+        <span class="fa fa-map-marker"></span>
+        <span class="visuallyhidden">View location on map</span>
+    </a>
+
+</div>
+
+            <div>
+
+        <div class="vtq-container">
+        <div id="vtq-btn-container-292652">
+                            <a href="/tracking/virtual-tour/id/292652"
+                   target="_blank"
+                   class="vtq link"
+                >
+                    Virtual Tour <small><span class="fa fa-external-link"></span></small>
+                </a>
+                    </div>
+    </div>
+    </div>
+            <div><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mediaViewCostarVideo" src="https://vapi.apartmentfinder.com/1.10.2/videosbyloopnet.js"></script>
+
+
+
+</div>
+        </div>
+    </div>
+</article>
+
+<article class="ocp-property-search property-292663"
+     aria-labelledby="property-search-listing-name-292663 property-search-listing-bedbath-292663 property-search-listing-rent-292663"
+     data-property_id="292663"
+     data-user_id="1502833"
+     data-package="Platinum (Deluxe)">
+
+    <div class="ocp-property-search-content"><!-- Container for main search result content -->
+        <div class="info">
+        <div class="priceholder clearfix">
+            <div class="beds-and-bath">
+            <span id="property-search-listing-bedbath-292663">
+                Studio - 4 beds<br />
+1 - 3 baths<br />
+            </span>
+                            Apartment                            
+
+            </div>
+            
+            <div class="price"
+                 id="property-search-listing-rent-292663">
+                $869 to $2,316                <span class="label">
+                    per bedroom                </span>
+            </div>
+
+            
+        </div>
+
+        <div class="name">
+                                                <a href="/property/view/listingid/292663"
+               id="property-search-listing-name-292663"
+               class="property-headline "
+               aria-labelledby="property-search-listing-name-292663 property-search-listing-bedbath-292663 property-search-listing-rent-292663"
+            >
+                Infinite Chicago - Student Living            </a>
+                        <span class="address">
+                28 E Jackson Blvd Chicago, IL 60604            </span>
+        </div>
+
+        
+        <div class="search--listing-extras">
+        <strong>Move In:</strong> See Floorplans<br><strong>Listed by</strong> CA Ventures        </div>
+
+
+    </div>
+                <div class="slideshow">
+            <div class="property-image">
+
+    <span class="gradient"></span>
+
+<div class='swipe' data-images="&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/arWecWLolAqxVwke_DyD2Ipcmmg=/600x400/left/top/smart/images/vhjp3y5fb_j8q7tjfdgquns9p1kevizbij0mnuzetj8.jpeg&#039; alt=&#039;Infinite Chicago Building Exterior&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/yo3do_OKOYemigXXunmOK8cqwbo=/600x400/left/top/smart/images/rba30wmitag30wqqysdegjxustk_lpfpnkb7hwvv6zk.jpeg&#039; alt=&#039;Infinite Chicago Student Apartments&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/qgxwBDJZYbCCR_I2waMMswIhpKo=/600x400/left/top/smart/images/feneptogqsyfmrtd_0klj7yg7c1voysndviqiobbrtg.jpeg&#039; alt=&#039;Infinite Chicago Student Apartments&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/lJhVB8p8-ByYd_Ng52qHNh34YSA=/600x400/left/top/smart/images/1dp4ghgetacqxg_icqbw8dkbjvk9sn2mzd7b7yetdfu.jpeg&#039; alt=&#039;Historic Elevator Lobby&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/yW08WsFPyuY81ngSKlaBLKHeMOA=/600x400/left/top/smart/images/uw0cbrvghlpxjpi3zgh2xulccwzwn3u_feivxj3c9qg.jpeg&#039; alt=&#039;Outdoor Rooftop Deck&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/--lCdNSDZXjQTNXJvj6Uff-NxeQ=/600x400/left/top/smart/images/fvfaaagmeqnc8zgt1uhvo0n_mzoirql4dswjt_urdas.jpeg&#039; alt=&#039;Infinite Chicago Building Exterior&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/vH0Q-Mx9ZRlZWVFvTskliO--1ts=/600x400/left/top/smart/images/51ftvyprbkyfzk_xbpcd3olxozwavugukh7tdsoimtm.jpeg&#039; alt=&#039;Outdoor Rooftop Deck&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/GL1A465L9oSYS1aHt_nmrFQ2olI=/600x400/left/top/smart/images/hkz3kjezjm19smk9jk0ubsxjp1quhujnkuc4jl15xai.jpeg&#039; alt=&#039;Student Social Lounge&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/EXMsQ28HybSS6G1R1V6uQADSN68=/600x400/left/top/smart/images/ocotkp_co2exs0mwx09euaigvm9pd83sb8u_nhwlyue.jpeg&#039; alt=&#039;Secure Lobby Entrance&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/0E-lQnY7klP7AtNFVLsBmGAb1u0=/600x400/left/top/smart/images/0olshjgbs5sin9zu8jgh0egz0ga6n8jc0fyg67r0c6m.jpeg&#039; alt=&#039;Student Business Center&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/kGXYv6hH1cjeJPuzyC15KjdGmHg=/600x400/left/top/smart/images/70q4gvo3q71uexqa6wetglpdtg8dul6_5fhpegfmdm8.jpeg&#039; alt=&#039;Premium Fitness Center&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/YD7kY_VN-Ab-3wrw_3vciGqySE4=/600x400/left/top/smart/images/r6cbvunbx02ewub430b_gywboxf7pvahl0faxlk2rv8.jpeg&#039; alt=&#039;Upgraded Kitchen&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/ZmO9qXnPrcFWbfSG4ohIS5L-IdU=/600x400/left/top/smart/images/19gdqnc4r9yxddhnpns_f2yclb65ybj7syvfkvc0k3g.jpeg&#039; alt=&#039;Modern Bathroom&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/04UnBW8fqFbJTzThk_jhxlIChWc=/600x400/left/top/smart/images/pzu3e8qknugrzxptvom1syvvexxcv8zve4lbpfq1mis.jpeg&#039; alt=&#039;Modern Furnished Living Room&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/fcBy0AjnnLtO4wJMklXlaQI_atM=/600x400/left/top/smart/images/gmlskgaapln7_tgcvh3vd7qad0zhstsk4ln_qvmgww8.jpeg&#039; alt=&#039;Modern Furnished Living Room&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/whF72WdPKWG4JmJXcEc92jK2cuo=/600x400/left/top/smart/images/ifxesyberw90rf0wr_2bwthe3ssl63pyxyxn_ncso70.jpeg&#039; alt=&#039;Urban Bedroom&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/64BgoBYt4QV7LwvgDroKd5HmkgA=/600x400/left/top/smart/images/nkdb0dofsit_xaet0qhnavpjcll_lybyizprxgsc8qc.jpeg&#039; alt=&#039;Modern Updated Bathroom&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/6J_ID8E7WtQmSL2lWNlTdDqFdGU=/600x400/left/top/smart/images/n6ldxunrrtvr77hj_qcyxp5qtsd4eqeyzdzxiaiw3u4.jpeg&#039; alt=&#039;Open Concept Kitchen&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/IPiYhhFMzpJuat1bgAU38omQbyI=/600x400/left/top/smart/images/jvbgfrqqhrc_vn_o4adn_cay8maohqzogcw9g1zvy3c.jpeg&#039; alt=&#039;Fully Furnished Bedroom&#039;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&#039;//img.offcampusimages.com/z7YWMTYfFxgGmWo5HMs20zilzak=/600x400/left/top/smart/images/ot3wgt6avt95upfhtfuqlwjyufqowjigglqe_cgegqy.jpeg&#039; alt=&#039;Open Living Space&#039;&gt;&lt;/div&gt;">
+    <div class='swipe-wrap'>
+        <div class="first">
+
+                    <img src="//img.offcampusimages.com/ktgPSX2f5VaxmVEImp4oGzhlWsI=/600x400/left/top/smart/images/izvpvx1pnel1vy8gbrt9826cpocnp0r09mlwcq7odcc.jpeg"
+                 alt="PrimaryPhoto">
+        
+        </div>
+
+    </div>
+
+    <div class="img-pagination-controls">
+        <button class="prev control icon-btn icon-btn--circle icon-btn--overlay icon-btn--3d" aria-label="Previous Image" title="Previous image" aria-describedby="property-search-listing-name-292663 property-search-listing-bedbath-292663 property-search-listing-rent-292663"></button>
+        <button class="next control icon-btn icon-btn--circle icon-btn--overlay icon-btn--3d" aria-label="Next Image" title="Next image" aria-describedby="property-search-listing-name-292663 property-search-listing-bedbath-292663 property-search-listing-rent-292663"></button>
+    </div>
+
+</div>
+
+    <a href="/user/add-favorites/property/292663?from=%2F"
+       class="favorite favorite-add auth-required icon-btn icon-btn--dark icon-btn--circle icon-btn--overlay"
+       title="Add listing to favorites"
+       id="property-listing-favorite-292663"
+       aria-labelledby="property-search-listing-name-292663 property-search-listing-bedbath-292663 property-search-listing-rent-292663"
+       data-property_id='292663'
+       data-user_id='1502833'
+       data-package='Platinum (Deluxe)'
+       tabindex="0"
+    >
+        <span class="fa fa-heart"></span>
+        <span class="visuallyhidden">Add to Favorites</span>
+    </a>
+
+    <a role="link"
+        title="View location on map"
+        class="alt-img icon-btn icon-btn--dark icon-btn--circle icon-btn--overlay"
+        tabindex="0"
+        aria-describedby="property-search-listing-name-292663 property-search-listing-bedbath-292663 property-search-listing-rent-292663"
+    >
+        <span class="fa fa-map-marker"></span>
+        <span class="visuallyhidden">View location on map</span>
+    </a>
+
+</div>
+
+            <div>
+
+        <div class="vtq-container">
+        <div id="vtq-btn-container-292663">
+                            <a href="/tracking/virtual-tour/id/292663"
+                   target="_blank"
+                   class="vtq link"
+                >
+                    Virtual Tour <small><span class="fa fa-external-link"></span></small>
+                </a>
+                    </div>
+    </div>
+    </div>
+            <div><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mediaViewCostarVideo" src="https://vapi.apartmentfinder.com/1.10.2/videosbyloopnet.js"></script>
+
+
+    <div id="video-playback-modal-container-292663" class="video-playback-options">
+        <div class="video-playback-options--modal">
+            <div class="modal video-modal" style="border-color: #001B49">
+                <div class="video-playback-options--content">
+                    <div class="video-playback-modal-title">28 E Jackson Blvd</div>
+                                            <div class="picture video-play"
+                             data-type="vidly"
+                             data-id="2h2p7b">
+                            <ins class="videosbyloopnet vidly"
+                                 style="display:block"
+                                 data-display="inline"
+                                 data-theme="brightblue"
+                                 data-video="2h2p7b"
+                                 data-muted="false"
+                                 data-sizeauto="px"
+                                 data-source=""
+                                 data-auto="play"
+                                 data-mute="true">
+                                <script>
+                                    (videosbyloopnet = window.videosbyloopnet || []).push({});
+                                </script>
+                            </ins>
+                        </div>
+                                    </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="vtb-container">
+        <div id="video-btn-container-292663">
+            <button
+            title="Play Video"
+            tabindex="0"
+            aria-labelledby="premium-slideshow-play"
+            class="icon-btn icon-btn--circle icon-btn--overlay icon-btn--3d"
+ .modal"
+                onclick="window.open('https://vapi.costargroup.com/video/play/2h2p7b?source=42', '_blank')"
+            >
+
+                                    <span aria-hidden="true" class="fa fa-play"></span>
+                                <span class="visuallyhidden" id="premium-slideshow-play">Play Video</span>
+            </button>
+        </div>
+    </div>
+
+</div>
+        </div>
+    </div>
+</article>
+</section>
+
+<article class="sidebar col-2" aria-label="Sidebar">
+
+
+
+    <aside class="dborder-bottom"
+            aria-labelledby="announcement-1707"    >
+                    <h3 class="heading" id="announcement-1707">WELCOME TO THE UIC OFF-CAMPUS HOUSING WEBSITE!</h3>
+                		<p>- Save &amp; Compare favorite listings&nbsp;<br />- View your search history&nbsp;<br />- And more, all from&nbsp;<a href="/login" target="_blank" rel="noopener">My Account</a></p>			</aside>
+    <aside class="dborder-bottom"
+            aria-labelledby="announcement-1709"    >
+                    <h3 class="heading" id="announcement-1709">Property Listers</h3>
+                		<p>Property Listers, <a href="/registration/lister" target="_blank" rel="noopener">register here</a> to get started or log in to your account to update your listing!</p>			</aside>
+    <aside class="dborder-bottom"
+            aria-labelledby="announcement-1725"    >
+                    <h3 class="heading" id="announcement-1725">Student Legal Services</h3>
+                		<p>When navigating apartment-related issues, you may realize that legal action may be necessary. UIC offers free support through <a href="https://dos.uic.edu/student-legal/" target="_blank" rel="noopener">Student Legal Services</a> (SLS).</p>			</aside>
+
+</article>
+
+
+		</main>
+
+	</div><!-- /page -->
+
+	<footer class="footer footer-page">
+        <div class="univ-footer-bg clearfix footer-bg">
+    <div class="univ-footer clearfix">
+        <div class="col-6">
+                    <div id="google_translate_element"></div>
+                </div>
+        <div class="ocp-footer-content col-6">
+                        <p class="disclaimer">The listing of rental units on this site is a service to local rental property owners and UIC students, faculty, and staff. Rental property owners are responsible for reporting information fairly and accurately, and UIC and Off Campus Partners cannot guarantee the completeness or accuracy of such information. Inclusion of any property or rental unit on this website does not constitute, and shall not be construed or reported as (1) an endorsement or approval by UIC or Off Campus Partners of the landlord, its properties, or its business practices, or (2) a warranty or representation by UIC or Off Campus Partners as to the quality, safety or other features of such property and/or its owners or management agent(s). UIC and Off Campus Partners expressly disclaim any and all responsibility for any problems that may arise with regard to such property or rental units or with regard to disputes between landlords and tenants concerning such property or rental units. All prospective tenants are encouraged to exercise their own good judgment when evaluating a prospective rental unit or landlord.</p><hr>            <ul>
+                <li><a href="/privacy-policy">Privacy Policy</a></li>                
+                <li><a href="/disclaimer">Disclaimer</a></li>
+                <li><a href="/roommate/tips">Scam Advisory</a></li>
+                <li><a href="/help/sitemap">Sitemap</a></li>
+                <li><a href="/help/contact">Contact Us</a></li>
+                            </ul>
+            <p>Copyright &copy; 2020 Off Campus Partners, LLC. All rights reserved.</p>
+        </div>
+
+            </div>
+</div>
+	</footer>
+
+
+
+	<!--[if lte IE 9]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <![endif]-->
+
+<script>
+var js_alert = false;
+</script>
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="/v2/js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
+	<script src="/v2/js/ocp.min.1588286535.js"></script>
+
+    
+
+	<script type="text/javascript">
+	function googleTranslateElementInit() {
+	  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true, gaId: 'UA-123147018-1'}, 'google_translate_element');
+	}
+	</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<script>
+// Check browser support
+if (typeof(Storage) !== "undefined") {
+    // Store
+    localStorage.setItem("jwt", 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE1ODkxMzgxNjAsImp0aSI6InpKd3RqVTFQeVM2c2pVckswUGoyMzROVDdZUGFPK1p2UzNxNXkwQjgxUVE9IiwiaXNzIjoib2ZmY2FtcHVzaG91c2luZy51aWMuZWR1IiwibmJmIjoxNTg5MTM4MTYwLCJleHAiOjE1ODkxMzkwNjAsImRhdGEiOnsidW5pdmVyc2l0eUlkIjoyMzksImFjY2Vzc1JvbGVzIjpbInB1YmxpYyJdfX0.ASMWIkXHtOniVQJjK-HON64zQmORH7eWAEc4pxX9ygeTktM9jdCaAtITh-yZimyVifq5asnbcneP43bzsbcH_Q');
+    // Retrieve
+    // console.log(localStorage.getItem("jwt"));
+}
+</script>
+
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"ee7ded8f0e","applicationID":"2553927","transactionName":"ZVUHYUBZW0tRBRBbXlwfJFZGUVpWHwIBVFBHXBEaW1ZRXUhJDVxVV0g=","queueTime":0,"applicationTime":965,"atts":"SRIEFwhDSEU=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

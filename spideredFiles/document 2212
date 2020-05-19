@@ -1,0 +1,754 @@
+<!doctype html>
+<html lang="en-US" >	
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta charset="UTF-8" />
+    <meta name="author" content="University of Illinois at Chicago College of Architecture, Design, and the Arts">
+    <meta name="viewport" content="width=device-width">
+     
+    <link rel="alternate" type="application/rss+xml" title="University of Illinois at Chicago College of Architecture, Design, and the Arts RSS2 Feed" href="https://cada.uic.edu/feed/" />
+    <link rel="pingback" href="https://cada.uic.edu/xmlrpc.php" />
+     
+    
+	<!-- This site is optimized with the Yoast SEO plugin v14.0.2 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Design in good health: Interdisciplinary collaboration and healthcare - University of Illinois at Chicago College of Architecture, Design, and the Arts</title>
+	<meta name="robots" content="index, follow" />
+	<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+	<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+	<link rel="canonical" href="https://cada.uic.edu/news/design-in-good-health-interdisciplinary-collaboration-and-healthcare/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Design in good health: Interdisciplinary collaboration and healthcare - University of Illinois at Chicago College of Architecture, Design, and the Arts" />
+	<meta property="og:description" content="“I tell the non-design students, especially the engineers and computer scientists, ‘in your field 1 + 1 = 2; here in the lab, 1+1 = 11.’ Design is about making those new connections.” – Robert Zolna, Clinical Associate Professor, Design Research, UIC School of Design" />
+	<meta property="og:url" content="https://cada.uic.edu/news/design-in-good-health-interdisciplinary-collaboration-and-healthcare/" />
+	<meta property="og:site_name" content="University of Illinois at Chicago College of Architecture, Design, and the Arts" />
+	<meta property="article:modified_time" content="2020-05-10T18:56:03+00:00" />
+	<meta property="og:image" content="https://cada.uic.edu/wp-content/uploads/2019/10/Design_in_good_health.jpg" />
+	<meta property="og:image:width" content="550" />
+	<meta property="og:image:height" content="315" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://cada.uic.edu/#website","url":"https://cada.uic.edu/","name":"University of Illinois at Chicago College of Architecture, Design, and the Arts","description":"College of Architecture, Design, and the Arts","potentialAction":[{"@type":"SearchAction","target":"https://cada.uic.edu/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"ImageObject","@id":"https://cada.uic.edu/news/design-in-good-health-interdisciplinary-collaboration-and-healthcare/#primaryimage","inLanguage":"en-US","url":"https://cada.uic.edu/wp-content/uploads/2019/10/Design_in_good_health.jpg","width":550,"height":315,"caption":"Design in good health: How interdisciplinary collaboration is changing healthcare"},{"@type":"WebPage","@id":"https://cada.uic.edu/news/design-in-good-health-interdisciplinary-collaboration-and-healthcare/#webpage","url":"https://cada.uic.edu/news/design-in-good-health-interdisciplinary-collaboration-and-healthcare/","name":"Design in good health: Interdisciplinary collaboration and healthcare - University of Illinois at Chicago College of Architecture, Design, and the Arts","isPartOf":{"@id":"https://cada.uic.edu/#website"},"primaryImageOfPage":{"@id":"https://cada.uic.edu/news/design-in-good-health-interdisciplinary-collaboration-and-healthcare/#primaryimage"},"datePublished":"2019-10-09T05:00:00+00:00","dateModified":"2020-05-10T18:56:03+00:00","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://cada.uic.edu/news/design-in-good-health-interdisciplinary-collaboration-and-healthcare/"]}]}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//code.jquery.com' />
+<link rel='dns-prefetch' href='//cdn.jsdelivr.net' />
+<link rel='dns-prefetch' href='//use.fontawesome.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="University of Illinois at Chicago College of Architecture, Design, and the Arts &raquo; Feed" href="https://cada.uic.edu/feed/" />
+<link rel="alternate" type="application/rss+xml" title="University of Illinois at Chicago College of Architecture, Design, and the Arts &raquo; Comments Feed" href="https://cada.uic.edu/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="University of Illinois at Chicago College of Architecture, Design, and the Arts &raquo; Design in good health: Interdisciplinary collaboration and healthcare Comments Feed" href="https://cada.uic.edu/news/design-in-good-health-interdisciplinary-collaboration-and-healthcare/feed/" />
+<!-- This site uses the Google Analytics by MonsterInsights plugin v7.10.4 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+<script type="text/javascript" data-cfasync="false">
+	var mi_version         = '7.10.4';
+	var mi_track_user      = true;
+	var mi_no_track_reason = '';
+	
+	var disableStr = 'ga-disable-UA-158276977-1';
+
+	/* Function to detect opted out users */
+	function __gaTrackerIsOptedOut() {
+		return document.cookie.indexOf(disableStr + '=true') > -1;
+	}
+
+	/* Disable tracking if the opt-out cookie exists. */
+	if ( __gaTrackerIsOptedOut() ) {
+		window[disableStr] = true;
+	}
+
+	/* Opt-out function */
+	function __gaTrackerOptout() {
+	  document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+	  window[disableStr] = true;
+	}
+	
+	if ( mi_track_user ) {
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','__gaTracker');
+
+		__gaTracker('create', 'UA-158276977-1', 'auto');
+		__gaTracker('set', 'forceSSL', true);
+		__gaTracker('require', 'displayfeatures');
+		__gaTracker('send','pageview');
+	} else {
+		console.log( "" );
+		(function() {
+			/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+			var noopfn = function() {
+				return null;
+			};
+			var noopnullfn = function() {
+				return null;
+			};
+			var Tracker = function() {
+				return null;
+			};
+			var p = Tracker.prototype;
+			p.get = noopfn;
+			p.set = noopfn;
+			p.send = noopfn;
+			var __gaTracker = function() {
+				var len = arguments.length;
+				if ( len === 0 ) {
+					return;
+				}
+				var f = arguments[len-1];
+				if ( typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function' ) {
+					console.log( 'Not running function __gaTracker(' + arguments[0] + " ....) because you are not being tracked. " + mi_no_track_reason );
+					return;
+				}
+				try {
+					f.hitCallback();
+				} catch (ex) {
+
+				}
+			};
+			__gaTracker.create = function() {
+				return new Tracker();
+			};
+			__gaTracker.getByName = noopnullfn;
+			__gaTracker.getAll = function() {
+				return [];
+			};
+			__gaTracker.remove = noopfn;
+			window['__gaTracker'] = __gaTracker;
+					})();
+		}
+</script>
+<!-- / Google Analytics by MonsterInsights -->
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/cada.uic.edu\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.4.1"}};
+			/*! This file is auto-generated */
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://cada.uic.edu/wp-includes/css/dist/block-library/style.min.css?ver=5.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='dm_jquery_slick_css-css'  href='//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css' type='text/css' media='all' />
+<link rel='stylesheet' id='dm_lightbox_css-css'  href='https://cada.uic.edu/wp-content/themes/cada2019/css/lightbox.css' type='text/css' media='all' />
+<link rel='stylesheet' id='dm_normalize-css'  href='https://cada.uic.edu/wp-content/themes/cada2019/css/normalize.css' type='text/css' media='all' />
+<link rel='stylesheet' id='dm_menu_style-css'  href='https://cada.uic.edu/wp-content/themes/cada2019/css/menu.css' type='text/css' media='all' />
+<link rel='stylesheet' id='dm_fontawesome_style-css'  href='https://use.fontawesome.com/releases/v5.9.0/css/all.css' type='text/css' media='all' />
+<link rel='stylesheet' id='dm_general_style-css'  href='https://cada.uic.edu/wp-content/themes/cada2019/css/general.css' type='text/css' media='all' />
+<link rel='stylesheet' id='dm_style-css'  href='https://cada.uic.edu/wp-content/themes/cada2019/style.css?ver=1' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var monsterinsights_frontend = {"js_events_tracking":"true","download_extensions":"doc,pdf,ppt,zip,xls,docx,pptx,xlsx","inbound_paths":"[{\"path\":\"\\\/go\\\/\",\"label\":\"affiliate\"},{\"path\":\"\\\/recommend\\\/\",\"label\":\"affiliate\"}]","home_url":"https:\/\/cada.uic.edu","hash_tracking":"false"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://cada.uic.edu/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend.min.js?ver=7.10.4'></script>
+<script type='text/javascript' src='https://cada.uic.edu/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='https://cada.uic.edu/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var uic_loadmore_params = {"ajaxurl":"https:\/\/cada.uic.edu\/wp-admin\/admin-ajax.php","posts":"{\"page\":0,\"news\":\"design-in-good-health-interdisciplinary-collaboration-and-healthcare\",\"post_type\":\"news\",\"name\":\"design-in-good-health-interdisciplinary-collaboration-and-healthcare\",\"error\":\"\",\"m\":\"\",\"p\":0,\"post_parent\":\"\",\"subpost\":\"\",\"subpost_id\":\"\",\"attachment\":\"\",\"attachment_id\":0,\"pagename\":\"\",\"page_id\":0,\"second\":\"\",\"minute\":\"\",\"hour\":\"\",\"day\":0,\"monthnum\":0,\"year\":0,\"w\":0,\"category_name\":\"\",\"tag\":\"\",\"cat\":\"\",\"tag_id\":\"\",\"author\":\"\",\"author_name\":\"\",\"feed\":\"\",\"tb\":\"\",\"paged\":0,\"meta_key\":\"\",\"meta_value\":\"\",\"preview\":\"\",\"s\":\"\",\"sentence\":\"\",\"title\":\"\",\"fields\":\"\",\"menu_order\":\"\",\"embed\":\"\",\"category__in\":[],\"category__not_in\":[],\"category__and\":[],\"post__in\":[],\"post__not_in\":[],\"post_name__in\":[],\"tag__in\":[],\"tag__not_in\":[],\"tag__and\":[],\"tag_slug__in\":[],\"tag_slug__and\":[],\"post_parent__in\":[],\"post_parent__not_in\":[],\"author__in\":[],\"author__not_in\":[],\"ignore_sticky_posts\":false,\"suppress_filters\":false,\"cache_results\":true,\"update_post_term_cache\":true,\"lazy_load_term_meta\":true,\"update_post_meta_cache\":true,\"posts_per_page\":15,\"nopaging\":false,\"comments_per_page\":\"50\",\"no_found_rows\":false,\"order\":\"DESC\"}","current_page":"1","max_page":"0"};
+var uic_loadmore_params2 = {"ajaxurl":"https:\/\/cada.uic.edu\/wp-admin\/admin-ajax.php","posts":"{\"page\":0,\"news\":\"design-in-good-health-interdisciplinary-collaboration-and-healthcare\",\"post_type\":\"news\",\"name\":\"design-in-good-health-interdisciplinary-collaboration-and-healthcare\",\"error\":\"\",\"m\":\"\",\"p\":0,\"post_parent\":\"\",\"subpost\":\"\",\"subpost_id\":\"\",\"attachment\":\"\",\"attachment_id\":0,\"pagename\":\"\",\"page_id\":0,\"second\":\"\",\"minute\":\"\",\"hour\":\"\",\"day\":0,\"monthnum\":0,\"year\":0,\"w\":0,\"category_name\":\"\",\"tag\":\"\",\"cat\":\"\",\"tag_id\":\"\",\"author\":\"\",\"author_name\":\"\",\"feed\":\"\",\"tb\":\"\",\"paged\":0,\"meta_key\":\"\",\"meta_value\":\"\",\"preview\":\"\",\"s\":\"\",\"sentence\":\"\",\"title\":\"\",\"fields\":\"\",\"menu_order\":\"\",\"embed\":\"\",\"category__in\":[],\"category__not_in\":[],\"category__and\":[],\"post__in\":[],\"post__not_in\":[],\"post_name__in\":[],\"tag__in\":[],\"tag__not_in\":[],\"tag__and\":[],\"tag_slug__in\":[],\"tag_slug__and\":[],\"post_parent__in\":[],\"post_parent__not_in\":[],\"author__in\":[],\"author__not_in\":[],\"ignore_sticky_posts\":false,\"suppress_filters\":false,\"cache_results\":true,\"update_post_term_cache\":true,\"lazy_load_term_meta\":true,\"update_post_meta_cache\":true,\"posts_per_page\":15,\"nopaging\":false,\"comments_per_page\":\"50\",\"no_found_rows\":false,\"order\":\"DESC\"}","current_page":"1","max_page":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://cada.uic.edu/wp-content/themes/cada2019/js/loadmore.js?ver=5.4.1'></script>
+<link rel='https://api.w.org/' href='https://cada.uic.edu/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://cada.uic.edu/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://cada.uic.edu/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.4.1" />
+<link rel='shortlink' href='https://cada.uic.edu/?p=923' />
+<link rel="alternate" type="application/json+oembed" href="https://cada.uic.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcada.uic.edu%2Fnews%2Fdesign-in-good-health-interdisciplinary-collaboration-and-healthcare%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://cada.uic.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcada.uic.edu%2Fnews%2Fdesign-in-good-health-interdisciplinary-collaboration-and-healthcare%2F&#038;format=xml" />
+<link rel="icon" href="https://cada.uic.edu/wp-content/uploads/2019/10/logo-test-150x150.png" sizes="32x32" />
+<link rel="icon" href="https://cada.uic.edu/wp-content/uploads/2019/10/logo-test-300x300.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://cada.uic.edu/wp-content/uploads/2019/10/logo-test-300x300.png" />
+<meta name="msapplication-TileImage" content="https://cada.uic.edu/wp-content/uploads/2019/10/logo-test-300x300.png" />
+	
+    <link rel='stylesheet' type='text/css' href='https://cada.uic.edu/wp-content/themes/cada2019/style.css' />
+</head>
+
+<body class="news-template-default single single-news postid-923 modal-closed search-closed" >
+
+<a href="#content" class="screen-reader-shortcut"> Skip to content</a>
+
+    
+
+<nav class="nav-down">
+    <div class="inner-nav">
+        <div class="nav-table">
+            <div class="nav-row">    
+                <button id="menu" class="menu-button nav-cell"  aria-haspopup="true" aria-expanded="false" aria-label="Primary">Menu</button>
+                <div id="logo" class="logo nav-cell">
+                    <a href="https://cada.uic.edu" title="University of Illinois at Chicago College of Architecture, Design, and the Arts">
+                        <img src="https://cada.uic.edu/wp-content/themes/cada2019/images/logo.png" alt="UIC Black Logo">
+                        <img src="https://cada.uic.edu/wp-content/themes/cada2019/images/logo_w.png" alt="UIC White Logo" style="display:none">
+                    </a>
+                </div>
+                <a id="uic" class="uic-button nav-cell mobile" href="//uic.edu/" target="_blank" rel="noopener noreferrer">UIC.EDU</a>
+                <a id="map" class="map-button nav-cell mobile" href="//maps.uic.edu/" target="_blank" rel="noopener noreferrer"><span>CAMPUS</span> MAP</a>
+                <button id="search" class="search-button nav-cell" aria-haspopup="true" aria-expanded="false">Search</button>
+            </div>
+        </div>
+    </div>  
+    <div class="search-menu">
+        <div class="inside-search-menu">
+            <form action="/" method="get">
+                <input type="hidden" name="site_section" value="site-search" />
+                <input type="text" name="s" class="search-input" id="search-input" aria-label="Search" placeholder="Search Site" value="" />
+                <input type="submit" id="searchsubmit" value="Submit" /><div id="clear_val">&#215;</div>
+            </form>
+        </div>
+    </div>
+    <div class="main-menu table menu-closed" style="display:none;" role="menu">
+        <div class="inside-main-menu">
+
+        
+                        
+            <div class="row">
+            
+                <div class="cell">
+                    <div class="menu-section-title" role="menu">Schools</div>
+                    
+                            <ul class="sub-menu" aria-haspopup="true" aria-expanded="false">
+
+                            
+                                                                
+                                    <li role="none">
+                                        <a class="sub_link" href="https://arch.uic.edu/" target="_blank" role="menuitem">Architecture</a>
+                                    </li>
+                                    
+                            
+                                                                
+                                    <li role="none">
+                                        <a class="sub_link" href="http://artandarthistory.uic.edu/" target="_blank" role="menuitem">Art &amp; Art History</a>
+                                    </li>
+                                    
+                            
+                                                                
+                                    <li role="none">
+                                        <a class="sub_link" href="http://design.uic.edu/" target="_blank" role="menuitem">Design</a>
+                                    </li>
+                                    
+                            
+                                                                
+                                    <li role="none">
+                                        <a class="sub_link" href="http://theatreandmusic.uic.edu/" target="_blank" role="menuitem">Theatre &amp; Music</a>
+                                    </li>
+                                    
+                            
+                            </ul>
+
+                                        </div>
+                
+                        
+                <div class="cell">
+                    <div class="menu-section-title" role="menu">Admissions</div>
+                    
+                            <ul class="sub-menu" aria-haspopup="true" aria-expanded="false">
+
+                            
+                                                                
+                                    <li role="none">
+                                        <a class="sub_link" href="https://cada.uic.edu/admissions/why-cada/" target="_self" role="menuitem">Why CADA?</a>
+                                    </li>
+                                    
+                            
+                                                                
+                                    <li role="none">
+                                        <a class="sub_link" href="https://cada.uic.edu/admissions/book-a-visit/" target="_self" role="menuitem">Book a Visit</a>
+                                    </li>
+                                    
+                            
+                                                                
+                                    <li role="none">
+                                        <a class="sub_link" href="https://cada.uic.edu/admissions/how-to-apply/" target="_self" role="menuitem">How to Apply</a>
+                                    </li>
+                                    
+                            
+                                                                
+                                    <li role="none">
+                                        <a class="sub_link" href="https://cada.uic.edu/admissions/admitted-students-week/" target="_self" role="menuitem">Admitted Students</a>
+                                    </li>
+                                    
+                            
+                            </ul>
+
+                                        </div>
+                
+                        
+                <div class="cell">
+                    <div class="menu-section-title" role="menu">News and Events</div>
+                    
+                            <ul class="sub-menu" aria-haspopup="true" aria-expanded="false">
+
+                            
+                                                                
+                                    <li role="none">
+                                        <a class="sub_link" href="https://cada.uic.edu/news-events/news/" target="_self" role="menuitem">News</a>
+                                    </li>
+                                    
+                            
+                                                                
+                                    <li role="none">
+                                        <a class="sub_link" href="https://cada.uic.edu/news-events/events/" target="_self" role="menuitem">Events</a>
+                                    </li>
+                                    
+                            
+                                                                
+                                    <li role="none">
+                                        <a class="sub_link" href="https://cada.uic.edu/news-events/newsletter/" target="_self" role="menuitem">Newsletter</a>
+                                    </li>
+                                    
+                            
+                            </ul>
+
+                                        </div>
+                                                            </div>
+                        <div class="row">
+                    
+                
+                        
+                <div class="cell">
+                    <div class="menu-section-title" role="menu">About the College</div>
+                    
+                            <ul class="sub-menu" aria-haspopup="true" aria-expanded="false">
+
+                            
+                                                                
+                                    <li role="none">
+                                        <a class="sub_link" href="https://cada.uic.edu/about/covid-19-updates/" target="_self" role="menuitem">COVID-19</a>
+                                    </li>
+                                    
+                            
+                                                                
+                                    <li role="none">
+                                        <a class="sub_link" href="https://cada.uic.edu/about/mission/" target="_self" role="menuitem">Mission</a>
+                                    </li>
+                                    
+                            
+                                                                
+                                    <li role="none">
+                                        <a class="sub_link" href="https://cada.uic.edu/about/deans-message/" target="_self" role="menuitem">Dean’s Message</a>
+                                    </li>
+                                    
+                            
+                                                                
+                                    <li role="none">
+                                        <a class="sub_link" href="https://cada.uic.edu/about/history/" target="_self" role="menuitem">History</a>
+                                    </li>
+                                    
+                            
+                                                                
+                                    <li role="none">
+                                        <a class="sub_link" href="https://cada.uic.edu/job-opportunities/" target="_self" role="menuitem">Job Opportunities</a>
+                                    </li>
+                                    
+                            
+                            </ul>
+
+                                        </div>
+                
+                        
+                <div class="cell">
+                    <div class="menu-section-title" role="menu">Academics</div>
+                    
+                            <ul class="sub-menu" aria-haspopup="true" aria-expanded="false">
+
+                            
+                                                                
+                                    <li role="none">
+                                        <a class="sub_link" href="https://cada.uic.edu/academics/degrees-and-requirements/" target="_self" role="menuitem">Degree Requirements</a>
+                                    </li>
+                                    
+                            
+                                                                
+                                    <li role="none">
+                                        <a class="sub_link" href="https://cada.uic.edu/academics/advising/" target="_self" role="menuitem">Advising</a>
+                                    </li>
+                                    
+                            
+                                                                
+                                    <li role="none">
+                                        <a class="sub_link" href="https://cada.uic.edu/academics/student-report/" target="_self" role="menuitem">Student Support</a>
+                                    </li>
+                                    
+                            
+                                                                
+                                    <li role="none">
+                                        <a class="sub_link" href="https://cada.uic.edu/academics/financial-aid/" target="_self" role="menuitem">Financial Aid</a>
+                                    </li>
+                                    
+                            
+                                                                
+                                    <li role="none">
+                                        <a class="sub_link" href="https://cada.uic.edu/cada-commencement/" target="_self" role="menuitem">CADA Commencement</a>
+                                    </li>
+                                    
+                            
+                            </ul>
+
+                                        </div>
+                
+                        
+                <div class="cell">
+                    <div class="menu-section-title" role="menu">Creative Spaces</div>
+                    
+                            <ul class="sub-menu" aria-haspopup="true" aria-expanded="false">
+
+                            
+                                                                
+                                    <li role="none">
+                                        <a class="sub_link" href="https://gallery400.uic.edu/" target="_blank" role="menuitem">Gallery 400</a>
+                                    </li>
+                                    
+                            
+                                                                
+                                    <li role="none">
+                                        <a class="sub_link" href="https://www.hullhousemuseum.org/" target="_blank" role="menuitem">Jane Addams Hull-House Museum</a>
+                                    </li>
+                                    
+                            
+                                                                
+                                    <li role="none">
+                                        <a class="sub_link" href="https://innovationcenter.uic.edu/" target="_blank" role="menuitem">Innovation Center</a>
+                                    </li>
+                                    
+                            
+                            </ul>
+
+                                        </div>
+                                                            </div>
+                        <div class="row">
+                    
+                
+                        
+                <div class="cell">
+                    <div class="menu-section-title" role="menu">People</div>
+                    
+                            <ul class="sub-menu" aria-haspopup="true" aria-expanded="false">
+
+                            
+                                                                
+                                    <li role="none">
+                                        <a class="sub_link" href="https://cada.uic.edu/people/about-dean-rugg/" target="_self" role="menuitem">About the Dean</a>
+                                    </li>
+                                    
+                            
+                                                                
+                                    <li role="none">
+                                        <a class="sub_link" href="https://cada.uic.edu/people/administration/" target="_self" role="menuitem">Administration</a>
+                                    </li>
+                                    
+                            
+                                                                
+                                    <li role="none">
+                                        <a class="sub_link" href="https://cada.uic.edu/people/faculty-staff/" target="_self" role="menuitem">Faculty and Staff</a>
+                                    </li>
+                                    
+                            
+                                
+                            
+                            </ul>
+
+                                        </div>
+                
+                        
+                <div class="cell">
+                    <div class="menu-section-title" role="menu">Support</div>
+                    
+                            <ul class="sub-menu" aria-haspopup="true" aria-expanded="false">
+
+                            
+                                                                
+                                    <li role="none">
+                                        <a class="sub_link" href="https://cada.uic.edu/support/covid-19-response/" target="_self" role="menuitem">COVID-19 Response</a>
+                                    </li>
+                                    
+                            
+                                                                
+                                    <li role="none">
+                                        <a class="sub_link" href="https://cada.uic.edu/support/ways-to-give/" target="_self" role="menuitem">Ways to Give</a>
+                                    </li>
+                                    
+                            
+                                                                
+                                    <li role="none">
+                                        <a class="sub_link" href="https://cada.uic.edu/support/funding-priorities/" target="_self" role="menuitem">Funding Priorities</a>
+                                    </li>
+                                    
+                            
+                                
+                            
+                                                                
+                                    <li role="none">
+                                        <a class="sub_link" href="https://cada.uic.edu/support/meet/" target="_self" role="menuitem">Meet</a>
+                                    </li>
+                                    
+                            
+                            </ul>
+
+                                        </div>
+                
+                        
+                
+        </div><!-- end inside-main-menu -->
+        
+        <div class="footer-section-container">  
+                <div class="footer-section">
+                    
+                        <div class="social-link-container">
+
+                        
+                            <a class="social-link" href="https://www.instagram.com/uic_cada/" target="_blank">
+                                <span class="fa-stack fa-2x">
+                                  <i class="fas fa-circle fa-stack-2x"></i>
+                                  <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                                </span>
+                                <p>instagram</p>
+                            </a>
+
+                        
+                            <a class="social-link" href="https://www.facebook.com/UICArchDesignArts" target="_blank">
+                                <span class="fa-stack fa-2x">
+                                  <i class="fas fa-circle fa-stack-2x"></i>
+                                  <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                                </span>
+                                <p>facebook-f</p>
+                            </a>
+
+                        
+                            <a class="social-link" href="https://twitter.com/UIC_CADA" target="_blank">
+                                <span class="fa-stack fa-2x">
+                                  <i class="fas fa-circle fa-stack-2x"></i>
+                                  <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                                <p>twitter</p>
+                            </a>
+
+                        
+                        </div>
+
+                                    </div>
+
+                
+                    
+                        <div class="footer-section">
+                            <a href="https://www.vpaa.uillinois.edu/resources/web_privacy" target="_self">Privacy Policy</a>
+                        </div>
+
+                    
+                        <div class="footer-section">
+                            <a href="https://cada.uic.edu/contact/" target="_self">Contact</a>
+                        </div>
+
+                    
+                        <div class="footer-section">
+                            <a href="http://uic.edu/" target="_blank">UIC.edu</a>
+                        </div>
+
+                                        
+                    <div class="footer-section mobile"><a href="//maps.uic.edu/" target="_blank" rel="noopener noreferrer">Campus Map</a></div>
+
+                
+            </div>
+
+    </div></div> <!-- end main-menu -->     
+</nav>     
+<div class="container single news">
+
+	<h1 class="page-headline"><a href="https://cada.uic.edu/news/" title="Return to all News">News</a></h1>
+
+    <div class="content">
+    <main id="content">	
+	
+		<div class="post" id="post-923">
+        <article>
+		
+            <div class="left-column">	
+
+                <h4 class="school-header">Design</h4>
+				<div class="post-title">
+					<h2>Design in good health: Interdisciplinary collaboration and healthcare</h2>
+				</div>
+                
+                <div class="right-column">
+                    <div class="news-thumb"><img src="https://cada.uic.edu/wp-content/uploads/2019/10/Design_in_good_health.jpg" alt=""></div><div class="news-caption"><p>Design in good health: How interdisciplinary collaboration is changing healthcare</p></div>                </div>
+				
+				<div class="post-entry">
+					<p>“I tell the non-design students, especially the engineers and computer scientists, ‘in your field 1 + 1 = 2; here in the lab, 1+1 = 11.’ Design is about making those new connections.”<br />
+– Robert Zolna, Clinical Associate Professor, Design Research, UIC School of Design</p>
+<p>
+Healthcare is one of the hottest topics in public policy and most fertile areas of opportunity for innovation today. As a public university serving the public good, UIC is thus deeply engaged in the current challenges and aspirations in medicine. At this very moment, in fact, UIC students and faculty are crisscrossing campus and traditional disciplinary boundaries to improve healthcare – together.</p>
+<p>One need only drop in at the UIC Innovation Center to see them in action. “At any given moment we have fifty design students working at the center,” says Peter Pfanner, Executive Director of the Innovation Center, and Research Professor in Industrial Design. “We work with internal and external partners who need innovation support and bring us problems to solve. Our corporate partners provide our students with great opportunities, and in healthcare that means progressing from understanding real-world needs to collaborating on developing new devices and processes to meet those needs.”</p>
+<p>OSF Lab</p>
+<p>The OSF Lab at the Innovation Center is named for the Order of St. Francis HealthCare, which serves patients in communities in downstate Illinois and the Upper Peninsula of Michigan. OSF works at the forefront of care that reflects not only the latest in technological advancements but also compassion for the individual patient. “Most innovation happens in urban areas, with systems in large or midsize cities,” explains Robert Zolna, Clinical Associate Professor, Design Research, School of Design, and the initial director of the OSF Lab, “but those solutions do not necessarily translate to OSF’s area of interest: rural, low-income, and aging populations.”</p>
+<p>The process advocated by the OSF Lab values expertise in research, ideation, and prototyping, tailored to OSF patients and providers. This year Susan Stirling, Adjunct Associate Professor, Design Research, and Charles Frisbie, Adjunct Lecturer, Managerial Studies, College of Business Administration, are working with Mark Hallenbeck, Lecturer, Computer Science to run the lab and oversee the students.</p>
+<p>John Vozenilek, MD, Chief Medical Officer for Simulation, OSF HealthCare, and the Duane and Mary Cullinan Professor in Simulation Outcomes, College of Medicine, Peoria, sees healthcare and OSF’s work as a vast landscape of burgeoning opportunity. “As healthcare today transitions from the provision of care for those who are in hospitals to greater attention on those who are in our communities, with a focus on wellness and prevention, there is no doubt that innovation will play a key role,” he says.</p>
+<p>Vozenilek is enthusiastic about the UIC Innovation Center, which he sees as providing “access to a diversity of new disciplines that aren’t traditionally within healthcare systems.” For him, design provides a key touchpoint, along with computer science and engineering, which together have “led us to truly practical approaches to new wellness goals in patient care.”</p>
+<p>Ravi-Kiran Vangipurapu-Venkata worked in the OSF Lab last year as a graduate student from the Department of Mechanical and Industrial Engineering, and shares Volzenilek’s high regard for myriad perspectives: “Being part of a team with people from various backgrounds – ranging from design to public health to engineering – helped me to understand what it’s like to work in a real-world environment.”</p>
+<p>MAD Lab</p>
+<p>UIC’s Medical Accelerator for Devices Lab (MAD Lab), originated in the Innovation Center, as an early-stage interdisciplinary lab that develops UIC-generated ideas for medical devices. Through preliminary product design and engineering, MAD Lab students and faculty focus on medical devices to meet well-researched needs. They also conduct business viability assessments to secure internal UIC funding and external financial support for their ideas.</p>
+<p>Directed by Miiri Kotche, Clinical Professor, Richard and Loan Hill Department of Bioengineering, MAD Lab is a veritable melting pot of disciplinary perspectives, including those of Charles Frisbie; Kimberlee Wilkens, Assistant Professor, Industrial Design; and additional graduate research assistants from business, mechanical engineering, industrial design, bioengineering, computer science, and information science. </p>
+<p>MAD Lab projects derive from initial needs identified by clinicians, which are then vetted through the user-centered research process. The lab’s interdisciplinary team relates those final needs to market opportunities, and, working collaboratively in an experiential lab setting, they generate ideas, and see them through to tangible outcomes. The team rapidly prototypes proof of concept models using a variety of state-of-the-art technologies and processes they have access to within the Innovation Center. Future plans to build out simulated hospital environments, to help with testing and validation of ideas, are in the works.</p>
+<p>UR* Lab</p>
+<p>The Department of Urology demonstrates that understanding the needs of patients and providers can lead to medical device innovation. The Innovation Center, along with faculty from the Colleges of Medicine, Engineering, Business Administration, and the School of Design launched the UR*Lab to generate relevant and highly effective solutions to real-world medical problems. Through licensing of the intellectual property it produces, UR* Lab is on course to generate self-supporting revenue in five years, in large part due to the ongoing efforts of each team of interdisciplinary students and faculty. The lab’s teams conduct user-centered research and development, ultimately resulting in proof-of-concept prototypes for testing in real-world settings to demonstrate to investors their significant value. Craig Niederberger, Clarence C. Saelhof Professor, Head, Urology, and Professor of Bioengineering directs the UR* Lab as a strong advocate for multiple perspectives. “The future of medical device innovation is interdisciplinary collaboration with design at the helm guiding the creative process,” he says – a perspective echoed by fellow faculty member Kimberlee Wilkens and the School of Design, as well as those from Medicine, Business Administration, and Engineering. </p>
+<p>Orbit Lab</p>
+<p>Dr. Yannek I. Leiderman, MD, PhD, Associate Professor, Ophthalmology & Visual Sciences, Retna Service, and Director of Vitreoretinal Microsurgery Laboratory leads the Orbit Lab, along with Dr. Anthony Felder, PhD, Clinical Assistant Professor, Richard and Loan Hill Department of Bioengineering – yet another dynamic interdisciplinary initiative within the Innovation Center. The Orbit Lab focuses on, well, focusing, and other aspects of eye health. Faculty, staff, and students from the School of Design join counterparts in Bioengineering, Business Administration, and Medicine to develop ophthalmic devices. </p>
+<p>Real-world aspirations and applications</p>
+<p>The goal shared by all these labs at the UIC Innovation Center is contributing designs of real value in the real world, which requires that teams have their eye on intellectual property rights. Daniel Schaumann, Visiting Instructor, Industrial Design, and Research Specialist at the Innovation Center is an advisor in both the UR* and Orbit Labs, and an expert in intellectual property (IP) law. “We see design and engineering incorporating business school thinking into their product development processes, but law is generally left untouched, with students unable to articulate the differences between trademark and a utility patent,” he explains. “I like to help research groups understand and think strategically about the IP spaces they are entering with their respective projects. I help teams design with IP law parameters as much in mind as the requirements for human-centered ergonomics or the physical properties required for a device or mechanism to function.” According to Schaumann, “Currently the fields of design, engineering, business, and law are interwoven in industry, but not in the classroom. Everyone developing a new device needs to think about not only the limitations of a given manufacturing process, or human experience, but also prototype with both the freedom to operate and licensing strategy in mind.”  </p>
+<p>Clinical Immersion Program</p>
+<p>UIC also offers a program for students who want to experience firsthand the fundamental principle that truly useful innovation stems from truly understanding users. Kimberlee Wilkens joins forces with Anthony Felder as faculty in the Clinical Immersion Program – a six-week program that engages students in firsthand, user-centered research by integrating them into the clinical environment as the groundwork for designing medical devices.</p>
+<p>Wilkens stresses the real-world context of the program, and its focus on designing tangible devices rather than systems or processes. Interdisciplinary groups of bioengineers and medical students spend six enlightening weeks in a designated medical department, shadowing clinical mentors – residents, fellows, and faculty specific to that field. “The program is internal to UIC, which benefits from the resources we have here at one of the largest medical schools in the country. Our projects are driven by the university’s doctors and medical professionals, by the real problems they encounter in their practices and research,” she says. The students observe medical professionals in their everyday environment, taking note of the activities, environments, interactions, objects, and users (AEIOU) that will yield insights toward tackling meaningful problems.</p>
+<p> “Today’s designers are being trained toward interdisciplinary collaboration; no one person can innovate on their own,” Wilkens explains. “By taking key methods and frameworks of user-centered design processes, something we teach in the School of Design, and providing it to bioengineers and medical students, we are expanding the pool of collaborators and supporting the growth of more agents of change in the incredibly important field of healthcare.”</p>
+<p>Wilkens notes one example, when “a student team, shadowing the OB/GYN department, noticed that a deaf pregnant patient was unable to listen to her fetus’s heartbeat during a routine Doppler monitor visit. The team of students quickly reacted, converting the heartbeat data into a visually dynamic heart icon that changed sizes through the use of a free app on one of their phones. The patient was overjoyed! Through the discovery of a simple moment of frustration on the patient’s part, students focused on translating the audible output of Doppler monitors to a more visually impactful representation for deaf expectant mothers. The final outcome was a handheld orb that changed colors and vibrated based on data taken while monitoring the fetus’s heartbeat. Now mothers can not only see the heartbeat, but also hold and feel it–it’s beautiful.”</p>
+<p>Wilkens credits the immersion program with helping students develop “hard and soft” skills, such as interpersonal communication skills, a deeper understanding of the settings in which people use medical devices, and the ability to closely observe therapeutic treatment in real time. “This course prepares students to design medical devices by observing the actual needs of the people who will use them,” Wilkens says. “Through interactions with doctors, clinic staff, and patients, students not only improve their understanding of the clinical environment, including the experiences of those who provide care and those who receive it, but they also gain empathy, which is critical to designing products and services for real people in real situations.” </p>
+<p>Institute for Healthcare Delivery Design</p>
+<p>The UIC Institute for Healthcare Delivery Design (IHDD) is a unit within the Office of the Vice Chancellor for Health Affairs, which oversees the health sciences colleges and the care delivery system (hospital, clinics, and federally qualified health centers). The institute collaborates with faculty in the School of Design and other UIC colleges to help fit healthcare to the real-world lives of people.  </p>
+<p>Kim Erwin, Codirector of IHDD, Associate Director of UIC Population Health Sciences, and Research Professor at the School of Design. She describes herself as “an expat in healthcare, which means I am a designer being absorbed into a much larger system of ideas in which design is not the central player.” With the sharing of workable ideas and processes at the core of its mission, the institute formulates new methods and strategies for design practitioners, and publishes peer-reviewed academic papers and opinion pieces. The institute has also convened a consortium of health systems that employ human-centered designers – joining UI Health and UIC’s explorations in healthcare delivery with parallel efforts at the Cleveland Clinic, Mayo Clinic, Memorial Sloan Kettering Cancer Center, the University of California San Francisco, the University of Pittsburgh Medical Center; and the University of Texas at Austin. The consortium holds an annual meeting attended by physician leaders and senior designers from each health system to pool their experiences and articulate how design can do things for healthcare that other disciplines can’t.</p>
+<p>As a research lab staffed completely by design strategists, the Institute for Healthcare Delivery Design participates in research trials funded by the National Institute of Health and collaborates with partners at UIC, the City of Chicago, the State of Illinois, and across the United States. Its multivalent work ranges from identifying gaps in care delivery and proposing new clinical questions, to running design-led projects to understand how an organization might improve care and patient experiences. The institute also leads workshops to assist organizations in taking on new projects, and convenes the leaders of organizations to share approaches, develop new ideas, and build networks.</p>
+<p>Change by more than design</p>
+<p>All the initiatives and activities described here do not tell the entire story of collaborations among designers and an array of other specialists on the UIC campus, let alone across the University of Illinois system, to improve healthcare, but they do reflect the moral of a timely story: healthcare problems are best solved by understanding how those problems are experienced by real people in the real world, and by bringing together relevant insights and skills to transform that understanding into something useful. When you engage more than one mind to solve a problem, you are likely to solve it faster and better, and when those minds bring truly varied backgrounds, training, and knowledge – hallmarks of our public urban university – all the better. All of these labs and programs, and their passionate multidisciplinary participants, demonstrate the role that designers can play as collaborative partners in the University’s larger mission to transform the world through knowledge – a treatment most efficacious when applied in large doses.</p>				</div>
+			</div>	
+
+	<!-- Related Posts via taxonomy -->
+	                 
+                <section class="news-related-posts">
+             
+                <h3>Related Design News</h3>             
+                    <ul class="news-posts">
+             
+                                         
+                        <li>
+                        	<a href="https://cada.uic.edu/news/uic-design-faculty-featured-in-newcity-design-50-2020/">
+                        		                                    <div class="related-news-thumb" style="background-image: url(https://cada.uic.edu/wp-content/uploads/2020/03/new_design.png);"></div>
+                                                        		<div class="related-news-school">Design</div>
+                        		<div class="related-news-title">UIC Design Faculty featured in Newcity Design 50 2020</div>
+                        			
+                        	</a>
+                        </li>
+                             
+                                             
+                        <li>
+                        	<a href="https://cada.uic.edu/news/studio-blue-at-first-round/">
+                        		                                    <div class="related-news-thumb" style="background-image: url(https://cada.uic.edu/wp-content/uploads/2019/10/UC_First_Round.jpg);"></div>
+                                                        		<div class="related-news-school">Design</div>
+                        		<div class="related-news-title">Studio Blue at First Round</div>
+                        			
+                        	</a>
+                        </li>
+                             
+                                                 
+                                             
+                    </ul>
+                     
+                </section>
+                 
+            		
+	<!-- End Related Posts via taxonomy -->
+			
+			
+			
+        </article>		
+		</div>
+	
+    </main>
+	</div><!-- end content -->
+		
+
+</div><!--end container single -->
+<footer>
+	<div class="inside-footer">
+		<div class="footer-top-container">
+			<div id="top"><p>BACK TO TOP</p></div>
+			<div class="resource">
+								<a href="https://cada.uic.edu/resource-center/">Resource Center</a>
+			</div>	
+		</div>
+		<div class="footer-section-container">	
+			<div class="footer-section">
+				
+				    <div class="social-link-container">
+
+				    
+				        <a class="social-link" href="https://www.instagram.com/uic_cada/" target="_blank">
+							<span class="fa-stack fa-2x">
+							  <i class="fas fa-circle fa-stack-2x"></i>
+							  <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+							</span>
+							<p>instagram</p>
+						</a>
+
+				    
+				        <a class="social-link" href="https://www.facebook.com/UICArchDesignArts" target="_blank">
+							<span class="fa-stack fa-2x">
+							  <i class="fas fa-circle fa-stack-2x"></i>
+							  <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+							</span>
+							<p>facebook-f</p>
+						</a>
+
+				    
+				        <a class="social-link" href="https://twitter.com/UIC_CADA" target="_blank">
+							<span class="fa-stack fa-2x">
+							  <i class="fas fa-circle fa-stack-2x"></i>
+							  <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+							</span>
+							<p>twitter</p>
+						</a>
+
+				    
+				    </div>
+
+							</div>
+
+			
+			    
+			        <div class="footer-section">
+				    	<a href="https://www.vpaa.uillinois.edu/resources/web_privacy" target="_self">Privacy Policy</a>
+				    </div>
+
+			    
+			        <div class="footer-section">
+				    	<a href="https://cada.uic.edu/contact/" target="_self">Contact</a>
+				    </div>
+
+			    
+			        <div class="footer-section">
+				    	<a href="http://uic.edu/" target="_blank">UIC.edu</a>
+				    </div>
+
+			    			    
+                <div class="footer-section mobile"><a href="//maps.uic.edu/" target="_blank" rel="noopener noreferrer">Campus Map</a></div>
+
+			
+		</div>
+	</div>
+</footer>
+<script type='text/javascript' src='https://code.jquery.com/jquery-1.12.4.js'></script>
+<script type='text/javascript' src='https://code.jquery.com/ui/1.12.1/jquery-ui.js'></script>
+<script type='text/javascript' src='https://cada.uic.edu/wp-content/themes/cada2019/js/slick.js'></script>
+<script type='text/javascript' src='https://cada.uic.edu/wp-content/themes/cada2019/js/lightbox.js'></script>
+<script type='text/javascript' src='https://cada.uic.edu/wp-content/themes/cada2019/js/pace.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var globalObject = {"homeUrl":"https:\/\/cada.uic.edu"};
+var acf_vars = {"applyURL":{"title":"Apply","url":"https:\/\/admissions.uic.edu\/apply-now","target":""},"giveURL":{"title":"Give","url":"https:\/\/give.uic.edu\/","target":""},"resourceURL":{"title":"Resource Center","url":"https:\/\/cada.uic.edu\/resource-center\/","target":""}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://cada.uic.edu/wp-content/themes/cada2019/js/site.js'></script>
+<script type='text/javascript' src='https://cada.uic.edu/wp-includes/js/wp-embed.min.js?ver=5.4.1'></script>
+ 
+</body>
+</html>
+<!-- Dynamic page generated in 0.598 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2020-05-10 14:09:14 -->
+
+<!-- Compression = gzip -->
